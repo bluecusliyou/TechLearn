@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>获取DOM元素</title>
+    <style>
+        .box {
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">123</div>
+    <div class="box">abc</div>
+    <p id="nav">导航栏</p>
+    <ul class="nav">
+        <li>测试1</li>
+        <li>测试2</li>
+        <li>测试3</li>
+    </ul>
+    <script>
+        // 1. 获取匹配的第一个元素
+        const box = document.querySelector('div')
+        console.log(box)
+
+        const box2 = document.querySelector('.box')
+        console.log(box2)
+
+        const nav = document.querySelector('#nav')
+        console.log(nav)
+
+        const li = document.querySelector('ul li:first-child')
+        console.log(li)
+
+        // 2. 获取匹配的全部元素
+        const lis = document.querySelectorAll('ul li')
+        console.log(lis)
+
+        const lis2 = document.querySelectorAll('.nav li')
+        console.log(lis2)
+        for (let i = 0; i < lis2.length; i++) {
+            console.log(lis2[i]) // 每一个小li对象
+        }
+
+        const p = document.querySelectorAll('#nav')
+        console.log(p)
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>游乐园轮播图</title>
+    <!-- 引入favicon图标 -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- 引入字体图标 -->
+    <link rel="stylesheet" href="./lib/iconfont/iconfont.css">
+    <!-- 引入index.css -->
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/swiper.min.css">
+    <style>
+        html,
+        body {
+            position: relative;
+            height: 100%;
+        }
+        
+        body {
+            background: #eee;
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            color: #000;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .swiper-container {
+            width: 100%;
+            height: 100%;
+        }
+        
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+        }
+        
+        .swiper-pagination-bullet {
+            background: #fff;
+            opacity: .8;
+        }
+        
+        .swiper-pagination-bullet-active {
+            background: pink;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 页面主体部分 -->
+    <div class="main">
+        <!-- 轮播图模块 -->
+        <div class="banner">
+            <!-- 轮播图模块 -->
+            <!-- Swiper -->
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="#"><img src="./uploads/banner_1.png" alt=""></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#"><img src="./uploads/banner_1.png" alt=""></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#"><img src="./uploads/banner_1.png" alt=""></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#"><img src="./uploads/banner_1.png" alt=""></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#"><img src="./uploads/banner_1.png" alt=""></a>
+                    </div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        <!-- 标题模块 -->
+        <div class="title">
+            <h4>乐园活动</h4>
+        </div>
+
+        <!-- 活动项目模块 -->
+        <div class="item">
+            <!-- 图片模块 -->
+            <div class="pic">
+                <!-- 图片 -->
+                <a href="#">
+                    <img src="./uploads/item_2.png" alt="">
+                </a>
+                <!-- 进行模块 -->
+                <div class="status">
+                    进行中
+                </div>
+                <!-- 收藏 -->
+                <div class="collect">
+                    <i class="iconfont icon-shoucang1"></i>
+                </div>
+            </div>
+
+            <!-- 信息模块 -->
+            <div class="info">
+                <h5>疯狂的红包 不一样的撕名牌 大型家庭亲子户外活动</h5>
+                <div class="rest">
+                    <span>
+            <i class="iconfont icon-qizhi"></i>
+            200人报名
+          </span>
+                    <span>
+            <i class="iconfont icon-shizhong"></i>
+            本周六开始</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- 活动项目模块 -->
+        <div class="item">
+            <!-- 图片模块 -->
+            <div class="pic">
+                <!-- 图片 -->
+                <a href="#">
+                    <img src="./uploads/item_2.png" alt="">
+                </a>
+                <!-- 进行模块 -->
+                <div class="status">
+                    进行中
+                </div>
+                <!-- 收藏 -->
+                <div class="collect">
+                    <i class="iconfont icon-shoucang1"></i>
+                </div>
+            </div>
+
+            <!-- 信息模块 -->
+            <div class="info">
+                <h5>疯狂的红包 不一样的撕名牌 大型家庭亲子户外活动</h5>
+                <div class="rest">
+                    <span>
+            <i class="iconfont icon-qizhi"></i>
+            200人报名
+          </span>
+                    <span>
+            <i class="iconfont icon-shizhong"></i>
+            本周六开始</span>
+                </div>
+            </div>
+        </div>
+        <!-- 活动项目模块 -->
+        <div class="item">
+            <!-- 图片模块 -->
+            <div class="pic">
+                <!-- 图片 -->
+                <a href="#">
+                    <img src="./uploads/item_2.png" alt="">
+                </a>
+                <!-- 进行模块 -->
+                <div class="status">
+                    进行中
+                </div>
+                <!-- 收藏 -->
+                <div class="collect">
+                    <i class="iconfont icon-shoucang1"></i>
+                </div>
+            </div>
+
+            <!-- 信息模块 -->
+            <div class="info">
+                <h5>疯狂的红包 不一样的撕名牌 大型家庭亲子户外活动</h5>
+                <div class="rest">
+                    <span>
+            <i class="iconfont icon-qizhi"></i>
+            200人报名
+          </span>
+                    <span>
+            <i class="iconfont icon-shizhong"></i>
+            本周六开始</span>
+                </div>
+            </div>
+        </div>
+        <!-- 活动项目模块 -->
+        <div class="item">
+            <!-- 图片模块 -->
+            <div class="pic">
+                <!-- 图片 -->
+                <a href="#">
+                    <img src="./uploads/item_2.png" alt="">
+                </a>
+                <!-- 进行模块 -->
+                <div class="status">
+                    进行中
+                </div>
+                <!-- 收藏 -->
+                <div class="collect">
+                    <i class="iconfont icon-shoucang1"></i>
+                </div>
+            </div>
+
+            <!-- 信息模块 -->
+            <div class="info">
+                <h5>疯狂的红包 不一样的撕名牌 大型家庭亲子户外活动</h5>
+                <div class="rest">
+                    <span>
+            <i class="iconfont icon-qizhi"></i>
+            200人报名
+          </span>
+                    <span>
+            <i class="iconfont icon-shizhong"></i>
+            本周六开始</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 底部盒子 -->
+    <footer class="toolbar">
+        <a href="#" class="active">
+            <i class="iconfont icon-index-copy"></i>
+            <span>首页</span>
+        </a>
+        <a href="#">
+            <i class="iconfont icon-youhuiquan"></i>
+            <span>卡卷</span>
+        </a>
+        <a href="#">
+            <i class="iconfont icon-index-copy"></i>
+            <span>首页</span>
+        </a>
+    </footer>
+
+    <!-- 引入js文件 -->
+    <script src="./js/flexible.js"></script>
+    <script src="./js/swiper.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            pagination: {
+                el: '.swiper-pagination',
+            },
+            autoplay: {
+                delay: 3000, //3秒切换一次
+            },
+        });
+    </script>
+</body>
+
+</html>

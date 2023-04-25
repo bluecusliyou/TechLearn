@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>数组大于10筛选案例</title>
+</head>
+
+<body>
+    <script>
+        let arr = [2, 0, 6, 1, 77, 9, 54, 3, 78, 7]
+            // 1. 声明新的空的数组
+        let newArr = []
+            // 2. 遍历旧数组
+        for (let i = 0; i < arr.length; i++) {
+            if (arr[i] >= 10) {
+                // 3. 满足条件 追加给新的数组
+                newArr.push(arr[i])
+            }
+        }
+        // 4. 输出新的数组
+        console.log(newArr)
+    </script>
+</body>
+
+</html>

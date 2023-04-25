@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>变量的特殊情况</title>
+</head>
+
+<body>
+    <script>
+        let num = 20
+
+        function fn() {
+            num = 10 // 全局变量来看 强烈不允许 修改了全局变量
+        }
+        fn() //10
+        console.log(num)
+
+        // 形参可以看做是函数的局部变量，外部无法访问
+        function fn2(x, y) {
+            console.log(x)
+        }
+        fn2(1, 2)
+        console.log(x) // 错误的
+
+        //变量提升
+        function foo() {
+            var x = 'Hello, ' + y
+            console.log(x)
+            var y = 'Bob'
+        }
+        foo() //Hello, undefined
+    </script>
+</body>
+
+</html>

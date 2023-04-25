@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>if单分支语句</title>
+</head>
+
+<body>
+    <script>
+        // 单分支语句
+        if (false) {
+            console.log('执行语句1')
+        }
+        if (3 > 5) {
+            console.log('执行语句2')
+        }
+        if (2 === '2') {
+            console.log('执行语句3')
+        }
+
+        //1. 除了0 所有的数字都为真
+        if (1) {
+            console.log('执行语句4')
+        }
+        if (0) {
+            console.log('执行语句5')
+        }
+        //2.除了 '' 所有的字符串都为真 true
+        if ('pink老师') {
+            console.log('执行语句6')
+        }
+        if ('') {
+            console.log('执行语句7')
+        }
+
+        //输入单分支判断
+        // 1. 用户输入
+        let score = +prompt('请输入成绩')
+            // 2. 进行判断输出
+        if (score >= 700) {
+            alert('恭喜高考成功')
+        }
+    </script>
+</body>
+
+</html>

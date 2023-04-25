@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>数组操作-删</title>
+</head>
+
+<body>
+    <script>
+        let arr = ['red', 'green', 'blue']
+            // 1. pop() 删除最后一个元素
+        console.log(arr.pop()) // blue
+
+        // 2. shift() 删除第一个元素
+        arr.shift()
+        console.log(arr)
+
+        // 3. splice 删除指定元素  
+        // splice(起始位置-索引号, 删除几个)
+        arr.splice(1, 1) // 从索引号1的位置开始删， 只删除1个
+        arr.splice(1) // 从索引号1的位置开始删,删除到最后
+        console.log(arr)
+    </script>
+</body>
+
+</html>

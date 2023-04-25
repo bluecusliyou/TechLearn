@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>内置对象Date</title>
+</head>
+
+<body>
+    <script>
+        // 实例化new 
+        // 1. 得到当前时间 
+        const date = new Date()
+        console.log(date)
+            // 2. 指定时间
+        const date1 = new Date('2022-5-1 08:30:00')
+        console.log(date1)
+
+        //常用方法
+        let date2 = new Date()
+        console.log(date2) // Wed Jun 24 2015 19:49:22 GMT+0800 (CST)
+        console.log(date2.getFullYear()) // 2023, 年份
+        console.log(date2.getMonth()) // 2, 3月份，注意月份范围是0~11，5表示六月
+        console.log(date2.getDate()) // 6, 表示6号
+        console.log(date2.getDay()) // 1, 表示星期一
+        console.log(date2.getHours()) // 13, 24小时制
+        console.log(date2.getMinutes()) // 31, 分钟
+        console.log(date2.getSeconds()) // 8, 秒
+        console.log(date2.getMilliseconds()) // 414, 毫秒数
+        console.log(date2.getTime()) // 1678080668414, 以number形式表示的时间戳
+
+        //UTC时间
+        let date3 = new Date()
+        console.log(date3.toLocaleString()) //2023/3/6 13:31:08，显示的字符串与操作系统设定的格式有关
+        console.log(date3.toUTCString()) // Mon, 06 Mar 2023 05:31:08 GMT，UTC时间，与本地时间相差8小时
+
+        //时间格式化
+        const date4 = new Date()
+        let h = date4.getHours()
+        let m = date4.getMinutes()
+        let s = date4.getSeconds()
+        h = h < 10 ? '0' + h : h
+        m = m < 10 ? '0' + m : m
+        s = s < 10 ? '0' + s : s
+        console.log(`今天是: ${date4.getFullYear()}年${date4.getMonth() + 1}月${date4.getDate()}号 ${h}:${m}:${s}`)
+
+        //时间戳
+        // 1. getTime()
+        const date5 = new Date()
+        console.log(date5.getTime())
+            // 2. +new Date()
+        console.log(+new Date())
+            // 3. Date.now()
+        console.log(Date.now())
+    </script>
+</body>
+
+</html>

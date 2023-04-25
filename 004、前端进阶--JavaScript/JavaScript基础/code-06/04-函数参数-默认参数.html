@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>函数参数-默认参数</title>
+</head>
+
+<body>
+    <script>
+        // 求和 起始数到结束数的和
+        // 函数定义时的参数-形参  形式上的参数  
+        function getSum(start = 0, end = 0) {
+            let sum = 0
+            for (let i = start; i <= end; i++) {
+                sum += i
+            }
+            console.log(sum)
+        }
+        getSum(1, 50) //调用的小括号里面传入参数-实参 实际的参数
+        getSum(100, 200)
+        getSum()
+    </script>
+</body>
+
+</html>

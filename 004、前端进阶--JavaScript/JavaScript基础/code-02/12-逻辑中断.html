@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>逻辑中断</title>
+</head>
+
+<body>
+    <script>
+        // 左边能得到结果，不需要计算右边
+        let age = 18
+        console.log(false && age++) // age++ 不执行一假则假
+        console.log(age) //18
+
+        // 左边无法得到结果，需要计算右边
+        console.log(false || age++)
+        console.log(age) //19
+
+        // 输出最后计算的表达式
+        // console.log(11 && 22)  // 22 输出最后一个表达式
+        // console.log(11 || 22)  // 11 输出第一个表达式
+
+        //'''、0、undefined、null、false、NaN 转换为布尔值后都是false, 其余则为 true
+        console.log('' || 20) //20
+        console.log(0 || 20) //20
+        console.log(undefined || 20) //20
+        console.log(null || 20) //20
+        console.log(false || 20) //20
+        console.log(NaN || 20) // 20
+    </script>
+</body>
+
+</html>

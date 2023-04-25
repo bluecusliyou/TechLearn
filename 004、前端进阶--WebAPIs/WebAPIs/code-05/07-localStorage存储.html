@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>localStorage存储</title>
+</head>
+
+<body>
+    <script>
+        // 1. 要存储一个名字  'uname'， 'pink老师'
+        // localStorage.setItem('键'，'值')
+        localStorage.setItem('uname', 'pink老师')
+            // 2. 获取方式  都加引号
+        console.log(localStorage.getItem('uname'))
+            // 3. 删除本地存储  只删除名字
+            // localStorage.removeItem('uname')
+            // 4. 改  如果原来有这个键，则是改，如果没有这个键是增
+        localStorage.setItem('uname', 'red老师')
+
+        // 我要存一个年龄
+        // 2. 本地存储只能存储字符串数据类型
+        localStorage.setItem('age', 18)
+        console.log(localStorage.getItem('age'))
+    </script>
+</body>
+
+</html>

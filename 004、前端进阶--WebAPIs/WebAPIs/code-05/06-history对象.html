@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>history对象</title>
+</head>
+
+<body>
+    <button>后退</button>
+    <button>前进</button>
+    <script>
+        const back = document.querySelector('button:first-child')
+        const forward = back.nextElementSibling
+        back.addEventListener('click', function() {
+            // 后退一步
+            // history.back()
+            history.go(-1)
+        })
+        forward.addEventListener('click', function() {
+            // 前进一步
+            // history.forward()
+            history.go(1)
+        })
+    </script>
+</body>
+
+</html>

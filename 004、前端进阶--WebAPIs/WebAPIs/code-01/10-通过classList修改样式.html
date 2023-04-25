@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>通过classList修改样式</title>
+    <style>
+        .box {
+            width: 200px;
+            height: 200px;
+            color: #333;
+        }
+        
+        .active {
+            color: red;
+            background-color: pink;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box active">文字</div>
+    <script>
+        // 通过classList添加
+        // 1. 获取元素
+        const box = document.querySelector('.box')
+            // 2. 修改样式
+            // 2.1 追加类 add() 类名不加点，并且是字符串
+            // box.classList.add('active')
+            // 2.2 删除类  remove() 类名不加点，并且是字符串
+            // box.classList.remove('box')
+            // 2.3 切换类  toggle()  有就删掉，没有就加上
+        box.classList.toggle('active')
+    </script>
+</body>
+
+</html>

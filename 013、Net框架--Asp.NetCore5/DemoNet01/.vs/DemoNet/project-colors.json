@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "f1f2e699-111a-45eb-911b-77f78714ab61": {
+      "ProjectGuid": "f1f2e699-111a-45eb-911b-77f78714ab61",
+      "DisplayName": "DemoNet5Mvc",
+      "ColorIndex": 0
+    },
+    "d44d2288-c072-4efc-8706-4f60e66e5115": {
+      "ProjectGuid": "d44d2288-c072-4efc-8706-4f60e66e5115",
+      "DisplayName": "DemoNetMvc",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

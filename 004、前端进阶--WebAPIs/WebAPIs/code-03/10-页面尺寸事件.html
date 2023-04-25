@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>页面尺寸事件</title>
+    <style>
+        div {
+            display: inline-block;
+            /* width: 200px; */
+            height: 200px;
+            background-color: pink;
+            padding: 10px;
+            border: 20px solid red;
+        }
+    </style>
+</head>
+
+<body>
+    <div>123123123123123123123123123123123123123</div>
+    <script>
+        const div = document.querySelector('div')
+        console.log(div.clientWidth)
+            // resize 浏览器窗口大小发生变化的时候触发的事件
+        window.addEventListener('resize', function() {
+            console.log(1)
+        })
+    </script>
+</body>
+
+</html>

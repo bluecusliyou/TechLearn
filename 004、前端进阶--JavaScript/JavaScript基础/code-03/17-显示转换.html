@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>显示转换</title>
+</head>
+
+<body>
+    <script>
+        let str = '123'
+        console.log(Number(str)) //123
+        console.log(Number('pink')) //NaN
+
+        console.log(parseInt('12px')) //12
+        console.log(parseInt('12.34px')) //12
+        console.log(parseInt('12.94px')) //12
+        console.log(parseInt('abc12.94px')) //NaN
+
+        console.log(parseFloat('12px')) //12
+        console.log(parseFloat('12.34px')) //12.34
+        console.log(parseFloat('12.94px')) //12.94
+        console.log(parseFloat('abc12.94px')) //NaN
+    </script>
+</body>
+
+</html>

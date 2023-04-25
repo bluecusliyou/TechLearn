@@ -1,0 +1,110 @@
+// 导入base.less
+@import url(base.less);
+// 导入normalize.less
+@import url(normalize.less);
+// 声明基准值变量
+// width: (10 / 37.5rem)
+@baseSize: 37.5rem;
+body {
+  background-color: #f0f0f0;
+}
+// 底部盒子
+.toolbar {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  // height: 49px;
+  height: (49 / @baseSize);
+  background-color: #FECA49;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  a {
+    color: #D78B09;
+    font-size: (11 / @baseSize);
+    display: flex;
+    // 主轴方向
+    flex-direction: column;
+    align-items: center;
+    i {
+      font-size: (20 / @baseSize);
+      margin-bottom: (4 / @baseSize);
+    }
+    &.active {
+      color: #fff;
+    }
+  }
+
+}
+
+// 页面主体
+.main {
+  padding-bottom: (55 / @baseSize);
+  .banner {
+    height: (160 / @baseSize);
+  }
+  // 乐园活动
+  .title {
+    height: (40 / @baseSize);
+    line-height: (40 / @baseSize);
+    padding-left: (15 / @baseSize);
+    h4 {
+      font-size: (14 / @baseSize);
+    }
+  }
+
+  // item
+  .item {
+    background-color: #fff;
+    padding-bottom: (15 / @baseSize);
+    margin-bottom: (10 / @baseSize);
+    .pic {
+      position: relative;
+      // 进行模块
+      .status {
+        position: absolute;
+        top: (-4 / @baseSize);
+        left: (15 / @baseSize);
+        width: (68 / @baseSize);
+        height: (29 / @baseSize);
+        background: url(../images/status_active.png) no-repeat;
+        background-size: 100% 100%;
+        font-size: (12 / @baseSize);
+        color: #fff;
+        text-align: center;
+        line-height: (25 / @baseSize);
+      }
+      // 收藏
+      .collect {
+        position: absolute;
+        top: (15 / @baseSize);
+        right: (18 / @baseSize);
+        color: #fff;
+        i {
+          font-size: (24 / @baseSize);
+        }
+      }
+    }
+
+    // 信息模块 
+    .info {
+      h5 {
+        width: (300 / @baseSize);
+        padding: (10 / @baseSize) 0 (15 / @baseSize) (15 / @baseSize);
+        line-height: (21 / @baseSize);
+        font-size: (15 / @baseSize);
+        font-weight: 400;
+      }
+
+      .rest {
+        padding-left: (15 / @baseSize);
+        color: #B4B4B4 ;
+        font-size: (11 / @baseSize);
+        span:nth-child(1) {
+          margin-right: (15 / @baseSize);
+        }
+      }
+    }
+  }
+}

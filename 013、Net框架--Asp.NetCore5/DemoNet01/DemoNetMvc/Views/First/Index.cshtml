@@ -1,0 +1,7 @@
+﻿@using Microsoft.AspNetCore.Http
+@model string
+<h3> ViewBag.User1=  @base.ViewBag.User1 </h3>
+<h3> ViewData["User2"]= @base.ViewData["User2"] </h3>
+<h3> TempData["User3"]= @base.TempData["User3"] </h3>
+<h3> Model= @Model</h3>
+<h3> Session-User5= @Context.Session.GetString("User5")</h3>

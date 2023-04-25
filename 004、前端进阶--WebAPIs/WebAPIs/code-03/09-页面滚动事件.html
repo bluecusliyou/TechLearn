@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>页面滚动事件</title>
+    <style>
+        body {
+            padding-top: 100px;
+            height: 1000px;
+        }
+        
+        div {
+            display: none;
+            margin: 100px;
+            overflow: scroll;
+            width: 200px;
+            height: 200px;
+            border: 1px solid #000;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        我里面有很多很多的文字 我里面有很多很多的文字 我里面有很多很多的文字 我里面有很多很多的文字 我里面有很多很多的文字 我里面有很多很多的文字 我里面有很多很多的文字 我里面有很多很多的文字 我里面有很多很多的文字 我里面有很多很多的文字 我里面有很多很多的文字 我里面有很多很多的文字 我里面有很多很多的文字 我里面有很多很多的文字
+    </div>
+    <script>
+        const div = document.querySelector('div')
+            // 页面滚动事件
+        window.addEventListener('scroll', function() {
+            // 获取html元素写法
+            // document.documentElement
+            // 获取html元素滚动的距离
+            // 得到的是数字型，不带单位
+            // document.documentElement.scrollTop
+
+            const n = document.documentElement.scrollTop
+            if (n >= 100) {
+                div.style.display = 'block'
+            } else {
+                div.style.display = 'none'
+            }
+        })
+    </script>
+</body>
+
+</html>

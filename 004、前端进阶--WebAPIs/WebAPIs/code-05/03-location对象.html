@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>location对象</title>
+</head>
+
+<body>
+    <button class="reload">刷新</button>
+
+    <script>
+        // location
+        // console.log(window.location)
+        // console.log(location)
+        // console.log(location.href)        
+
+        // 1. href 经常用href 利用js的方法去跳转页面
+        // location.href = 'http://www.baidu.com'
+
+        // 2.强制刷新
+        const reload = document.querySelector('.reload')
+        reload.addEventListener('click', function() {
+            // f5 刷新页面
+            // location.reload()
+            // 强制刷新  ctrl+f5
+            location.reload(true)
+        })
+    </script>
+</body>
+
+</html>

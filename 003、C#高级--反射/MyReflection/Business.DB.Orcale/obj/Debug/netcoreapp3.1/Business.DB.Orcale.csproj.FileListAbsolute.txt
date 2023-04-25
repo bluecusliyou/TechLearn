@@ -1,0 +1,12 @@
+D:\ZXWork\Advanced15\20210706Advanced15Course02Reflection\Advanced.Project\Business.DB.Orcale\obj\Debug\netcoreapp3.1\Business.DB.Orcale.csprojAssemblyReference.cache
+D:\ZXWork\Advanced15\20210706Advanced15Course02Reflection\Advanced.Project\Business.DB.Orcale\obj\Debug\netcoreapp3.1\Business.DB.Orcale.AssemblyInfoInputs.cache
+D:\ZXWork\Advanced15\20210706Advanced15Course02Reflection\Advanced.Project\Business.DB.Orcale\obj\Debug\netcoreapp3.1\Business.DB.Orcale.AssemblyInfo.cs
+D:\ZXWork\Advanced15\20210706Advanced15Course02Reflection\Advanced.Project\Business.DB.Orcale\obj\Debug\netcoreapp3.1\Business.DB.Orcale.csproj.CoreCompileInputs.cache
+D:\ZXWork\Advanced15\20210706Advanced15Course02Reflection\Advanced.Project\Business.DB.Orcale\bin\Debug\netcoreapp3.1\Business.DB.Orcale.deps.json
+D:\ZXWork\Advanced15\20210706Advanced15Course02Reflection\Advanced.Project\Business.DB.Orcale\bin\Debug\netcoreapp3.1\Business.DB.Orcale.dll
+D:\ZXWork\Advanced15\20210706Advanced15Course02Reflection\Advanced.Project\Business.DB.Orcale\bin\Debug\netcoreapp3.1\Business.DB.Orcale.pdb
+D:\ZXWork\Advanced15\20210706Advanced15Course02Reflection\Advanced.Project\Business.DB.Orcale\bin\Debug\netcoreapp3.1\Business.DB.Interface.dll
+D:\ZXWork\Advanced15\20210706Advanced15Course02Reflection\Advanced.Project\Business.DB.Orcale\bin\Debug\netcoreapp3.1\Business.DB.Interface.pdb
+D:\ZXWork\Advanced15\20210706Advanced15Course02Reflection\Advanced.Project\Business.DB.Orcale\obj\Debug\netcoreapp3.1\Business.DB.Orcale.csproj.CopyComplete
+D:\ZXWork\Advanced15\20210706Advanced15Course02Reflection\Advanced.Project\Business.DB.Orcale\obj\Debug\netcoreapp3.1\Business.DB.Orcale.dll
+D:\ZXWork\Advanced15\20210706Advanced15Course02Reflection\Advanced.Project\Business.DB.Orcale\obj\Debug\netcoreapp3.1\Business.DB.Orcale.pdb

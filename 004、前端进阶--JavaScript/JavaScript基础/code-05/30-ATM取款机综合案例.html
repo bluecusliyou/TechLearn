@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATM取款机综合案例</title>
+</head>
+
+<body>
+    <script>
+        // 1. 开始循环 输入框写到 循环里面
+        // 3. 准备一个总的金额
+        let money = 100
+        while (true) {
+            let re = +prompt(`
+        请您选择操作：
+        1.存钱
+        2.取钱
+        3.查看余额
+        4.退出
+        `)
+                // 2. 如果用户输入的 4 则退出循环， break  写到if 里面，没有写到switch里面 因为4需要break退出循环
+            if (re === 4) {
+                break
+            }
+            // 4. 根据输入做操作
+            switch (re) {
+                case 1:
+                    // 存钱
+                    let cun = +prompt('请输入存款金额')
+                    money = money + cun
+                    break
+                case 2:
+                    // 存钱
+                    let qu = +prompt('请输入取款金额')
+                    money = money - qu
+                    break
+                case 3:
+                    // 存钱
+                    alert(`您的银行卡余额是${money}`)
+                    break
+            }
+        }
+    </script>
+</body>
+
+</html>

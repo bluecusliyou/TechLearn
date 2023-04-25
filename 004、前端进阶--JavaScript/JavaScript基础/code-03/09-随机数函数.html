@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>随机数函数</title>
+</head>
+
+<body>
+    <script>
+        // 左闭右开 取到0~1中间一个随机小数[0,1)
+        console.log(Math.random())
+
+        // 0~ 10 之间的整数
+        console.log(Math.floor(Math.random() * 11))
+
+        //随机取数组元素
+        let arr = ['red', 'green', 'blue']
+        let random = Math.floor(Math.random() * arr.length)
+        console.log(arr[random])
+
+        // 取到 N ~ M 的随机整数
+        function getRandom(N, M) {
+            return Math.floor(Math.random() * (M - N + 1)) + N
+        }
+        console.log(getRandom(4, 8))
+    </script>
+</body>
+
+</html>

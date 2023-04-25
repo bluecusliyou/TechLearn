@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>链式编程</title>
+    <script src="jquery.min.js"></script>
+</head>
+
+<body>
+    <button>快速</button>
+    <button>快速</button>
+    <button>快速</button>
+    <button>快速</button>
+    <button>快速</button>
+    <button>快速</button>
+    <button>快速</button>
+    <script>
+        $(function() {
+            // 1. 隐式迭代 给所有的按钮都绑定了点击事件
+            $("button").click(function() {
+                // 2. 让当前元素颜色变为红色
+                // $(this).css("color", "red");
+                // 3. 让其余的姐妹元素不变色 
+                // $(this).siblings().css("color", "");
+                // 链式编程
+                $(this).css("color", "red").siblings().css("color", "");
+            });
+        })
+    </script>
+</body>
+
+</html>

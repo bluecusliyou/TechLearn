@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>修改对象内容</title>
+</head>
+
+<body>
+    <div class="box">我是文字的内容</div>
+    <script>
+        // 1. 获取元素
+        const box = document.querySelector('.box')
+            // 2. 修改文字内容  对象.innerText 属性
+        console.log(box.innerText) // 获取文字内容
+        box.innerText = '我是一个盒子' // 修改文字内容
+        box.innerText = '<strong>我是一个盒子</strong>' // 不解析标签
+
+        // 3. innerHTML 解析标签
+        console.log(box.innerHTML)
+        box.innerHTML = '<strong>我要更换</strong>'
+    </script>
+</body>
+
+</html>

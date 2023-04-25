@@ -1,0 +1,13 @@
+D:\ZXWork\Advanced15\20210713Advanced15Course05Delegate\Advanced.Project\MyDelegate\bin\Debug\netcoreapp3.1\MyDelegate.exe
+D:\ZXWork\Advanced15\20210713Advanced15Course05Delegate\Advanced.Project\MyDelegate\bin\Debug\netcoreapp3.1\MyDelegate.deps.json
+D:\ZXWork\Advanced15\20210713Advanced15Course05Delegate\Advanced.Project\MyDelegate\bin\Debug\netcoreapp3.1\MyDelegate.runtimeconfig.json
+D:\ZXWork\Advanced15\20210713Advanced15Course05Delegate\Advanced.Project\MyDelegate\bin\Debug\netcoreapp3.1\MyDelegate.runtimeconfig.dev.json
+D:\ZXWork\Advanced15\20210713Advanced15Course05Delegate\Advanced.Project\MyDelegate\bin\Debug\netcoreapp3.1\MyDelegate.dll
+D:\ZXWork\Advanced15\20210713Advanced15Course05Delegate\Advanced.Project\MyDelegate\bin\Debug\netcoreapp3.1\MyDelegate.pdb
+D:\ZXWork\Advanced15\20210713Advanced15Course05Delegate\Advanced.Project\MyDelegate\obj\Debug\netcoreapp3.1\MyDelegate.AssemblyInfoInputs.cache
+D:\ZXWork\Advanced15\20210713Advanced15Course05Delegate\Advanced.Project\MyDelegate\obj\Debug\netcoreapp3.1\MyDelegate.AssemblyInfo.cs
+D:\ZXWork\Advanced15\20210713Advanced15Course05Delegate\Advanced.Project\MyDelegate\obj\Debug\netcoreapp3.1\MyDelegate.csproj.CoreCompileInputs.cache
+D:\ZXWork\Advanced15\20210713Advanced15Course05Delegate\Advanced.Project\MyDelegate\obj\Debug\netcoreapp3.1\MyDelegate.dll
+D:\ZXWork\Advanced15\20210713Advanced15Course05Delegate\Advanced.Project\MyDelegate\obj\Debug\netcoreapp3.1\MyDelegate.pdb
+D:\ZXWork\Advanced15\20210713Advanced15Course05Delegate\Advanced.Project\MyDelegate\obj\Debug\netcoreapp3.1\MyDelegate.genruntimeconfig.cache
+D:\ZXWork\Advanced15\20210713Advanced15Course05Delegate\Advanced.Project\MyDelegate\obj\Debug\netcoreapp3.1\MyDelegate.csprojAssemblyReference.cache

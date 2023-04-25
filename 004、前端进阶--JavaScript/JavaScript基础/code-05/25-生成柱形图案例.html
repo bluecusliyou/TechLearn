@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>生成柱形图案例</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .box {
+            display: flex;
+            width: 700px;
+            height: 300px;
+            border-left: 1px solid pink;
+            border-bottom: 1px solid pink;
+            margin: 50px auto;
+            justify-content: space-around;
+            align-items: flex-end;
+            text-align: center;
+        }
+        
+        .box>div {
+            display: flex;
+            width: 50px;
+            background-color: pink;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        
+        .box div span {
+            margin-top: -20px;
+        }
+        
+        .box div h4 {
+            margin-bottom: -35px;
+            width: 70px;
+            margin-left: -10px;
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        // 声明一个新的数组
+        let arr = []
+        for (let i = 1; i <= 4; i++) {
+            // 四次弹框采集数据
+            // let num = prompt(`请输入第${i}季度的数据:`)
+            // arr.push(num)
+            arr.push(prompt(`请输入第${i}季度的数据:`))
+        }
+        // 盒子开头
+        document.write(` <div class="box">`)
+
+        // 盒子中间 利用循环的形式  跟数组有关系
+        for (let i = 0; i < arr.length; i++) {
+            document.write(`
+              <div style="height: ${arr[i]}px;">
+                <span>${arr[i]}</span>
+                <h4>第${i + 1}季度</h4>
+              </div>          
+            `)
+        }
+        // 盒子结尾
+        document.write(` </div>`)
+    </script>
+</body>
+
+</html>

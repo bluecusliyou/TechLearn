@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>验证用户名案例</title>
+    <style>
+        span {
+            display: inline-block;
+            width: 250px;
+            height: 30px;
+            vertical-align: middle;
+            line-height: 30px;
+            padding-left: 15px;
+        }
+        
+        .error {
+            color: red;
+            background: url(./images/error1.png) no-repeat left center;
+        }
+        
+        .right {
+            color: green;
+            background: url(./images/right.png) no-repeat left center;
+        }
+    </style>
+</head>
+
+<body>
+    <input type="text">
+    <span></span>
+    <script>
+        // 1. 准备正则
+        const reg = /^[a-zA-Z0-9-_]{6,16}$/
+        const input = document.querySelector('input')
+        const span = input.nextElementSibling
+        input.addEventListener('blur', function() {
+            //2. 验证
+            if (reg.test(this.value)) {
+                span.innerHTML = '输入正确'
+                span.className = 'right'
+            } else {
+                span.innerHTML = '请输入6~16位的英文数字下划线'
+                span.className = 'error'
+            }
+        })
+    </script>
+</body>
+
+</html>

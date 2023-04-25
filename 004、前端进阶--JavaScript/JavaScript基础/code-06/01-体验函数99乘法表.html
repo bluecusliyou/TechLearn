@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>体验函数99乘法表</title>
+    <style>
+        span {
+            display: inline-block;
+            width: 100px;
+            padding: 5px 10px;
+            border: 1px solid pink;
+            margin: 2px;
+            border-radius: 5px;
+            box-shadow: 2px 2px 2px rgba(255, 192, 203, .4);
+            background-color: rgba(255, 192, 203, .1);
+            text-align: center;
+            color: hotpink;
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        // 声明函数
+        function sheet99() {
+            // 1. 外层循环控制行数
+            for (let i = 1; i <= 9; i++) {
+                // 2. 里层循环控制列数
+                for (let j = 1; j <= i; j++) {
+                    document.write(`<span>${j} X ${i} = ${i * j}</span>`)
+                }
+                // 换行
+                document.write('<br>')
+            }
+        }
+        // 调用 代码复用
+        sheet99()
+        sheet99()
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>数组求和以及平均值</title>
+</head>
+
+<body>
+    <script>
+        let arr = [2, 6, 1, 7, 4]
+            // 1. 求和的变量 sum
+        let sum = 0
+            // 2.遍历累加
+        for (let i = 0; i < arr.length; i++) {
+            sum += arr[i]
+        }
+        console.log(`数组的和的结果是: ${sum}`)
+            // 3. 平均值  和 / arr.length  = 4
+        console.log(`数组的平均值结果是: ${sum / arr.length}`)
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+D:\TechLearnBeta\010、Utilities--Log4Net\MyLog4Net\FramworkConsole\bin\Debug\FramworkConsole.exe.config
+D:\TechLearnBeta\010、Utilities--Log4Net\MyLog4Net\FramworkConsole\bin\Debug\FramworkConsole.exe
+D:\TechLearnBeta\010、Utilities--Log4Net\MyLog4Net\FramworkConsole\bin\Debug\FramworkConsole.pdb
+D:\TechLearnBeta\010、Utilities--Log4Net\MyLog4Net\FramworkConsole\bin\Debug\log4net.dll
+D:\TechLearnBeta\010、Utilities--Log4Net\MyLog4Net\FramworkConsole\bin\Debug\log4net.xml
+D:\TechLearnBeta\010、Utilities--Log4Net\MyLog4Net\FramworkConsole\obj\Debug\FramworkConsole.csproj.AssemblyReference.cache
+D:\TechLearnBeta\010、Utilities--Log4Net\MyLog4Net\FramworkConsole\obj\Debug\FramworkConsole.csproj.SuggestedBindingRedirects.cache
+D:\TechLearnBeta\010、Utilities--Log4Net\MyLog4Net\FramworkConsole\obj\Debug\FramworkConsole.csproj.CoreCompileInputs.cache
+D:\TechLearnBeta\010、Utilities--Log4Net\MyLog4Net\FramworkConsole\obj\Debug\FramworkConsole.csproj.CopyComplete
+D:\TechLearnBeta\010、Utilities--Log4Net\MyLog4Net\FramworkConsole\obj\Debug\FramworkConsole.exe
+D:\TechLearnBeta\010、Utilities--Log4Net\MyLog4Net\FramworkConsole\obj\Debug\FramworkConsole.pdb

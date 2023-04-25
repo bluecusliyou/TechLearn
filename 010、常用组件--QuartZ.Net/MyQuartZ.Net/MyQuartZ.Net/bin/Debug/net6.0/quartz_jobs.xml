@@ -1,0 +1,84 @@
+﻿<job-scheduling-data xmlns="http://quartznet.sourceforge.net/JobSchedulingData" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0">
+	<processing-directives>
+		<overwrite-existing-data>true</overwrite-existing-data>
+	</processing-directives>
+
+	<schedule>
+		<!--开始执行一个调度-->
+		<!--任务，可添加多个-->
+		<job>
+			<!--任务名称【必填】：同一group中多个job的name名不能相同-->
+			<name>jobName1</name>
+			<!--任务所属分组【选填】-->
+			<group>jobGroup1</group>
+			<!--任务描述【选填】-->
+			<description>jobDescription1</description>
+			<!--任务类型【必填】：实现IJob接口完整命名空间的类名，程序集名-->
+			<job-type>MyQuartZ.Net.QuartZJob.MyJob, MyQuartZ.Net</job-type>
+			<durable>true</durable>
+			<recover>false</recover>
+			<!--任务数据【选填】-->
+			<job-data-map>
+				<entry>
+					<key>key0</key>
+					<value>value0</value>
+				</entry>
+				<entry>
+					<key>key1</key>
+					<value>value1</value>
+				</entry>
+				<entry>
+					<key>key2</key>
+					<value>value2</value>
+				</entry>
+			</job-data-map>
+		</job>
+
+		<!--触发器，可添加多个-->
+		<trigger>
+			<!--simple:简单触发器类型-->
+			<simple>
+				<!--触发器名称【必填】：同一group中多个trigger的name不能相同-->
+				<name>simpleName</name>
+				<!--触发器组【选填】-->
+				<group>simpleGroup</group>
+				<!--触发器描述【选填】-->
+				<description>SimpleTriggerDescription</description>
+				<!--要调度的任务名称【必填】：必须和对应job节点中的name相同-->
+				<job-name>jobName1</job-name>
+				<!--要调度的任务分组【必填】：必须和对应job节点中的name相同-->
+				<job-group>jobGroup1</job-group>
+				<!--任务的开始时间-->
+				<start-time>2022-01-01T18:15:00.0Z</start-time>
+				<!--任务的结束时间-->
+				<end-time>2040-05-04T18:13:51.0Z</end-time>
+				<!--失效策略-->
+				<misfire-instruction>SmartPolicy</misfire-instruction>
+				<!--重复次数-->
+				<repeat-count>100</repeat-count>
+				<!--间隔时间 单位毫秒-->
+				<repeat-interval>3000</repeat-interval>
+			</simple>
+		</trigger>
+
+		<!--触发器，可添加多个-->
+		<trigger>
+			<!--cron:复杂触发器类型【推荐】-->
+			<cron>
+				<!--触发器名称【必填】：同一group中多个trigger的name不能相同-->
+				<name>cronName</name>
+				<!--触发器组【选填】-->
+				<group>cronGroup</group>
+				<!--触发器描述【选填】-->
+				<description>CronTriggerDescription</description>
+				<!--要调度的任务名称【必填】：必须和对应job节点中的name相同-->
+				<job-name>jobName1</job-name>
+				<!--要调度的任务分组【必填】：必须和对应job节点中的name相同-->
+				<job-group>jobGroup1</job-group>
+				<!--任务cron表达式-->
+				<cron-expression>0/2 * * * * ?</cron-expression>
+			</cron>
+		</trigger>
+		<!--结束一个调度-->
+	</schedule>
+</job-scheduling-data>

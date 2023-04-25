@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>随机更换背景图片</title>
+    <style>
+        body {
+            background: url(./images/desktop_1.jpg) no-repeat top center/cover;
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        // 取到 N ~ M 的随机整数
+        function getRandom(N, M) {
+            return Math.floor(Math.random() * (M - N + 1)) + N
+        }
+        // 随机数
+        const random = getRandom(1, 10)
+        document.body.style.backgroundImage = `url(./images/desktop_${random}.jpg)`
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>遍历对象</title>
+</head>
+
+<body>
+    <script>
+        // for in 我们不推荐遍历数组
+        // let arr = ['pink', 'red', 'blue']
+        // for (let k in arr) {
+        //   console.log(k)  // 数组的下标 索引号  但是是字符串 '0'
+        //   console.log(arr[k])  // arr[k]
+        // }
+
+        // 1. 创建对象
+        let obj = {
+                uname: 'pink老师',
+                age: 18,
+                gender: '男'
+            }
+            // 2. 遍历对象
+        for (let k in obj) {
+            console.log(k) // 属性名  'uname'   'age'
+            console.log(obj[k]) // 输出属性值  obj[k]
+        }
+    </script>
+</body>
+
+</html>

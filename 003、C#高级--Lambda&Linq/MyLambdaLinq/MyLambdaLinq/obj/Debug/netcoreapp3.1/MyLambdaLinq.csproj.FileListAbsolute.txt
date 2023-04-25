@@ -1,0 +1,13 @@
+D:\ZXWork\Advanced15\20210719Advanced15Course07\Advanced.Project\MyLambdaLinq\bin\Debug\netcoreapp3.1\MyLambdaLinq.exe
+D:\ZXWork\Advanced15\20210719Advanced15Course07\Advanced.Project\MyLambdaLinq\bin\Debug\netcoreapp3.1\MyLambdaLinq.deps.json
+D:\ZXWork\Advanced15\20210719Advanced15Course07\Advanced.Project\MyLambdaLinq\bin\Debug\netcoreapp3.1\MyLambdaLinq.runtimeconfig.json
+D:\ZXWork\Advanced15\20210719Advanced15Course07\Advanced.Project\MyLambdaLinq\bin\Debug\netcoreapp3.1\MyLambdaLinq.runtimeconfig.dev.json
+D:\ZXWork\Advanced15\20210719Advanced15Course07\Advanced.Project\MyLambdaLinq\bin\Debug\netcoreapp3.1\MyLambdaLinq.dll
+D:\ZXWork\Advanced15\20210719Advanced15Course07\Advanced.Project\MyLambdaLinq\bin\Debug\netcoreapp3.1\MyLambdaLinq.pdb
+D:\ZXWork\Advanced15\20210719Advanced15Course07\Advanced.Project\MyLambdaLinq\obj\Debug\netcoreapp3.1\MyLambdaLinq.csprojAssemblyReference.cache
+D:\ZXWork\Advanced15\20210719Advanced15Course07\Advanced.Project\MyLambdaLinq\obj\Debug\netcoreapp3.1\MyLambdaLinq.AssemblyInfoInputs.cache
+D:\ZXWork\Advanced15\20210719Advanced15Course07\Advanced.Project\MyLambdaLinq\obj\Debug\netcoreapp3.1\MyLambdaLinq.AssemblyInfo.cs
+D:\ZXWork\Advanced15\20210719Advanced15Course07\Advanced.Project\MyLambdaLinq\obj\Debug\netcoreapp3.1\MyLambdaLinq.csproj.CoreCompileInputs.cache
+D:\ZXWork\Advanced15\20210719Advanced15Course07\Advanced.Project\MyLambdaLinq\obj\Debug\netcoreapp3.1\MyLambdaLinq.dll
+D:\ZXWork\Advanced15\20210719Advanced15Course07\Advanced.Project\MyLambdaLinq\obj\Debug\netcoreapp3.1\MyLambdaLinq.pdb
+D:\ZXWork\Advanced15\20210719Advanced15Course07\Advanced.Project\MyLambdaLinq\obj\Debug\netcoreapp3.1\MyLambdaLinq.genruntimeconfig.cache

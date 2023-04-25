@@ -1,0 +1,15 @@
+D:\ZXWork\Advanced15\20210725Advanced15Course09Expression-1\Advanced.Project\MyExpression\bin\Debug\netcoreapp3.1\MyExpression.exe
+D:\ZXWork\Advanced15\20210725Advanced15Course09Expression-1\Advanced.Project\MyExpression\bin\Debug\netcoreapp3.1\MyExpression.deps.json
+D:\ZXWork\Advanced15\20210725Advanced15Course09Expression-1\Advanced.Project\MyExpression\bin\Debug\netcoreapp3.1\MyExpression.runtimeconfig.json
+D:\ZXWork\Advanced15\20210725Advanced15Course09Expression-1\Advanced.Project\MyExpression\bin\Debug\netcoreapp3.1\MyExpression.runtimeconfig.dev.json
+D:\ZXWork\Advanced15\20210725Advanced15Course09Expression-1\Advanced.Project\MyExpression\bin\Debug\netcoreapp3.1\MyExpression.dll
+D:\ZXWork\Advanced15\20210725Advanced15Course09Expression-1\Advanced.Project\MyExpression\bin\Debug\netcoreapp3.1\MyExpression.pdb
+D:\ZXWork\Advanced15\20210725Advanced15Course09Expression-1\Advanced.Project\MyExpression\obj\Debug\netcoreapp3.1\MyExpression.AssemblyInfoInputs.cache
+D:\ZXWork\Advanced15\20210725Advanced15Course09Expression-1\Advanced.Project\MyExpression\obj\Debug\netcoreapp3.1\MyExpression.AssemblyInfo.cs
+D:\ZXWork\Advanced15\20210725Advanced15Course09Expression-1\Advanced.Project\MyExpression\obj\Debug\netcoreapp3.1\MyExpression.csproj.CoreCompileInputs.cache
+D:\ZXWork\Advanced15\20210725Advanced15Course09Expression-1\Advanced.Project\MyExpression\obj\Debug\netcoreapp3.1\MyExpression.dll
+D:\ZXWork\Advanced15\20210725Advanced15Course09Expression-1\Advanced.Project\MyExpression\obj\Debug\netcoreapp3.1\MyExpression.pdb
+D:\ZXWork\Advanced15\20210725Advanced15Course09Expression-1\Advanced.Project\MyExpression\obj\Debug\netcoreapp3.1\MyExpression.genruntimeconfig.cache
+D:\ZXWork\Advanced15\20210725Advanced15Course09Expression-1\Advanced.Project\MyExpression\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\ZXWork\Advanced15\20210725Advanced15Course09Expression-1\Advanced.Project\MyExpression\obj\Debug\netcoreapp3.1\MyExpression.csproj.CopyComplete
+D:\ZXWork\Advanced15\20210725Advanced15Course09Expression-1\Advanced.Project\MyExpression\obj\Debug\netcoreapp3.1\MyExpression.csprojAssemblyReference.cache

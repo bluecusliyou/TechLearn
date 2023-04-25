@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>焦点事件</title>
+</head>
+
+<body>
+    <input type="text">
+    <script>
+        const input = document.querySelector('input')
+        input.addEventListener('focus', function() {
+            console.log('有焦点触发')
+        })
+        input.addEventListener('blur', function() {
+            console.log('失去焦点触发')
+        })
+    </script>
+</body>
+
+</html>

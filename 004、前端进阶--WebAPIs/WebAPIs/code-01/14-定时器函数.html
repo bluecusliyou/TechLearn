@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>定时器函数</title>
+</head>
+
+<body>
+    <script>
+        //具名函数，开启定时器，关闭定时器
+        function fn() {
+            console.log('一秒执行一次')
+        }
+        // setInterval(函数名, 间隔时间)  函数名不要加小括号
+        let n = setInterval(fn, 1000)
+        console.log(n)
+            // 关闭定时器
+        clearInterval(n)
+
+        //匿名函数，开启定时器
+        let m = setInterval(function() {
+            console.log('一秒执行一次')
+        }, 1000)
+        clearInterval(m)
+    </script>
+</body>
+
+</html>

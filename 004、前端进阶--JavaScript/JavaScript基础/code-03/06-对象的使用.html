@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>对象的使用</title>
+</head>
+
+<body>
+    <script>
+        // 1.声明对象
+        let pink = {
+            uname: 'pink老师',
+            age: 18,
+            gender: '女'
+        }
+        console.log(pink.uname)
+        console.log(typeof pink)
+
+        // 改
+        pink.gender = '男'
+        console.log(pink)
+
+        // 增
+        pink.hobby = '足球'
+        console.log(pink)
+
+        // 删 (了解)
+        delete pink.age
+        console.log(pink)
+
+        // 声明对象
+        let obj = {
+                'goods-name': '小米10青春版',
+                num: '100012816024',
+                weight: '0.55kg',
+                address: '中国大陆'
+            }
+            //多词属性或 - 等属性，点操作就不能用了
+            //console.log(obj.goods - name)
+            //可以用查的另外一种方式,对象名['属性名']
+        console.log(obj['goods-name'])
+
+        //要检测对象是否拥有某一属性
+        let xiaoming = {
+            name: '小明',
+            birth: 1990,
+            school: 'No.1 Middle School',
+            height: 1.70,
+            weight: 65,
+            score: null
+        }
+        console.log('name' in xiaoming) // true
+        console.log('grade' in xiaoming) // false
+
+        //object继承到的方法也存在
+        console.log('toString' in xiaoming) // true
+
+        //判断是否是自身拥有的属性或者方法
+        console.log(xiaoming.hasOwnProperty('name')) // true
+        console.log(xiaoming.hasOwnProperty('toString')) // false
+    </script>
+</body>
+
+</html>

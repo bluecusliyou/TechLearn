@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- 隐藏域 -->
+    <input type="hidden" value="666" name="userid">
+
+    <!-- 只读，禁用 -->
+    <input type="text" name="name" value="张三" readonly>
+    <input type="submit" value="保存" disabled>
+    <!-- 推荐写全 -->
+    <input type="text" name="name" value="张三" readonly="readonly">
+    <input type="submit" value="保存" disabled="disable">
+
+    <!-- label标签 -->
+    <!--它的for属性对应的id与表单元素id一致-->
+    <input type="radio" id="nan" name="sex"> <label for="nan">男</label>
+    <input type="radio" id="nv" name="sex"> <label for="nv">女</label>
+
+    <!--  pattern -->
+    <input type="text" name="tel" pattern="^1[358]\d{9}" />
+</body>
+
+</html>

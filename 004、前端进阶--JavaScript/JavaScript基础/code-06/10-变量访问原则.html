@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>变量访问原则</title>
+</head>
+
+<body>
+    <script>
+        //局部变量优于全局变量
+        function f1() {
+            let num = 123
+
+            function f2() {
+                console.log(num)
+            }
+            f2()
+        }
+        let num = 456
+        f1() //123
+
+        //局部变量就近原则
+        function f3() {
+            let num1 = 123
+
+            function f4() {
+                let num1 = 0
+                console.log(num1)
+            }
+            f4()
+        }
+        let num1 = 456
+        f3() //0
+
+        //局部变量就近原则  复杂
+        let a = 1
+
+        function fn1() {
+            let a = 2
+            let b = '22'
+            fn2()
+
+            function fn2() {
+                let a = 3
+                fn3()
+
+                function fn3() {
+                    let a = 4
+                    console.log(a) //a的值 ?
+                    console.log(b) //b的值 ?
+                }
+            }
+        }
+        fn1() //4  22
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>全选按钮案例</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+            border: 1px solid #c0c0c0;
+            width: 500px;
+            margin: 100px auto;
+            text-align: center;
+        }
+        
+        th {
+            background-color: #09c;
+            font: bold 16px "微软雅黑";
+            color: #fff;
+            height: 24px;
+        }
+        
+        td {
+            border: 1px solid #d0d0d0;
+            color: #404060;
+            padding: 10px;
+        }
+        
+        .allCheck {
+            width: 80px;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <th class="allCheck">
+                <input type="checkbox" name="" id="checkAll"> <span class="all">全选</span>
+            </th>
+            <th>商品</th>
+            <th>商家</th>
+            <th>价格</th>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox" name="check" class="ck">
+            </td>
+            <td>小米手机</td>
+            <td>小米</td>
+            <td>￥1999</td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox" name="check" class="ck">
+            </td>
+            <td>小米净水器</td>
+            <td>小米</td>
+            <td>￥4999</td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox" name="check" class="ck">
+            </td>
+            <td>小米电视</td>
+            <td>小米</td>
+            <td>￥5999</td>
+        </tr>
+    </table>
+    <script>
+        // 1. 获取大复选框
+        const checkAll = document.querySelector('#checkAll')
+            // 2. 获取所有的小复选框
+        const cks = document.querySelectorAll('.ck')
+            // 3. 点击大复选框  注册事件
+        checkAll.addEventListener('click', function() {
+                // 得到当前大复选框的选中状态
+                // console.log(checkAll.checked)  // 得到 是 true 或者是 false
+                // 4. 遍历所有的小复选框 让小复选框的checked  =  大复选框的 checked
+                for (let i = 0; i < cks.length; i++) {
+                    cks[i].checked = this.checked
+                }
+            })
+            // 5. 小复选框控制大复选框
+
+        for (let i = 0; i < cks.length; i++) {
+            // 5.1 给所有的小复选框添加点击事件
+            cks[i].addEventListener('click', function() {
+                // 判断选中的小复选框个数 是不是等于  总的小复选框个数
+                // 一定要写到点击里面，因为每次要获得最新的个数
+                // console.log(document.querySelectorAll('.ck:checked').length)
+                // console.log(document.querySelectorAll('.ck:checked').length === cks.length)
+                checkAll.checked = document.querySelectorAll('.ck:checked').length === cks.length
+            })
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>正则修饰符</title>
+</head>
+
+<body>
+    <script>
+        //修饰符
+        console.log(/^java$/.test('java'))
+        console.log(/^java$/i.test('JAVA'))
+        console.log(/^java$/i.test('Java'))
+
+        //替换匹配到的字符
+        const str = 'java是一门编程语言， 学完JAVA工资很高'
+        const re = str.replace(/java/ig, '前端')
+        console.log(re) // 前端是一门编程语言， 学完前端工资很高
+    </script>
+</body>
+
+</html>

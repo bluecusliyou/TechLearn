@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>函数的返回值</title>
+</head>
+
+<body>
+    <script>
+        // // 函数的返回值
+        function fn() {
+            return 20 // return 的值返回给调用者
+        }
+        // let re = fn()
+        // console.log(re)
+        console.log(fn()) //20
+
+        // 求和函数的写法
+        function getTotalPrice(x, y) {
+            return x + y
+                // return 后面的代码不会被执行
+        }
+        let sum = getTotalPrice(1, 2)
+        console.log(sum)
+
+        //不return返回值默认是undefined
+        function fn2() {
+
+        }
+        let re2 = fn2()
+        console.log(re2) // undefined
+    </script>
+</body>
+
+</html>

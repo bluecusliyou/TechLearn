@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>渲染学生信息表</title>
+    <style>
+        table {
+            width: 600px;
+            text-align: center;
+        }
+        
+        table,
+        th,
+        td {
+            border: 1px solid #ccc;
+            border-collapse: collapse;
+        }
+        
+        caption {
+            font-size: 18px;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+        
+        tr {
+            height: 40px;
+            cursor: pointer;
+        }
+        
+        table tr:nth-child(1) {
+            background-color: #ddd;
+        }
+        
+        table tr:not(:first-child):hover {
+            background-color: #eee;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>学生信息</h2>
+    <p>将数据渲染到页面中...</p>
+
+    <table>
+        <caption>学生列表</caption>
+        <tr>
+            <th>序号</th>
+            <th>姓名</th>
+            <th>年龄</th>
+            <th>性别</th>
+            <th>家乡</th>
+        </tr>
+        <!-- script写到这里 -->
+        <script>
+            // 1. 数据准备
+            let students = [{
+                    name: '小明',
+                    age: 18,
+                    gender: '男',
+                    hometown: '河北省'
+                }, {
+                    name: '小红',
+                    age: 19,
+                    gender: '女',
+                    hometown: '河南省'
+                }, {
+                    name: '小刚',
+                    age: 17,
+                    gender: '男',
+                    hometown: '山西省'
+                }, {
+                    name: '小丽',
+                    age: 18,
+                    gender: '女',
+                    hometown: '山东省'
+                }, {
+                    name: '晓强',
+                    age: 16,
+                    gender: '女',
+                    hometown: '蓝翔技校'
+                }]
+                // 2. 渲染页面
+            for (let i = 0; i < students.length; i++) {
+                document.write(`
+                <tr>
+                    <td>${i + 1}</td>
+                    <td>${students[i].name}</td>
+                    <td>${students[i].age}</td>
+                    <td>${students[i].gender}</td>
+                    <td>${students[i].hometown}</td>
+                </tr>
+                `)
+            }
+        </script>
+    </table>
+
+</body>
+
+
+</html>

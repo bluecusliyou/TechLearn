@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32519.379
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyAutofac", "MyAutofac\MyAutofac.csproj", "{2DDD681D-CFCB-4136-B7B2-BD8438E9D953}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net5WebApplication", "Net5WebApplication\Net5WebApplication.csproj", "{F65B1C0D-30B9-43A0-B5E7-F2C6FD612E46}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2DDD681D-CFCB-4136-B7B2-BD8438E9D953}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DDD681D-CFCB-4136-B7B2-BD8438E9D953}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DDD681D-CFCB-4136-B7B2-BD8438E9D953}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DDD681D-CFCB-4136-B7B2-BD8438E9D953}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F65B1C0D-30B9-43A0-B5E7-F2C6FD612E46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F65B1C0D-30B9-43A0-B5E7-F2C6FD612E46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F65B1C0D-30B9-43A0-B5E7-F2C6FD612E46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F65B1C0D-30B9-43A0-B5E7-F2C6FD612E46}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {051A23F3-DA46-4AA4-99F7-E30F7F652FA5}
+	EndGlobalSection
+EndGlobal

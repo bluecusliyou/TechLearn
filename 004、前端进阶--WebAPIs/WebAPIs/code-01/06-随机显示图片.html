@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>随机显示图片</title>
+</head>
+
+<body>
+    <img src="./images/1.webp" alt="">
+    <script>
+        // 取到 N ~ M 的随机整数
+        function getRandom(N, M) {
+            return Math.floor(Math.random() * (M - N + 1)) + N
+        }
+        // 1. 获取图片对象
+        const img = document.querySelector('img')
+            // 2. 随机得到序号
+        const random = getRandom(1, 6)
+            // 3. 更换路径
+        img.src = `./images/${random}.webp`
+    </script>
+</body>
+
+</html>

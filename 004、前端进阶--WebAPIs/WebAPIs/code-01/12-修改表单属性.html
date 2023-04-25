@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>修改表单属性</title>
+</head>
+
+<body>
+    <input type="text" value="电脑">
+    <input type="checkbox" name="" id="">
+    <script>
+        // 1 获取元素
+        const uname = document.querySelector('input[type=text]')
+            // 2. 获取值  获取表单里面的值 用的  表单.value
+        console.log(uname.value) // 电脑
+        console.log(uname.innerHTML) //innertHTML 得不到表单的内容
+            // 3. 设置表单的值
+        uname.value = '我要买电脑'
+        console.log(uname.type)
+        uname.type = 'password'
+
+        // 1. 获取
+        const ipt = document.querySelector('input[type=checkbox]')
+            // console.log(ipt.checked)  // false   只接受布尔值
+        ipt.checked = true
+            // ipt.checked = 'true'  // 会选中，不提倡  有隐式转换
+
+        // 1.获取
+        const button = document.querySelector('button')
+            // console.log(button.disabled)  // 默认false 不禁用
+        button.disabled = true // 禁用按钮
+    </script>
+</body>
+
+</html>

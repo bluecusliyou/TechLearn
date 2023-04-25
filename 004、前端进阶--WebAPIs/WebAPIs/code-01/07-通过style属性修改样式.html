@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>通过style属性修改样式</title>
+    <style>
+        .box {
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box"></div>
+    <script>
+        // 1. 获取元素
+        const box = document.querySelector('.box')
+            //2. 修改样式属性 对象.style.样式属性 = '值'  别忘了跟单位
+        box.style.width = '300px'
+            // 多组单词的采取 小驼峰命名法
+        box.style.backgroundColor = 'hotpink'
+        box.style.border = '2px solid blue'
+        box.style.borderTop = '2px solid red'
+    </script>
+</body>
+
+</html>

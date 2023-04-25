@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>元字符</title>
+</head>
+
+<body>
+    <script>
+        // 元字符分成三类：边界符，量词，字符类
+
+        // 1. 边界符
+        console.log('----------边界符--------')
+        console.log(/^哈/.test('哈')) // true
+        console.log(/^哈/.test('哈哈')) // true
+        console.log(/^哈/.test('二哈')) // flase
+        console.log(/^哈$/.test('哈')) // true  只有这种情况为true 否则全是false
+        console.log(/^哈$/.test('哈哈')) // false
+        console.log(/^哈$/.test('二哈')) // false
+
+        // 2. 量词
+        console.log('---------量词---------')
+            // * 表示 >=0 次
+        console.log('---------* 表示 >=0 次---------')
+        console.log(/^哈$/.test('哈')) // true
+        console.log(/^哈*$/.test('')) // true
+        console.log(/^哈*$/.test('哈')) // true
+        console.log(/^哈*$/.test('哈哈')) // true
+        console.log(/^哈*$/.test('二哈很傻')) //  false
+        console.log(/^哈*$/.test('哈很傻')) //  false
+        console.log(/^哈*$/.test('哈很哈')) // false
+        console.log('------------------')
+            //  + 表示 >=1 次
+        console.log('---------+ 表示 >=1 次---------')
+        console.log(/^哈$/.test('哈')) // true
+        console.log(/^哈+$/.test('')) // false
+        console.log(/^哈+$/.test('哈')) // true
+        console.log(/^哈+$/.test('哈哈')) // true
+        console.log(/^哈+$/.test('二哈很傻')) //  false
+        console.log(/^哈+$/.test('哈很傻')) //  false
+        console.log(/^哈+$/.test('哈很哈')) // false
+            // ? 表示  0 || 1 次
+        console.log('---------? 表示  0 || 1 次---------')
+        console.log(/^哈?$/.test('')) // true
+        console.log(/^哈?$/.test('哈')) // true
+        console.log(/^哈?$/.test('哈哈')) // true
+        console.log(/^哈?$/.test('二哈很傻')) //  false
+        console.log(/^哈?$/.test('哈很傻')) //  false
+        console.log(/^哈?$/.test('哈很哈')) // false
+            // {n} 表示写几，就必须出现几次
+        console.log('---------{n} 表示写几，就必须出现几次---------')
+        console.log(/^哈{4}$/.test('哈'))
+        console.log(/^哈{4}$/.test('哈哈'))
+        console.log(/^哈{4}$/.test('哈哈哈'))
+        console.log(/^哈{4}$/.test('哈哈哈哈'))
+        console.log(/^哈{4}$/.test('哈哈哈哈哈'))
+        console.log(/^哈{4}$/.test('哈哈哈哈哈哈'))
+            // {n,} 表示 >=n 次
+        console.log('---------{n,} 表示 >=n 次---------')
+        console.log(/^哈{4,}$/.test('哈'))
+        console.log(/^哈{4,}$/.test('哈哈'))
+        console.log(/^哈{4,}$/.test('哈哈哈'))
+        console.log(/^哈{4,}$/.test('哈哈哈哈'))
+        console.log(/^哈{4,}$/.test('哈哈哈哈哈'))
+        console.log(/^哈{4,}$/.test('哈哈哈哈哈哈'))
+            //  {n,m}  逗号左右两侧千万不能有空格，表示 >=n && <= m
+        console.log('---------{n,m}  逗号左右两侧千万不能有空格，表示 >=n && <= m---------')
+        console.log(/^哈{4,6}$/.test('哈'))
+        console.log(/^哈{4,6}$/.test('哈哈'))
+        console.log(/^哈{4,6}$/.test('哈哈哈'))
+        console.log(/^哈{4,6}$/.test('哈哈哈哈'))
+        console.log(/^哈{4,6}$/.test('哈哈哈哈哈'))
+        console.log(/^哈{4,6}$/.test('哈哈哈哈哈哈'))
+        console.log(/^哈{4,6}$/.test('哈哈哈哈哈哈哈'))
+            // 字符类
+        console.log('---------字符类---------')
+            //[abc]  只选1个
+        console.log('---------[abc]  只选1个---------')
+        console.log(/^[abc]$/.test('a')) // true
+        console.log(/^[abc]$/.test('b')) // true
+        console.log(/^[abc]$/.test('c')) // true
+        console.log(/^[abc]$/.test('ab')) // false
+        console.log(/^[abc]{2}$/.test('ab')) // true
+            // [a-z]  只选1个
+        console.log('---------[a-z]  只选1个---------')
+        console.log(/^[A-Z]$/.test('p')) // false
+        console.log(/^[A-Z]$/.test('P')) // true
+        console.log(/^[0-9]$/.test(2)) // true
+        console.log(/^[a-zA-Z0-9]$/.test(2)) // true
+        console.log(/^[a-zA-Z0-9]$/.test('p')) // true
+        console.log(/^[a-zA-Z0-9]$/.test('P')) // true
+    </script>
+</body>
+
+</html>

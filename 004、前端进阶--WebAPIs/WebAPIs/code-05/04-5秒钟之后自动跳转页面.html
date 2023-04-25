@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5秒钟之后自动跳转页面</title>
+    <style>
+        span {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="https://www.baidu.com">支付成功<span>5</span>秒钟之后跳转到首页</a>
+    <script>
+        // 1. 获取元素
+        const a = document.querySelector('a')
+            // 2.开启定时器
+            // 3. 声明倒计时变量
+        let num = 5
+        let timerId = setInterval(function() {
+            num--
+            a.innerHTML = `支付成功<span>${num}</span>秒钟之后跳转到首页`
+                // 如果num === 0 则停止定时器，并且完成跳转功能
+            if (num === 0) {
+                clearInterval(timerId)
+                    // 4. 跳转  location.href
+                location.href = 'https://www.baidu.com'
+            }
+        }, 1000)
+    </script>
+</body>
+
+</html>

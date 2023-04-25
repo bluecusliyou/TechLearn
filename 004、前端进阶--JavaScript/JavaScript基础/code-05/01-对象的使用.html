@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>对象的使用</title>
+</head>
+
+<body>
+    <script>
+        // 1.声明对象
+        let pink = {
+            uname: 'pink老师',
+            age: 18,
+            gender: '女'
+        }
+        console.log(pink.uname)
+        console.log(typeof pink)
+
+        // 改
+        pink.gender = '男'
+        console.log(pink)
+
+        // 增
+        pink.hobby = '足球'
+        console.log(pink)
+
+        // 删 (了解)
+        delete pink.age
+        console.log(pink)
+
+        // 声明对象
+        let obj = {
+                'goods-name': '小米10青春版',
+                num: '100012816024',
+                weight: '0.55kg',
+                address: '中国大陆'
+            }
+            //多词属性或 - 等属性，点操作就不能用了
+            //console.log(obj.goods - name)
+            //可以用查的另外一种方式,对象名['属性名']
+        console.log(obj['goods-name'])
+    </script>
+</body>
+
+</html>

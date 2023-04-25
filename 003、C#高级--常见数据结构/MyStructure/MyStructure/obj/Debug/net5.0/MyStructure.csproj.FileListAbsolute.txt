@@ -1,0 +1,16 @@
+E:\代码大全\NetLearnNote\003、C#高级--常见数据结构\MyStructure\MyStructure\obj\Debug\net5.0\MyStructure.csproj.AssemblyReference.cache
+E:\代码大全\NetLearnNote\003、C#高级--常见数据结构\MyStructure\MyStructure\obj\Debug\net5.0\MyStructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\代码大全\NetLearnNote\003、C#高级--常见数据结构\MyStructure\MyStructure\obj\Debug\net5.0\MyStructure.AssemblyInfoInputs.cache
+E:\代码大全\NetLearnNote\003、C#高级--常见数据结构\MyStructure\MyStructure\obj\Debug\net5.0\MyStructure.AssemblyInfo.cs
+E:\代码大全\NetLearnNote\003、C#高级--常见数据结构\MyStructure\MyStructure\obj\Debug\net5.0\MyStructure.csproj.CoreCompileInputs.cache
+E:\代码大全\NetLearnNote\003、C#高级--常见数据结构\MyStructure\MyStructure\bin\Debug\net5.0\MyStructure.exe
+E:\代码大全\NetLearnNote\003、C#高级--常见数据结构\MyStructure\MyStructure\bin\Debug\net5.0\MyStructure.deps.json
+E:\代码大全\NetLearnNote\003、C#高级--常见数据结构\MyStructure\MyStructure\bin\Debug\net5.0\MyStructure.runtimeconfig.json
+E:\代码大全\NetLearnNote\003、C#高级--常见数据结构\MyStructure\MyStructure\bin\Debug\net5.0\MyStructure.runtimeconfig.dev.json
+E:\代码大全\NetLearnNote\003、C#高级--常见数据结构\MyStructure\MyStructure\bin\Debug\net5.0\MyStructure.dll
+E:\代码大全\NetLearnNote\003、C#高级--常见数据结构\MyStructure\MyStructure\bin\Debug\net5.0\ref\MyStructure.dll
+E:\代码大全\NetLearnNote\003、C#高级--常见数据结构\MyStructure\MyStructure\bin\Debug\net5.0\MyStructure.pdb
+E:\代码大全\NetLearnNote\003、C#高级--常见数据结构\MyStructure\MyStructure\obj\Debug\net5.0\MyStructure.dll
+E:\代码大全\NetLearnNote\003、C#高级--常见数据结构\MyStructure\MyStructure\obj\Debug\net5.0\ref\MyStructure.dll
+E:\代码大全\NetLearnNote\003、C#高级--常见数据结构\MyStructure\MyStructure\obj\Debug\net5.0\MyStructure.pdb
+E:\代码大全\NetLearnNote\003、C#高级--常见数据结构\MyStructure\MyStructure\obj\Debug\net5.0\MyStructure.genruntimeconfig.cache

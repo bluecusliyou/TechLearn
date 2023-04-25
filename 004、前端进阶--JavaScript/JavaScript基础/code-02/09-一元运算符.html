@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>一元运算符</title>
+</head>
+
+<body>
+    <script>
+        // 1. 前置自增
+        let num1 = 1
+            ++num1
+        console.log(num1) //2
+
+        // 2. 后置自增
+        let num2 = 1
+        num2++
+        console.log(num2) //2
+
+        //3. 自增参与计算
+        let num3 = 1
+        console.log(++num3 + 1) //3
+        let num4 = 1
+        console.log(num4++ + 1) //2
+
+        //4. 自增复杂计算
+        let i = 1
+        console.log(i++ + ++i + i) //7
+    </script>
+</body>
+
+</html>

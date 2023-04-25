@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyReflecttion", "MyReflecttion\MyReflecttion.csproj", "{12566883-D685-44FB-B353-58B3F719C654}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Business.DB.Interface", "Business.DB.Interface\Business.DB.Interface.csproj", "{437B374A-39F6-48B3-A835-3D6B911EEED2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Business.DB.MySql", "Business.DB.MySql\Business.DB.MySql.csproj", "{0D63B2B1-2A43-4ACE-B482-EC50EFED7216}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Business.DB.SqlServer", "Business.DB.SqlServer\Business.DB.SqlServer.csproj", "{CB01D97B-1739-4F55-B655-1E09919DB780}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Business.DB.Model", "Business.DB.Model\Business.DB.Model.csproj", "{9F57D754-01AC-4DB5-80DC-223CF5F92E99}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Business.DB.Orcale", "Business.DB.Orcale\Business.DB.Orcale.csproj", "{82ECD6A3-C384-446E-84A7-0629F0A35950}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12566883-D685-44FB-B353-58B3F719C654}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12566883-D685-44FB-B353-58B3F719C654}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12566883-D685-44FB-B353-58B3F719C654}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12566883-D685-44FB-B353-58B3F719C654}.Release|Any CPU.Build.0 = Release|Any CPU
+		{437B374A-39F6-48B3-A835-3D6B911EEED2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{437B374A-39F6-48B3-A835-3D6B911EEED2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{437B374A-39F6-48B3-A835-3D6B911EEED2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{437B374A-39F6-48B3-A835-3D6B911EEED2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D63B2B1-2A43-4ACE-B482-EC50EFED7216}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D63B2B1-2A43-4ACE-B482-EC50EFED7216}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D63B2B1-2A43-4ACE-B482-EC50EFED7216}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D63B2B1-2A43-4ACE-B482-EC50EFED7216}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB01D97B-1739-4F55-B655-1E09919DB780}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB01D97B-1739-4F55-B655-1E09919DB780}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB01D97B-1739-4F55-B655-1E09919DB780}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB01D97B-1739-4F55-B655-1E09919DB780}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F57D754-01AC-4DB5-80DC-223CF5F92E99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F57D754-01AC-4DB5-80DC-223CF5F92E99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F57D754-01AC-4DB5-80DC-223CF5F92E99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F57D754-01AC-4DB5-80DC-223CF5F92E99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82ECD6A3-C384-446E-84A7-0629F0A35950}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82ECD6A3-C384-446E-84A7-0629F0A35950}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82ECD6A3-C384-446E-84A7-0629F0A35950}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82ECD6A3-C384-446E-84A7-0629F0A35950}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {00E4DD55-7E59-42BC-876A-E71F9FD02218}
+	EndGlobalSection
+EndGlobal

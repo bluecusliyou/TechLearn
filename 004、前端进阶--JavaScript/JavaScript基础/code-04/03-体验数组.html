@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>体验数组</title>
+</head>
+
+<body>
+    <script>
+        // let arr = [10, 20, 30]
+        // 1. 声明数组 有序 
+        let arr = ['刘德华', '张学友', '黎明', '郭富城', 'pink老师', 10]
+            // 2. 使用数组  数组名[索引号] 从0
+            // console.log(arr)
+        console.log(arr[0]) // 刘德华
+        console.log(arr[4])
+            // 3. 数组长度 =  索引号 + 1 
+        console.log(arr.length) // 6
+
+        //修改数组长度
+        arr.length = 3
+        console.log(arr) //['刘德华', '张学友', '黎明']
+        arr.length = 6
+        console.log(arr) //['刘德华', '张学友', '黎明',undefined, undefined, undefined]
+    </script>
+</body>
+
+</html>

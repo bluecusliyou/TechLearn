@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map基本使用</title>
+</head>
+
+<body>
+    <script>
+        //声明且赋值
+        let m1 = new Map([
+            ['Michael', 95],
+            ['Bob', 75],
+            ['Tracy', 85]
+        ])
+
+        //初始化一个空Map，再进行设置
+        let m2 = new Map(); // 空Map
+        console.log(m2.set('Adam', 67)) //返回Map
+        console.log(m22.set('Bob', 59)) //返回Map
+        console.log(m2.has('Adam')) // 是否存在key 'Adam': true
+        console.log(m2.get('Adam')) // 返回value 67
+        console.log(m2.delete('Adam')) //删除key'Adam':true
+        console.log(m2.get('Adam')) // undefined
+
+        //由于一个key只能对应一个value，所以，多次对一个key放入value，后面的值会把前面的值覆盖
+        let m3 = new Map()
+        m3.set('Adam', 67)
+        m3.set('Adam', 88)
+        console.log(m3.get('Adam')) // 88
+    </script>
+</body>
+
+</html>

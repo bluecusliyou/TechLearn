@@ -1,0 +1,12 @@
+D:\ZXWork\Advanced15\20210706Advanced15Course02Reflection\Advanced.Project\Business.DB.SqlServer\bin\Debug\netcoreapp3.1\Business.DB.Interface.dll
+D:\ZXWork\Advanced15\20210706Advanced15Course02Reflection\Advanced.Project\Business.DB.SqlServer\obj\Debug\netcoreapp3.1\Business.DB.SqlServer.AssemblyInfoInputs.cache
+D:\ZXWork\Advanced15\20210706Advanced15Course02Reflection\Advanced.Project\Business.DB.SqlServer\obj\Debug\netcoreapp3.1\Business.DB.SqlServer.AssemblyInfo.cs
+D:\ZXWork\Advanced15\20210706Advanced15Course02Reflection\Advanced.Project\Business.DB.SqlServer\obj\Debug\netcoreapp3.1\Business.DB.SqlServer.csprojAssemblyReference.cache
+D:\ZXWork\Advanced15\20210706Advanced15Course02Reflection\Advanced.Project\Business.DB.SqlServer\bin\Debug\netcoreapp3.1\Business.DB.SqlServer.deps.json
+D:\ZXWork\Advanced15\20210706Advanced15Course02Reflection\Advanced.Project\Business.DB.SqlServer\bin\Debug\netcoreapp3.1\Business.DB.SqlServer.dll
+D:\ZXWork\Advanced15\20210706Advanced15Course02Reflection\Advanced.Project\Business.DB.SqlServer\bin\Debug\netcoreapp3.1\Business.DB.SqlServer.pdb
+D:\ZXWork\Advanced15\20210706Advanced15Course02Reflection\Advanced.Project\Business.DB.SqlServer\bin\Debug\netcoreapp3.1\Business.DB.Interface.pdb
+D:\ZXWork\Advanced15\20210706Advanced15Course02Reflection\Advanced.Project\Business.DB.SqlServer\obj\Debug\netcoreapp3.1\Business.DB.SqlServer.csproj.CoreCompileInputs.cache
+D:\ZXWork\Advanced15\20210706Advanced15Course02Reflection\Advanced.Project\Business.DB.SqlServer\obj\Debug\netcoreapp3.1\Business.DB.SqlServer.csproj.CopyComplete
+D:\ZXWork\Advanced15\20210706Advanced15Course02Reflection\Advanced.Project\Business.DB.SqlServer\obj\Debug\netcoreapp3.1\Business.DB.SqlServer.dll
+D:\ZXWork\Advanced15\20210706Advanced15Course02Reflection\Advanced.Project\Business.DB.SqlServer\obj\Debug\netcoreapp3.1\Business.DB.SqlServer.pdb

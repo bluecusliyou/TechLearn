@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>正则表达式的使用</title>
+</head>
+
+<body>
+    <script>
+        const str = '我们在学习前端，希望学习前端能高薪毕业'
+            // 正则表达式使用：
+            // 1. 定义规则
+        const reg = /前端/
+            // 2. 是否匹配
+            // console.log(reg.test(str))  // true
+            // 3. exec()
+        console.log(reg.exec(str)) // 返回数组
+    </script>
+</body>
+
+</html>

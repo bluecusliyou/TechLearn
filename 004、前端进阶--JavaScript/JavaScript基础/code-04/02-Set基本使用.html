@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map基本使用</title>
+</head>
+
+<body>
+    <script>
+        //声明
+        let s1 = new Set(); // 空Set
+        let s2 = new Set([1, 2, 3]); // 含1, 2, 3
+
+        //重复元素在 Set 中自动被过滤 3 和 '3' 是不同的
+        let s3 = new Set([1, 2, 3, 3, '3'])
+        console.log(s3) // Set {1, 2, 3, "3"}
+
+        //添加删除key
+        let s4 = new Set([1, 2, 3])
+        console.log(s4.add(4)) // Set {1, 2, 3, 4}
+        s4.delete(3)
+        console.log(s4) // Set {1, 2, 4 }
+    </script>
+</body>
+
+</html>

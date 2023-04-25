@@ -1,0 +1,12 @@
+D:\ZXWork\Advanced15\20210706Advanced15Course02Reflection\Advanced.Project\Business.DB.MySql\bin\Debug\netcoreapp3.1\Business.DB.MySql.deps.json
+D:\ZXWork\Advanced15\20210706Advanced15Course02Reflection\Advanced.Project\Business.DB.MySql\bin\Debug\netcoreapp3.1\Business.DB.MySql.dll
+D:\ZXWork\Advanced15\20210706Advanced15Course02Reflection\Advanced.Project\Business.DB.MySql\bin\Debug\netcoreapp3.1\Business.DB.MySql.pdb
+D:\ZXWork\Advanced15\20210706Advanced15Course02Reflection\Advanced.Project\Business.DB.MySql\bin\Debug\netcoreapp3.1\Business.DB.Interface.dll
+D:\ZXWork\Advanced15\20210706Advanced15Course02Reflection\Advanced.Project\Business.DB.MySql\bin\Debug\netcoreapp3.1\Business.DB.Interface.pdb
+D:\ZXWork\Advanced15\20210706Advanced15Course02Reflection\Advanced.Project\Business.DB.MySql\obj\Debug\netcoreapp3.1\Business.DB.MySql.csprojAssemblyReference.cache
+D:\ZXWork\Advanced15\20210706Advanced15Course02Reflection\Advanced.Project\Business.DB.MySql\obj\Debug\netcoreapp3.1\Business.DB.MySql.AssemblyInfoInputs.cache
+D:\ZXWork\Advanced15\20210706Advanced15Course02Reflection\Advanced.Project\Business.DB.MySql\obj\Debug\netcoreapp3.1\Business.DB.MySql.AssemblyInfo.cs
+D:\ZXWork\Advanced15\20210706Advanced15Course02Reflection\Advanced.Project\Business.DB.MySql\obj\Debug\netcoreapp3.1\Business.DB.MySql.csproj.CoreCompileInputs.cache
+D:\ZXWork\Advanced15\20210706Advanced15Course02Reflection\Advanced.Project\Business.DB.MySql\obj\Debug\netcoreapp3.1\Business.DB.MySql.csproj.CopyComplete
+D:\ZXWork\Advanced15\20210706Advanced15Course02Reflection\Advanced.Project\Business.DB.MySql\obj\Debug\netcoreapp3.1\Business.DB.MySql.dll
+D:\ZXWork\Advanced15\20210706Advanced15Course02Reflection\Advanced.Project\Business.DB.MySql\obj\Debug\netcoreapp3.1\Business.DB.MySql.pdb

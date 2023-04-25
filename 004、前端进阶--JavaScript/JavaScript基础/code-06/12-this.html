@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>this</title>
+</head>
+
+<body>
+    <script>
+        function getAge() {
+            var y = new Date().getFullYear()
+            return y - this.birth
+        }
+        let xiaoming = {
+            name: '小明',
+            birth: 1990,
+            age: getAge
+        }
+        xiaoming.age() // 25, 正常结果  this指向xiaoming
+        getAge() // NaN  this指向window
+    </script>
+</body>
+
+</html>

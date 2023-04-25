@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>事件解绑</title>
+</head>
+
+<body>
+    <button>点击</button>
+    <script>
+        //L0 事件移除解绑 
+        const btn = document.querySelector('button')
+        btn.onclick = function() {
+            alert('点击了1')
+        }
+        btn.onclick = null
+
+        // L2 事件移除解绑
+        function fn() {
+            alert('点击了2')
+        }
+        btn.addEventListener('click', fn)
+        btn.removeEventListener('click', fn)
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>字符串类型</title>
+</head>
+
+<body>
+    <script>
+        // 字符串
+        let uname = '小明' //使用单引号
+        let gender = "男" //使用双引号
+        let goods = `小米` //使用反引号
+        let tel = '13681113456' //看上去是数字，但是引号包裹了就是字符事
+        let str = '' //这种情况叫空字符串
+
+        //字符串嵌套
+        console.log('pink老师讲课非常有"基情"')
+        console.log("pink老师讲课非常有'基情'")
+        console.log('pink老师讲课非常有\'基情\'')
+
+        // 字符串拼接
+        // console.log(1 + 1)//2
+        // console.log('pink' + '老师')//pink老师
+
+        let age = 25
+            // document.write('我今年' + 19)
+            // document.write('我今年' + age)
+        document.write('我今年' + age + '岁了')
+
+        //获取字符串字符
+        let s = 'Hello, world!'
+        console.log(s[0]) // 'H'
+        console.log(s[6]) // ' '
+        console.log(s[7]) // 'w'
+        console.log(s[12]) // '!'
+        console.log(s[13]) // undefined 超出范围的索引不会报错，但一律返回undefined
+
+        //字符串是不可变的，如果对字符串的某个索引赋值，不会有任何错误，但是，也没有任何效果
+        let s1 = 'Test'
+        s1[0] = 'X'
+        console.log(s1) // s仍然为'Test'
+
+        //把一个字符串全部变为大写
+        let s2 = 'Hello'
+        console.log(s2.toUpperCase()) // 返回'HELLO'
+
+        //把一个字符串全部变为小写
+        let s3 = 'Hello'
+        console.log(s3.toLowerCase()) // 返回'hello'
+
+        //搜索指定字符串出现的位置
+        let s4 = 'hello, world'
+        console.log(s4.indexOf('world')) // 返回7
+        console.log(s4.indexOf('World')) // 没有找到指定的子串，返回-1
+
+        let s5 = 'hello, world'
+        console.log(s5.substring(0, 5)) // 从索引0开始到5（不包括5），返回'hello'
+        console.log(s5.substring(7)) // 从索引7开始到结束，返回'world'
+    </script>
+</body>
+
+</html>

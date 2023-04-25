@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>for循环练习</title>
+</head>
+
+<body>
+    <script>
+        // 1. 输出1~100岁
+        for (let i = 1; i <= 100; i++) {
+            document.write(`今年我${i}岁了 <br>`)
+        }
+
+        // 2. 求1~100之间的偶数和
+        let sum = 0
+        for (let i = 1; i <= 100; i++) {
+            if (i % 2 === 0) {
+                // 把i加到sum里面去
+                // sum = sum + i
+                sum += i
+            }
+        }
+        document.write(`1~100之间的偶数和是: ${sum}`)
+
+        // 3. 页面打印5个小星星
+        for (let i = 1; i <= 5; i++) {
+            document.write('★')
+        }
+
+        // 4. 打印数组
+        let arr = ['刘德华', '刘晓强', '刘晓庆', '刘若英', '刘热巴', 'pink老师']
+            // 必须从0开始，因为数组索引号从0开始  arr.length = 6
+            // 遍历数组：从第一个循环到最后一个
+        for (let i = 0; i < arr.length; i++) {
+            console.log(arr[i])
+        }
+
+        //超出索引
+        let arr1 = []
+        console.log(arr1)
+        console.log(arr1[0]) // undefined
+        console.log(arr1[1]) // undefined
+    </script>
+</body>
+
+</html>

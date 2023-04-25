@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>学生信息管理</title>
+    <link rel="stylesheet" href="css/index.css" />
+</head>
+
+<body>
+    <h1>新增学员</h1>
+    <form class="info" autocomplete="off">
+        姓名：<input type="text" class="uname" name="uname" /> 年龄：
+        <input type="text" class="age" name="age" /> 性别:
+        <select name="gender" class="gender">
+      <option value="男">男</option>
+      <option value="女">女</option>
+    </select> 薪资：
+        <input type="text" class="salary" name="salary" /> 就业城市：
+        <select name="city" class="city">
+      <option value="北京">北京</option>
+      <option value="上海">上海</option>
+      <option value="广州">广州</option>
+      <option value="深圳">深圳</option>
+      <option value="曹县">曹县</option>
+    </select>
+        <button class="add">录入</button>
+    </form>
+
+    <h1>就业榜</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>学号</th>
+                <th>姓名</th>
+                <th>年龄</th>
+                <th>性别</th>
+                <th>薪资</th>
+                <th>就业城市</th>
+                <th>操作</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- 
+        <tr>
+          <td>1001</td>
+          <td>欧阳霸天</td>
+          <td>19</td>
+          <td>男</td>
+          <td>15000</td>
+          <td>上海</td>
+          <td>
+            <a href="javascript:">删除</a>
+          </td>
+        </tr> 
+        -->
+        </tbody>
+    </table>
+    <script>
+        // 参考数据
+        // const initData = [
+        //   {
+        //     stuId: 1001,
+        //     uname: '欧阳霸天',
+        //     age: 19,
+        //     gender: '男',
+        //     salary: '20000',
+        //     city: '上海',
+        //   }
+        // ]
+
+        // 1. 读取本地存储的数据   student-data  本地存储的命名
+        const data = localStorage.getItem('student-data')
+            // console.log(data)
+            // 2. 如果有就返回对象，没有就声明一个空的数组  arr 一会渲染的时候用的
+        const arr = data ? JSON.parse(data) : []
+
+        // console.log(arr)
+        // 获取 tbody
+        const tbody = document.querySelector('tbody')
+            // 3. 渲染模块函数
+        function render() {
+            // 遍历数组 arr，有几个对象就生成几个 tr，然后追击给tbody
+            // map 返回的是个数组  [tr, tr]
+            const trArr = arr.map(function(item, i) {
+                    // console.log(item)
+                    // console.log(item.uname)  // 欧阳霸天
+                    return `
+        <tr>
+          <td>${item.stuId}</td>
+          <td>${item.uname}</td>
+          <td>${item.age}</td>
+          <td>${item.gender}</td>
+          <td>${item.salary}</td>
+          <td>${item.city}</td>
+          <td>
+            <a href="javascript:" data-id=${i}>删除</a>
+          </td>
+        </tr> 
+        `
+                })
+                // console.log(trArr)
+                // 追加给tbody
+                // 因为 trArr 是个数组， 我们不要数组，我们要的是 tr的字符串 join()
+            tbody.innerHTML = trArr.join('')
+        }
+        render()
+
+
+        // 4. 录入模块
+        const info = document.querySelector('.info')
+            // 获取表单form 里面带有 name属性的元素
+        const items = info.querySelectorAll('[name]')
+            // console.log(items)
+        info.addEventListener('submit', function(e) {
+            // 阻止提交
+            e.preventDefault()
+                // 声明空的对象
+            const obj = {}
+                // obj.stuId = arr.length + 1
+                // 加入有2条数据   2 
+            obj.stuId = arr.length ? arr[arr.length - 1].stuId + 1 : 1
+                // 非空判断
+            for (let i = 0; i < items.length; i++) {
+                // console.log(items) // 数组里面包含 5个表单  name
+                // console.log(items[i]) //  每一个表单 对象
+                // console.log(items[i].name) //  
+                // item 是每一个表单
+                const item = items[i]
+                if (items[i].value === '') {
+                    return alert('输入内容不能为空')
+                }
+                // console.log(item.name)  uname  age gender
+                // obj[item.name]   === obj.uname  obj.age 
+                obj[item.name] = item.value
+            }
+            // console.log(obj)
+            // 追加给数组
+            arr.push(obj)
+                //  把数组 arr 存储到本地存储里面
+            localStorage.setItem('student-data', JSON.stringify(arr))
+                // 渲染页面
+            render()
+                // 重置表单
+            this.reset()
+        })
+
+
+        // 5. 删除模块
+        tbody.addEventListener('click', function(e) {
+            if (e.target.tagName === 'A') {
+                // alert(1)
+                // console.log(e.target.dataset.id)
+                // 删除数组对应的这个数据
+                arr.splice(e.target.dataset.id, 1)
+                    // 写入本地存储
+                localStorage.setItem('student-data', JSON.stringify(arr))
+                    // 重新渲染
+                render()
+            }
+        })
+    </script>
+</body>
+
+</html>

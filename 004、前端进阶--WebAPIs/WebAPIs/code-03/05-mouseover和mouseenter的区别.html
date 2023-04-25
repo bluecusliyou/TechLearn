@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mouseover和mouseenter的区别</title>
+    <style>
+        .dad {
+            width: 400px;
+            height: 400px;
+            background-color: pink;
+        }
+        
+        .baby {
+            width: 200px;
+            height: 200px;
+            background-color: purple;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="dad">
+        <div class="baby"></div>
+    </div>
+    <script>
+        const dad = document.querySelector('.dad')
+        const baby = document.querySelector('.baby')
+            //有冒泡效果
+        dad.addEventListener('mouseover', function() {
+            console.log('鼠标经过1')
+        })
+        dad.addEventListener('mouseout', function() {
+                console.log('鼠标离开1')
+            })
+            //没有冒泡效果推荐
+        dad.addEventListener('mouseenter', function() {
+            console.log('鼠标经过2')
+        })
+        dad.addEventListener('mouseleave', function() {
+            console.log('鼠标离开2')
+        })
+    </script>
+</body>
+
+</html>

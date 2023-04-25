@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>数组最大值最小值</title>
+</head>
+
+<body>
+    <script>
+        let arr = [2, 6, 1, 7, 400, 55, 88, 100]
+            // max 里面要存的是最大值
+        let max = arr[0]
+            // min 要存放的是最小值
+        let min = arr[0]
+            // 遍历数组
+        for (let i = 1; i < arr.length; i++) {
+            // 如果max 比 数组元素里面的值小，我们就需要把这元素赋值给 max
+            // if (max < arr[i]) max = arr[i]
+            max < arr[i] ? max = arr[i] : max
+                // 如果min 比 数组元素大， 我们就需要把数组元素给min
+                // if (min > arr[i]) {
+                //   min = arr[i]
+                // }
+            min > arr[i] ? min = arr[i] : min
+        }
+        // 输出
+        console.log(`最大值是: ${max}`)
+        console.log(`最小值是: ${min}`)
+    </script>
+</body>
+
+</html>

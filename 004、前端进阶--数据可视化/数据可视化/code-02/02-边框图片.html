@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>边框图片</title>
+    <style>
+        div {
+            width: 400px;
+            height: 300px;
+            border: 15px solid pink;
+            border-image-source: url(images/border.png);
+            /* 不要跟单位 */
+            border-image-slice: 30 30 30 30;
+            /* border-image-slice: 30; */
+            /* 这个属性默认的是 border的宽度 但是 有区别，  这个是 边框图片的宽度 不会挤压文字 */
+            border-image-width: 30px;
+            border-image-repeat: round;
+        }
+    </style>
+</head>
+
+<body>
+    <div>奥利给</div>
+</body>
+
+</html>

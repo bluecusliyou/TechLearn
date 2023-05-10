@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ECharts体验</title>
+    <style>
+        .box {
+            width: 400px;
+            height: 400px;
+            background-color: pink;
+        }
+    </style>
+    <!-- 1. 下载引入EChart.js 文件 -->
+    <script src="js/echarts.min.js"></script>
+</head>
+
+<body>
+    <!-- 2. 准备一个盒子用来装生成的图表 注意： 这个盒子必须具备大小 -->
+    <div class="box"></div>
+    <script>
+        //    3.初始化echarts 实例对象    
+        var myChart = echarts.init(document.querySelector('.box'));
+        //  4.  指定配置项和数据
+        var option = {
+            title: {
+                text: 'ECharts 入门示例'
+            },
+            tooltip: {},
+            legend: {
+                data: ['销量']
+            },
+            xAxis: {
+                data: ["衬衫", "羊毛衫", "雪纺衫", "裤子", "高跟鞋", "袜子"]
+            },
+            yAxis: {},
+            series: [{
+                name: '销量',
+                type: 'bar',
+                data: [5, 20, 36, 10, 10, 20]
+            }]
+        };
+        // 5. 将配置项和数据(option) 设置给 实例对象(myChart)
+        myChart.setOption(option);
+    </script>
+</body>
+
+</html>

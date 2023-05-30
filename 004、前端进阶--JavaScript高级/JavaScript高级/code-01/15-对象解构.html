@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>对象解构</title>
+</head>
+
+<body>
+    <script>
+        // 普通对象
+        const user = {
+                uname: 'zhangsan',
+                age: 18
+            }
+            // 解构的语法
+        const {
+            uname,
+            age,
+            sex
+        } = user
+        // 等价于 const uname =  user.uname   const age =  user.age
+        // 要求属性名和变量名必须一致
+        console.log(uname) //zhangsan
+        console.log(age) //18
+            //对象中找不到与变量名一致的属性时变量值为 undefined
+        console.log(sex) //undefined
+
+        // 对象解构可以给新的变量名赋值  旧变量名: 新变量名
+        const {
+            uname: myname,
+            age: myage
+        } = user
+        console.log(myname)
+        console.log(myage)
+
+        // 解构数组对象
+        const pig = [{
+            puname: '佩奇',
+            page: 6
+        }]
+        const [{
+            puname,
+            page
+        }] = pig
+        console.log(puname)
+        console.log(page)
+    </script>
+</body>
+
+</html>

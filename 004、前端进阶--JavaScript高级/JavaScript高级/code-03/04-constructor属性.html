@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>constructor属性</title>
+</head>
+
+<body>
+    <script>
+        // constructor 构造函数
+        function Star(name) {
+            this.name = name
+        }
+        //对象形式赋值
+        Star.prototype = {
+            sing: function() {
+                console.log('唱歌')
+            },
+            dance: function() {
+                console.log('跳舞')
+            },
+        }
+        console.log(Star.prototype.constructor) //指向Object
+
+        //对象形式赋值
+        Star.prototype = {
+            // 重新指回创造这个原型对象的构造函数
+            constructor: Star,
+            sing: function() {
+                console.log('唱歌')
+            },
+            dance: function() {
+                console.log('跳舞')
+            },
+        }
+        console.log(Star.prototype.constructor) //指向Star
+    </script>
+</body>
+
+</html>

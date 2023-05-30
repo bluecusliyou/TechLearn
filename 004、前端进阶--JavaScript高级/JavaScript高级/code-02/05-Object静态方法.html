@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object静态方法</title>
+</head>
+
+<body>
+    <script>
+        // 1.构造函数创建对象
+        // const o = new Object({
+        //     uname: 'pink',
+        //     age: 18
+        // })
+
+        // 1.字面量方式声明对象，推荐
+        const o = {
+                uname: 'pink',
+                age: 18
+            }
+            // 2.获得所有的属性名
+        console.log(Object.keys(o)) //返回数组['uname', 'age']
+            // 3.获得所有的属性值
+        console.log(Object.values(o)) //返回数组['pink', 18]
+            // 4.对象的拷贝
+        const oo = {}
+            // 把o拷贝给oo
+        Object.assign(oo, o)
+        console.log(oo)
+            // 4.对象拷贝，给对象添加属性
+            // 把属性gender: '女'添加给o
+        Object.assign(o, {
+            gender: '女'
+        })
+        console.log(o)
+    </script>
+</body>
+
+</html>

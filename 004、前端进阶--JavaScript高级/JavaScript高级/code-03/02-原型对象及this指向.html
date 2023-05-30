@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>原型对象及this指向</title>
+</head>
+
+<body>
+    <script>
+        {
+            // 构造函数实现面向对象
+            function Star(uname, age) {
+                this.uname = uname
+                this.age = age
+            }
+
+            //公共的方法写到原型对象身上
+            Star.prototype.sing = function() {
+                console.log('唱歌')
+            }
+            const ldh = new Star('刘德华', 55)
+            const zxy = new Star('张学友', 58)
+            console.log(ldh.sing === zxy.sing) //true 说明两个函数地址相同，节省内存空间
+        }
+
+        {
+            //原型对象this指向
+            let that
+
+            function Star2(uname) {
+                this.uname = uname
+            }
+            Star2.prototype.sing = function() {
+                    that = this
+                    console.log('唱歌')
+                }
+                //实例对象zjl
+            const zjl = new Star2('周杰伦')
+            zjl.sing()
+            console.log(that === zjl) //true 原型对象里面的函数this指向的还是实例对象zjl
+
+            console.log(zjl) //打印对象
+        }
+    </script>
+</body>
+
+</html>

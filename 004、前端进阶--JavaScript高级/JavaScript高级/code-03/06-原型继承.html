@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>原型继承</title>
+</head>
+
+<body>
+    <script>
+        // 构造函数  父类Person
+        function Person() {
+            this.eyes = 2
+            this.head = 1
+        }
+
+        // 构造函数  子类Woman
+        function Woman() {
+
+        }
+        // 通过原型来继承 父类Person
+        Woman.prototype = new Person() // new 出来每次都是新对象
+            // 指回原来的构造函数
+        Woman.prototype.constructor = Woman
+            // 给女人添加一个方法  生孩子
+        Woman.prototype.baby = function() {
+            console.log('宝贝')
+        }
+
+        // 构造函数  子类Man
+        function Man() {
+
+        }
+        // 通过原型来继承 父类Person
+        Man.prototype = new Person()
+            // 指回原来的构造函数
+        Man.prototype.constructor = Man
+
+        //构建Woman和Man的实例
+        const red = new Woman()
+        console.log(red)
+        const pink = new Man()
+        console.log(pink)
+    </script>
+</body>
+
+</html>

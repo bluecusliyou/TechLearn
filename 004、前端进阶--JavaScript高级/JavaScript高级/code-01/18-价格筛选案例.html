@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>价格筛选案例</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        .list {
+            width: 990px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .item {
+            width: 240px;
+            margin-left: 10px;
+            padding: 20px 30px;
+            transition: all .5s;
+            margin-bottom: 20px;
+        }
+        
+        .item:nth-child(4n) {
+            margin-left: 0;
+        }
+        
+        .item:hover {
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+            transform: translate3d(0, -4px, 0);
+            cursor: pointer;
+        }
+        
+        .item img {
+            width: 100%;
+        }
+        
+        .item .name {
+            font-size: 18px;
+            margin-bottom: 10px;
+            color: #666;
+        }
+        
+        .item .price {
+            font-size: 22px;
+            color: firebrick;
+        }
+        
+        .item .price::before {
+            content: "¥";
+            font-size: 14px;
+        }
+        
+        .filter {
+            display: flex;
+            width: 990px;
+            margin: 0 auto;
+            padding: 50px 30px;
+        }
+        
+        .filter a {
+            padding: 10px 20px;
+            background: #f5f5f5;
+            color: #666;
+            text-decoration: none;
+            margin-right: 20px;
+        }
+        
+        .filter a:active,
+        .filter a:focus {
+            background: #05943c;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="filter">
+        <a data-index="1" href="javascript:;">0-100元</a>
+        <a data-index="2" href="javascript:;">100-300元</a>
+        <a data-index="3" href="javascript:;">300元以上</a>
+        <a href="javascript:;">全部区间</a>
+    </div>
+    <div class="list">
+    </div>
+    <script>
+        // 2. 初始化数据
+        const goodsList = [{
+            id: '4001172',
+            name: '称心如意手摇咖啡磨豆机咖啡豆研磨机',
+            price: '289.00',
+            picture: 'https://yanxuan-item.nosdn.127.net/84a59ff9c58a77032564e61f716846d6.jpg',
+        }, {
+            id: '4001594',
+            name: '日式黑陶功夫茶组双侧把茶具礼盒装',
+            price: '288.00',
+            picture: 'https://yanxuan-item.nosdn.127.net/3346b7b92f9563c7a7e24c7ead883f18.jpg',
+        }, {
+            id: '4001009',
+            name: '竹制干泡茶盘正方形沥水茶台品茶盘',
+            price: '109.00',
+            picture: 'https://yanxuan-item.nosdn.127.net/2d942d6bc94f1e230763e1a5a3b379e1.png',
+        }, {
+            id: '4001874',
+            name: '古法温酒汝瓷酒具套装白酒杯莲花温酒器',
+            price: '488.00',
+            picture: 'https://yanxuan-item.nosdn.127.net/44e51622800e4fceb6bee8e616da85fd.png',
+        }, {
+            id: '4001649',
+            name: '大师监制龙泉青瓷茶叶罐',
+            price: '139.00',
+            picture: 'https://yanxuan-item.nosdn.127.net/4356c9fc150753775fe56b465314f1eb.png',
+        }, {
+            id: '3997185',
+            name: '与众不同的口感汝瓷白酒杯套组1壶4杯',
+            price: '108.00',
+            picture: 'https://yanxuan-item.nosdn.127.net/8e21c794dfd3a4e8573273ddae50bce2.jpg',
+        }, {
+            id: '3997403',
+            name: '手工吹制更厚实白酒杯壶套装6壶6杯',
+            price: '100.00',
+            picture: 'https://yanxuan-item.nosdn.127.net/af2371a65f60bce152a61fc22745ff3f.jpg',
+        }, {
+            id: '3998274',
+            name: '德国百年工艺高端水晶玻璃红酒杯2支装',
+            price: '139.00',
+            picture: 'https://yanxuan-item.nosdn.127.net/8896b897b3ec6639bbd1134d66b9715c.jpg',
+        }, ]
+
+        // 1. 渲染函数  封装
+        function render(arr) {
+            // 声明空字符串
+            let str = ''
+                // 遍历数组 
+            arr.forEach(item => {
+                    // 解构
+                    const {
+                        name,
+                        picture,
+                        price
+                    } = item
+                    str += `
+         <div class="item">
+          <img src=${picture} alt="">
+          <p class="name">${name}</p>
+          <p class="price">${price}</p>
+        </div> 
+        `
+                })
+                // 追加给list 
+            document.querySelector('.list').innerHTML = str
+        }
+
+        // 页面一打开就需要渲染
+        render(goodsList)
+
+        // 2. 过滤筛选  
+        document.querySelector('.filter').addEventListener('click', e => {
+            // e.target.dataset.index   e.target.tagName
+            const {
+                tagName,
+                dataset
+            } = e.target
+                // 判断 
+            if (tagName === 'A') {
+                // arr 返回的新数组
+                let arr = goodsList
+                if (dataset.index === '1') {
+                    arr = goodsList.filter(item => item.price > 0 && item.price <= 100)
+                } else if (dataset.index === '2') {
+                    arr = goodsList.filter(item => item.price >= 100 && item.price <= 300)
+                } else if (dataset.index === '3') {
+                    arr = goodsList.filter(item => item.price >= 300)
+                }
+                // 渲染函数
+                render(arr)
+            }
+        })
+    </script>
+</body>
+
+</html>

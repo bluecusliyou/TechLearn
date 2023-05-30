@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>伪数组转换为真数组</title>
+</head>
+
+<body>
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ul>
+    <script>
+        // Array.from(lis) 把伪数组转换为真数组
+        const lis = document.querySelectorAll('ul li')
+        console.log(lis)
+            // lis.pop() 报错，伪数组不能直接操作
+        const liss = Array.from(lis)
+        liss.pop()
+        console.log(liss)
+    </script>
+</body>
+
+</html>

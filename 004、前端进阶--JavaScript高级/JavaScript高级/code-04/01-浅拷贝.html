@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>浅拷贝</title>
+</head>
+
+<body>
+    <script>
+        const user = {
+            uname: 'pink',
+            age: 18,
+            family: {
+                baby: '小pink'
+            }
+        }
+
+        // 浅拷贝
+        const o1 = {...user
+        }
+        o1.age = 20 //对象属性值类型修改不影响
+        console.log(o1.age) //20
+        console.log(user.age) //18
+
+        // 浅拷贝
+        const o2 = {}
+        Object.assign(o2, user)
+        o2.age = 20
+        o2.family.baby = '老pink' //对象属性引用类型修改会相互影响
+        console.log(o2.family.baby) //老pink
+        console.log(user.family.baby) //老pink
+    </script>
+</body>
+
+</html>

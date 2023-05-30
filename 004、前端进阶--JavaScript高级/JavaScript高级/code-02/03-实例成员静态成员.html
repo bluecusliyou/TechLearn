@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>实例成员静态成员</title>
+</head>
+
+<body>
+    <script>
+        // 创建一个构造函数
+        function Goods(name, price, count) {
+            this.name = name
+            this.price = price
+            this.count = count
+            this.sayhi = function() {}
+        }
+        //使用构造函数创建对象
+        const mi = new Goods('小米', 1999, 20)
+        console.log(mi)
+        const hw = new Goods('华为', 3999, 59)
+        console.log(hw)
+
+        //实例成员，只改当前实例成员中的数据
+        mi.name = 'vivo'
+        console.log(mi)
+        console.log(hw)
+
+        // 静态成员，修改的数据在所有实例间生效
+        Goods.num = 10
+        console.log(Goods.num) //10
+        console.log(mi) //构造函数中包含num
+        console.log(hw) //构造函数中包含num
+    </script>
+</body>
+
+</html>

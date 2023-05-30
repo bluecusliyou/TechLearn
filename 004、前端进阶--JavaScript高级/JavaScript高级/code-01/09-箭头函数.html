@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>箭头函数</title>
+</head>
+
+<body>
+    <script>
+        //普通函数
+        const fn1 = function() {
+                console.log(123)
+            }
+            //箭头函数 基本语法
+        const fn2 = () => {
+                console.log(123)
+            }
+            //只有一个形参的时候，可以省略小括号
+        const fn3 = (x) => {
+            console.log(x)
+        }
+        const fn4 = x => {
+                console.log(x)
+            }
+            // 只有一行代码的时候，我们可以省略大括号
+        const fn5 = x => console.log(x)
+            //只有一行代码的时候，可以省略return
+        const fn6 = x => x + x
+            //箭头函数可以直接返回一个对象
+        const fn = (uname) => ({
+            uname: uname
+        })
+    </script>
+</body>
+
+</html>

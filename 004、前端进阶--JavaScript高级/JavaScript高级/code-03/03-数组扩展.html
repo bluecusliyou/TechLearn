@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>数组扩展</title>
+</head>
+
+<body>
+    <script>
+        // 自己定义数组扩展方法
+        // 1. 我们定义的这个方法，任何一个数组实例对象都可以使用
+        // 2. 自定义的方法写到  数组.prototype 身上
+
+        // 1.最小值
+        Array.prototype.max = function() {
+            // 展开运算符
+            return Math.max(...this)
+                // 原型函数里面的this 指向谁？ 实例对象 arr
+        }
+
+        // 2.最小值
+        Array.prototype.min = function() {
+            // 展开运算符
+            return Math.min(...this)
+                // 原型函数里面的this 指向谁？ 实例对象 arr
+        }
+
+        // 3. 求和 
+        Array.prototype.sum = function() {
+            return this.reduce((prev, item) => prev + item, 0)
+        }
+
+        const arr = [1, 2, 3]
+        console.log(arr.max()) //3
+        console.log(arr.min()) //1
+        console.log(arr.sum()) //6
+    </script>
+</body>
+
+</html>

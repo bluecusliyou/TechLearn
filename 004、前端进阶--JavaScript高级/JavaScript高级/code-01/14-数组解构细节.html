@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>数组解构细节</title>
+</head>
+
+<body>
+    <script>
+        // 1.变量多，单元值少的情况：多余的变量将被赋值为 undefined
+        const [a1, b1, c1, d1] = [1, 2, 3]
+        console.log(a1) // 1
+        console.log(b1) // 2
+        console.log(c1) // 3
+        console.log(d1) // undefined
+            // 2.变量少 单元值多的情况：多余的值丢弃
+        const [a2, b2] = [1, 2, 3]
+        console.log(a2) // 1
+        console.log(b2) // 2
+            // 3.利用剩余参数解决变量少单元值多的情况：剩余参数返回的还是一个数组，但剩余参数只能置于最末位
+        const [a3, b3, ...c3] = [1, 2, 3, 4]
+        console.log(a3) // 1
+        console.log(b3) // 2
+        console.log(c3) // [3, 4]  真数组
+            // 4.防止有undefined传递单元值的情况，可以设置默认值：允许初始化变量的默认值，且只有单元值为 undefined 时默认值才会生效
+        const [a4 = 1, b4 = 2] = []
+        console.log(a4) // 1
+        console.log(b4) // 2
+            // 5.按需导入，忽略某些返回值
+        const [a5, b5, , d5] = [1, 2, 3, 4]
+        console.log(a5) // 1
+        console.log(b5) // 2
+        console.log(d5) // 4
+            // 6.支持多维数组的解构
+        const [a6, b6, c6] = [1, 2, [3, 4]]
+        console.log(a6) // 1
+        console.log(b6) // 2
+        console.log(c6) // [3,4]
+
+        const [a7, b7, [c7, d7]] = [1, 2, [3, 4]]
+        console.log(a7) // 1
+        console.log(b7) // 2
+        console.log(c7) // 3
+        console.log(d7) // 4
+    </script>
+</body>
+
+</html>

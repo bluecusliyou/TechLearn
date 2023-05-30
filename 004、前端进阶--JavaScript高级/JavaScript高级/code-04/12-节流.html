@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>节流</title>
+    <style>
+        .box {
+            width: 500px;
+            height: 500px;
+            background-color: #ccc;
+            color: #fff;
+            text-align: center;
+            font-size: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box"></div>
+    <script>
+        const box = document.querySelector('.box')
+        let i = 1
+
+        //数值加1
+        function mouseMove() {
+            box.innerHTML = ++i
+        }
+
+        // 节流函数
+        function throttle(fn, t) {
+            // 起始时间
+            let startTime = 0
+            return function() {
+                // 得到当前的时间
+                let now = Date.now()
+
+                // 判断如果大于等于 500 调用函数
+                if (now - startTime >= t) {
+                    // 调用函数
+                    fn()
+
+                    // 起始的时间 = 现在的时间
+                    startTime = now
+                }
+            }
+        }
+        box.addEventListener('mousemove', throttle(mouseMove, 1000))
+    </script>
+</body>
+
+</html>

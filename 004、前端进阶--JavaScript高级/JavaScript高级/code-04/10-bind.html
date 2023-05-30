@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bind</title>
+</head>
+
+<body>
+    <button>发送短信</button>
+    <script>
+        const obj = {
+            age: 18
+        }
+
+        function fn() {
+            console.log(this)
+        }
+
+        // 1. bind不会调用函数 
+        // 2. 能改变this指向
+        // 3. 返回值是个函数，但是这个函数里面的this是更改过的obj
+        const fun = fn.bind(obj)
+        fun()
+
+        // 需求:有一个按钮，点击里面就禁用，2秒钟之后开启
+        document.querySelector('button').addEventListener('click', function() {
+            // 禁用按钮
+            this.disabled = true
+            window.setTimeout(function() {
+                    // 在这个普通函数里面，我们要this由原来的window 改为 btn
+                    this.disabled = false
+                }.bind(this), 2000) // 这里的this 和 btn 一样
+        })
+    </script>
+</body>
+
+</html>

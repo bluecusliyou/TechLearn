@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>必须加分号的两种情况</title>
+</head>
+
+<body>
+    <script>
+        // 1. 立即执行函数
+        (function() {})();
+        (function() {})();
+        // 2. 使用数组的时候
+        const str = 'pink';
+        [1, 2, 3].map(function(item) {
+            console.log(item)
+        })
+
+        let a = 1
+        let b = 2;
+        [b, a] = [a, b]
+        console.log(a, b)
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>局部作用域</title>
+</head>
+
+<body>
+    <script>
+        function getSum() {
+            //函数作用域
+            const num = 10
+        }
+        console.log(num) //超出作用域报错
+
+        for (let i = 1; i <= 3; i++) {
+            //块作用域
+            console.log(i)
+        }
+        console.log(i) //超出作用域报错
+    </script>
+</body>
+
+</html>

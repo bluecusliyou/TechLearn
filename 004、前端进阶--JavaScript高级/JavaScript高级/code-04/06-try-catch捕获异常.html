@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>try-catch捕获异常</title>
+</head>
+
+<body>
+    <p>123</p>
+    <script>
+        function fn() {
+            try {
+                // 可能发送错误的代码 要写到 try
+                const p = document.querySelector('.p')
+                p.style.color = 'red'
+            } catch (err) {
+                // 拦截错误，提示浏览器提供的错误信息，但是不中断程序的执行
+                console.log(err.message)
+            } finally {
+                // 不管你程序对不对，一定会执行的代码
+                console.log('不管你程序对不对，一定会执行的代码')
+            }
+            console.log(11)
+        }
+        fn()
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String常见方法</title>
+</head>
+
+<body>
+    <script>
+        // split 把字符串转换为数组，和join()相反
+        const str = 'pink,red'
+        const arr = str.split(',')
+        console.log(arr) //['pink','red']
+        const str1 = '2022-4-8'
+        const arr1 = str1.split('-')
+        console.log(arr1) //['2022','4','8']
+
+        // substring(开始的索引号[， 结束的索引号]) 字符串的截取
+        //  如果省略结束的索引号，默认取到最后
+        //  结束的索引号不包含想要截取的部分
+        const str2 = '今天又要做核酸了'
+        console.log(str2.substring(5, 7)) //核酸
+
+        // startsWith 判断是不是以某个字符开头
+        const str3 = 'pink老师上课中'
+        console.log(str3.startsWith('pink')) //true
+
+        // includes 判断某个字符是不是包含在一个字符串里面
+        const str4 = '我是pink老师'
+        console.log(str4.includes('pink')) // true
+
+        // 转换成字符串
+        const num = 10
+        console.log(String(num))
+        console.log(num.toString())
+    </script>
+</body>
+
+</html>

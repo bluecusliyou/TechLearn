@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>对象原型</title>
+</head>
+
+<body>
+    <script>
+        function Star() {
+
+        }
+        const ldh = new Star()
+
+        // 对象.__proto__===构造函数.prototype原型对象
+        console.log(ldh.__proto__ === Star.prototype) //true
+
+        // 对象__proto__.constructor===构造函数.prototype原型对象.constructor===构造函数
+        console.log(ldh.__proto__.constructor === Star) //true
+    </script>
+</body>
+
+</html>

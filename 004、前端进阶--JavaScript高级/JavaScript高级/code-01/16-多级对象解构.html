@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>多级对象解构</title>
+</head>
+
+<body>
+    <script>
+        const person = [{
+            name: '佩奇',
+            family: {
+                mother: '猪妈妈',
+                father: '猪爸爸',
+                sister: '乔治'
+            },
+            age: 6
+        }]
+        const [{
+            name,
+            family: {
+                mother,
+                father,
+                sister
+            }
+        }] = person
+        console.log(name) //佩奇
+        console.log(mother) //猪妈妈
+        console.log(father) //猪爸爸
+        console.log(sister) //乔治
+    </script>
+</body>
+
+</html>

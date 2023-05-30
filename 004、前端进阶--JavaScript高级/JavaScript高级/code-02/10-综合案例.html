@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>综合案例</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        .list {
+            width: 990px;
+            margin: 100px auto 0;
+        }
+        
+        .item {
+            padding: 15px;
+            transition: all .5s;
+            display: flex;
+            border-top: 1px solid #e4e4e4;
+        }
+        
+        .item:nth-child(4n) {
+            margin-left: 0;
+        }
+        
+        .item:hover {
+            cursor: pointer;
+            background-color: #f5f5f5;
+        }
+        
+        .item img {
+            width: 80px;
+            height: 80px;
+            margin-right: 10px;
+        }
+        
+        .item .name {
+            font-size: 18px;
+            margin-right: 10px;
+            color: #333;
+            flex: 2;
+        }
+        
+        .item .name .tag {
+            display: block;
+            padding: 2px;
+            font-size: 12px;
+            color: #999;
+        }
+        
+        .item .price,
+        .item .sub-total {
+            font-size: 18px;
+            color: firebrick;
+            flex: 1;
+        }
+        
+        .item .price::before,
+        .item .sub-total::before,
+        .amount::before {
+            content: "¥";
+            font-size: 12px;
+        }
+        
+        .item .spec {
+            flex: 2;
+            color: #888;
+            font-size: 14px;
+        }
+        
+        .item .count {
+            flex: 1;
+            color: #aaa;
+        }
+        
+        .total {
+            width: 990px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: flex-end;
+            border-top: 1px solid #e4e4e4;
+            padding: 20px;
+        }
+        
+        .total .amount {
+            font-size: 18px;
+            color: firebrick;
+            font-weight: bold;
+            margin-right: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="list">
+        <!-- <div class="item">
+      <img src="https://yanxuan-item.nosdn.127.net/84a59ff9c58a77032564e61f716846d6.jpg" alt="">
+      <p class="name">称心如意手摇咖啡磨豆机咖啡豆研磨机 <span class="tag">【赠品】10优惠券</span></p>
+      <p class="spec">白色/10寸</p>
+      <p class="price">289.90</p>
+      <p class="count">x2</p>
+      <p class="sub-total">579.80</p>
+    </div> -->
+    </div>
+    <div class="total">
+        <div>合计：<span class="amount">1000.00</span></div>
+    </div>
+    <script>
+        const goodsList = [{
+            id: '4001172',
+            name: '称心如意手摇咖啡磨豆机咖啡豆研磨机',
+            price: 289.9,
+            picture: 'https://yanxuan-item.nosdn.127.net/84a59ff9c58a77032564e61f716846d6.jpg',
+            count: 2,
+            spec: {
+                color: '白色'
+            }
+        }, {
+            id: '4001009',
+            name: '竹制干泡茶盘正方形沥水茶台品茶盘',
+            price: 109.8,
+            picture: 'https://yanxuan-item.nosdn.127.net/2d942d6bc94f1e230763e1a5a3b379e1.png',
+            count: 3,
+            spec: {
+                size: '40cm*40cm',
+                color: '黑色'
+            }
+        }, {
+            id: '4001874',
+            name: '古法温酒汝瓷酒具套装白酒杯莲花温酒器',
+            price: 488,
+            picture: 'https://yanxuan-item.nosdn.127.net/44e51622800e4fceb6bee8e616da85fd.png',
+            count: 1,
+            spec: {
+                color: '青色',
+                sum: '一大四小'
+            }
+        }, {
+            id: '4001649',
+            name: '大师监制龙泉青瓷茶叶罐',
+            price: 139,
+            picture: 'https://yanxuan-item.nosdn.127.net/4356c9fc150753775fe56b465314f1eb.png',
+            count: 1,
+            spec: {
+                size: '小号',
+                color: '紫色'
+            },
+            gift: '50g茶叶,清洗球,宝马, 奔驰'
+        }]
+
+        // 1. 根据数据渲染页面
+        document.querySelector('.list').innerHTML = goodsList.map(item => {
+            // console.log(item)  // 每一条对象
+            // 对象解构  item.price item.count
+            const {
+                picture,
+                name,
+                count,
+                price,
+                spec,
+                gift
+            } = item
+            // 规格文字模块处理
+            const text = Object.values(spec).join('/')
+                // 计算小计模块 单价 * 数量  保留两位小数 
+                // 注意精度问题，因为保留两位小数，所以乘以 100  最后除以100
+            const subTotal = ((price * 100 * count) / 100).toFixed(2)
+                // 处理赠品模块 '50g茶叶,清洗球'
+            const str = gift ? gift.split(',').map(item => `<span class="tag">【赠品】${item}</span> `).join('') : ''
+            return `
+        <div class="item">
+          <img src=${picture} alt="">
+          <p class="name">${name} ${str} </p>
+          <p class="spec">${text} </p>
+          <p class="price">${price.toFixed(2)}</p>
+          <p class="count">x${count}</p>
+          <p class="sub-total">${subTotal}</p>
+        </div>
+      `
+        }).join('')
+
+        // 3. 合计模块
+        const total = goodsList.reduce((prev, item) => prev + (item.price * 100 * item.count) / 100, 0)
+            // console.log(total)
+        document.querySelector('.amount').innerHTML = total.toFixed(2)
+    </script>
+</body>
+
+</html>

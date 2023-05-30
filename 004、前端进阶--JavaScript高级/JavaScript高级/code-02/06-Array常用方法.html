@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array常用方法</title>
+</head>
+
+<body>
+    <script>
+        //reduce 返回函数累计处理的结果，经常用于求和等
+        //arr.reduce(function(累计值, 当前元素){}, 起始值)
+        const arr = [1, 2, 3]
+            //没有给起始值的时候，数组第一个值就是起始值
+        arr.reduce(function(prev, item) {
+                console.log(prev) //1 3
+                return prev + item
+            })
+            //给起始值之后，用起始值
+        arr.reduce(function(prev, item) {
+            console.log(prev) //0 1 3
+            return prev + item
+        }, 0)
+
+        //find 查找元素， 返回符合条件的第一个数组元素值，如果没有返回 undefined
+        const arr2 = ['red', 'blue', 'green']
+        const re1 = arr2.find(function(item) {
+            return item === 'blue'
+        })
+        console.log(re1) //blue
+
+        //every 每一个是否都符合条件，如果都符合返回 true ，否则返回false
+        const arr3 = [10, 20, 30]
+        const re2 = arr3.every(item => item >= 20)
+        console.log(re2) //false
+
+        //join 数组元素拼接为字符串，返回字符串
+        const arr4 = ['zhangsan', 'lisi', 'wangwu']
+        const re3 = arr4.join(',')
+        console.log(re3) //zhangsan,lisi,wangwu
+    </script>
+</body>
+
+</html>

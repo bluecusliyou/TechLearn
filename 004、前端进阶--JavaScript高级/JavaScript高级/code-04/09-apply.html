@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>apply</title>
+</head>
+
+<body>
+    <script>
+        const obj = {
+            age: 18
+        }
+
+        function fn(x, y) {
+            console.log(this)
+            console.log(x + y)
+        }
+        // 1. 调用函数
+        // 2. 改变this指向
+        // 3. 返回值就是函数的返回值
+        fn.apply(obj, [1, 2])
+
+        // 使用场景：求数组最大值最小值
+        const arr = [100, 44, 77]
+        const max = Math.max.apply(Math, arr)
+        const min = Math.min.apply(null, arr)
+        console.log(max, min)
+    </script>
+</body>
+
+</html>

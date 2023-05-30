@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>构造函数实现面向对象</title>
+</head>
+
+<body>
+    <script>
+        // 构造函数实现面向对象
+        // 公共的属性和方法封装到构造函数里面
+        function Star(uname, age) {
+            this.uname = uname
+            this.age = age
+            this.sing = function() {
+                console.log('唱歌')
+            }
+        }
+        const ldh = new Star('刘德华', 55)
+        const zxy = new Star('张学友', 58)
+        console.log(ldh.sing === zxy.sing) //false 说明两个函数地址不同，浪费内存空间
+
+        //公共的方法写到原型对象身上
+        Star.prototype.sing2 = function() {
+            console.log('唱歌')
+        }
+        console.log(ldh.sing2 === zxy.sing2) //true 说明两个函数地址相同，节省内存空间
+    </script>
+</body>
+
+</html>

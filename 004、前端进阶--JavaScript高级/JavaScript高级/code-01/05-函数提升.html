@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>函数提升</title>
+</head>
+
+<body>
+    <script>
+        fn()
+
+        function fn() {
+            console.log('函数提升,声明之前就被调用')
+        }
+
+        fun() //函数表达式必须先声明和赋值后调用,否则报错
+        var fun = function() {
+            console.log('函数表达式不存在提升现象')
+        }
+    </script>
+</body>
+
+</html>

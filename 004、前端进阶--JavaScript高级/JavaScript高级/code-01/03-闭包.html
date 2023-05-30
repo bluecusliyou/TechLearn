@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>闭包</title>
+</head>
+
+<body>
+    <script>
+        //外层函数可以使用内层函数的变量
+        //闭包常见的写法
+        function outer1() {
+            let a = 100
+
+            function fn() {
+                console.log(a)
+            }
+            return fn
+        }
+        outer1()() // 调用函数
+
+        // 闭包简化的写法
+        function outer2() {
+            let a = 100
+                //直接返回函数
+            return function() {
+                console.log(a)
+            }
+        }
+        outer2()() // 调用函数
+
+        // 闭包的应用:实现数据私有, 统计函数调用的次数
+        // 普通形式
+        let i = 0 //因为i是全局变量，容易被修改
+        function count1() {
+            i++
+            console.log(`函数被调用了${i}次`)
+        }
+        count1()
+
+        //闭包形式
+        function count2() {
+            let i = 0 //实现数据私有，外部无法直接修改i
+            function fn() {
+                i++
+                console.log(`111函数被调用了${i}次`)
+            }
+            return fn
+        }
+        count2()()
+    </script>
+</body>
+
+</html>

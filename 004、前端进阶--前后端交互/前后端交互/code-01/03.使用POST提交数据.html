@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./lib/jquery.js"></script>
+</head>
+
+<body>
+    <button id="btnPOST">发起POST请求</button>
+
+    <script>
+        $(function() {
+            $('#btnPOST').on('click', function() {
+                $.post('http://xxx.yyy.zzz/api/addbook', {
+                    bookname: '水浒传',
+                    author: '施耐庵',
+                    publisher: '天津图书出版社'
+                }, function(res) {
+                    console.log(res)
+                })
+            })
+        })
+    </script>
+</body>
+
+</html>

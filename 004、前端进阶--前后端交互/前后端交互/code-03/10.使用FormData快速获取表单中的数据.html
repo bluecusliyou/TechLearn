@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form id="form1">
+        <input type="text" name="uname" autocomplete="off" />
+        <input type="password" name="upwd" />
+        <button type="submit">提交</button>
+    </form>
+
+    <script>
+        // 1. 通过 DOM 操作，获取到 form 表单元素
+        var form = document.querySelector('#form1')
+
+        form.addEventListener('submit', function(e) {
+            // 阻止表单的默认提交行为
+            e.preventDefault()
+
+            // 创建 FormData，快速获取到 form 表单中的数据
+            var fd = new FormData(form)
+
+            var xhr = new XMLHttpRequest()
+            xhr.open('POST', 'http://xxx.yyy.zzz/api/formdata')
+            xhr.send(fd)
+
+            xhr.onreadystatechange = function() {
+                if (xhr.readyState === 4 && xhr.status === 200) {
+                    console.log(JSON.parse(xhr.responseText))
+                }
+            }
+        })
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./lib/axios.js"></script>
+</head>
+
+<body>
+    <button id="btn1">发起GET请求</button>
+    <button id="btn2">发起POST请求</button>
+    <button id="btn3">直接使用axios发起GET请求</button>
+    <button id="btn4">直接使用axios发起POST请求</button>
+
+    <script>
+        document.querySelector('#btn1').addEventListener('click', function() {
+            var url = 'http://xxx.yyy.zzz/api/get'
+            var paramsObj = {
+                name: 'zs',
+                age: 20
+            }
+            axios.get(url, {
+                params: paramsObj
+            }).then(function(res) {
+                console.log(res.data)
+            })
+        })
+
+        document.querySelector('#btn2').addEventListener('click', function() {
+            var url = 'http://xxx.yyy.zzz/api/post'
+            var dataObj = {
+                address: '北京',
+                location: '顺义区'
+            }
+            axios.post(url, dataObj).then(function(res) {
+                console.log(res.data)
+            })
+        })
+
+        document.querySelector('#btn3').addEventListener('click', function() {
+            var url = 'http://xxx.yyy.zzz/api/get'
+            var paramsData = {
+                name: '钢铁侠',
+                age: 35
+            }
+            axios({
+                method: 'GET',
+                url: url,
+                params: paramsData
+            }).then(function(res) {
+                console.log(res.data)
+            })
+        })
+
+        document.querySelector('#btn4').addEventListener('click', function() {
+            axios({
+                method: 'POST',
+                url: 'http://xxx.yyy.zzz/api/post',
+                data: {
+                    name: '娃哈哈',
+                    age: 18,
+                    gender: '女'
+                }
+            }).then(function(res) {
+                console.log(res.data)
+            })
+        })
+    </script>
+</body>
+
+</html>

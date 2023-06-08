@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./js/myajax.js"></script>
+</head>
+
+<body>
+    <script>
+        myajax({
+            method: 'GET',
+            url: 'http://xxx.yyy.zzz/api/getbooks',
+            data: {
+                id: 1
+            },
+            success: function(res) {
+                console.log(res)
+            }
+        })
+
+        myajax({
+            method: 'post',
+            url: 'http://xxx.yyy.zzz/api/addbook',
+            data: {
+                bookname: '水浒传',
+                author: '施耐庵',
+                publisher: '北京图书出版社'
+            },
+            success: function(res) {
+                console.log(res)
+            }
+        })
+    </script>
+</body>
+
+</html>

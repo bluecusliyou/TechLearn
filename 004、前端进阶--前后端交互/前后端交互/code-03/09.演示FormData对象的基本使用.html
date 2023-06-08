@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // 1. 创建 FormData 实例
+        var fd = new FormData()
+
+        // 2. 调用 append 函数，向 fd 中追加数据
+        fd.append('uname', 'zs')
+        fd.append('upwd', '123456')
+
+        var xhr = new XMLHttpRequest()
+        xhr.open('POST', 'http://xxx.yyy.zzz/api/formdata')
+        xhr.send(fd)
+
+        xhr.onreadystatechange = function() {
+            if (xhr.readyState === 4 && xhr.status === 200) {
+                console.log(JSON.parse(xhr.responseText))
+            }
+        }
+    </script>
+</body>
+
+</html>

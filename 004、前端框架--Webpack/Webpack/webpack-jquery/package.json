@@ -1,0 +1,13 @@
+{
+    "description": "",
+    "devDependencies": {
+        "webpack": "^5.88.0",
+        "webpack-cli": "^5.1.4"
+    },
+    "scripts": {
+        "build": "webpack"
+    },
+    "dependencies": {
+        "jquery": "^3.7.0"
+    }
+}

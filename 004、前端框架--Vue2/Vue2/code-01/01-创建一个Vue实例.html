@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- 
+  创建Vue实例，初始化渲染
+  1. 准备容器 (Vue所管理的范围)
+  2. 引包 (开发版本包 / 生产版本包) 官网
+  3. 创建实例 new Vue()
+  4. 添加配置项 => 完成渲染
+  -->
+
+    <!-- 不是Vue管理的范围 -->
+    <div class="box2">
+        box2 -- {{ count }}
+    </div>
+    <div class="box">
+        box -- {{ msg }}
+    </div>
+    -----------------------------------------------------
+    <!-- Vue所管理的范围 -->
+    <div id="app">
+        <!-- 这里将来会编写一些用于渲染的代码逻辑 -->
+        <h1>{{ msg }}</h1>
+        <a href="#">{{ count }}</a>
+    </div>
+
+    <!-- 引入的是开发版本包 - 包含完整的注释和警告 -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+
+    <script>
+        // 一旦引入 VueJS核心包，在全局环境，就有了 Vue 构造函数
+        const app = new Vue({
+            // 通过 el 配置选择器，指定 Vue 管理的是哪个盒子
+            el: '#app',
+            // 通过 data 提供数据
+            data: {
+                msg: 'Hello world',
+                count: 666
+            }
+        })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+{
+    "cart": [{
+            "id": 100001,
+            "name": "低帮城市休闲户外鞋天然牛皮COOLMAX纤维",
+            "price": 128,
+            "count": 5,
+            "thumb": "https://bluecusliyoupicrep.oss-cn-hangzhou.aliyuncs.com/202307271039546.png"
+        },
+        {
+            "id": 100002,
+            "name": "网易味央黑猪猪肘330g*1袋",
+            "price": 39,
+            "count": 10,
+            "thumb": "https://bluecusliyoupicrep.oss-cn-hangzhou.aliyuncs.com/202307271039546.png"
+        },
+        {
+            "id": 100003,
+            "name": "KENROLL男女简洁多彩一片式室外拖",
+            "price": 128,
+            "count": 3,
+            "thumb": "https://bluecusliyoupicrep.oss-cn-hangzhou.aliyuncs.com/202307271039546.png"
+        },
+        {
+            "id": 100004,
+            "name": "云音乐定制IN系列intar民谣木吉他",
+            "price": 589,
+            "count": 1,
+            "thumb": "https://bluecusliyoupicrep.oss-cn-hangzhou.aliyuncs.com/202307271039546.png"
+        }
+    ],
+    "friends": [{
+            "id": 1,
+            "name": "zs",
+            "age": 18
+        },
+        {
+            "id": 2,
+            "name": "ls",
+            "age": 19
+        },
+        {
+            "id": 3,
+            "name": "ww",
+            "age": 20
+        }
+    ]
+}

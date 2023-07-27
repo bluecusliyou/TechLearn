@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="app" class="score-case">
+      <div class="table">
+        <table>
+          <thead>
+            <tr>
+              <th>编号</th>
+              <th>科目</th>
+              <th>成绩</th>
+              <th>操作</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>语文</td>
+              <td class="red">46</td>
+              <td><a href="#">删除</a></td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>英语</td>
+              <td>80</td>
+              <td><a href="#">删除</a></td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>数学</td>
+              <td>100</td>
+              <td><a href="#">删除</a></td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td colspan="5">
+                <span class="none">暂无数据</span>
+              </td>
+            </tr>
+          </tbody>
+
+          <tfoot>
+            <tr>
+              <td colspan="5">
+                <span>总分：246</span>
+                <span style="margin-left: 50px">平均分：79</span>
+              </td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+      <div class="form">
+        <div class="form-item">
+          <div class="label">科目：</div>
+          <div class="input">
+            <input
+              type="text"
+              placeholder="请输入科目"
+            />
+          </div>
+        </div>
+        <div class="form-item">
+          <div class="label">分数：</div>
+          <div class="input">
+            <input
+              type="text"
+              placeholder="请输入分数"
+            />
+          </div>
+        </div>
+        <div class="form-item">
+          <div class="label"></div>
+          <div class="input">
+            <button class="submit" >添加</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+
+    <script>
+      const app = new Vue({
+        el: '#app',
+        data: {
+          list: [
+            { id: 1, subject: '语文', score: 20 },
+            { id: 7, subject: '数学', score: 99 },
+            { id: 12, subject: '英语', score: 70 },
+          ],
+          subject: '',
+          score: ''
+        }
+      })
+    </script>
+  </body>
+</html>

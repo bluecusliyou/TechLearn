@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div id="app">
+        {{ msg }} {{ count }}
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+
+    <script>
+        const app = new Vue({
+            el: '#app',
+            data: {
+                // 响应式数据 → 数据变化了，视图自动更新
+                msg: 'hello world',
+                count: 100
+            }
+        })
+
+        // data中的数据，是会被添加到实例上
+        // 1. 访问数据  实例.属性名
+        console.log(app.msg)
+
+        // 2. 修改数据  实例.属性名 = 新值
+        app.msg = 'hello world ok'
+    </script>
+
+</body>
+
+</html>

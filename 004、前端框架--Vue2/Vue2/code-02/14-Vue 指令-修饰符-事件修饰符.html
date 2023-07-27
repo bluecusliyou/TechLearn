@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div id="app">
+        <div @click="fatherFn">
+            <!-- vue对事件进行了修饰符设置, 在事件后面.修饰符名即可使用更多的功能 -->
+            <button @click.stop="btn">.stop阻止事件冒泡</button>
+            <a href="http://www.baidu.com" @click.prevent="btn">.prevent阻止默认行为</a>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script>
+        const app = new Vue({
+            el: '#app',
+            data: {},
+            methods: {
+                fatherFn() {
+                    console.log("father被触发");
+                },
+                btn() {
+                    console.log(1);
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>

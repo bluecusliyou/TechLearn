@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>示例-获取焦点</title>
+    <!-- 初始化样式 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset.css@2.0.2/reset.min.css">
+    <!-- 核心样式 -->
+    <style>
+        html,
+        body {
+            height: 100%;
+        }
+        
+        .search-container {
+            position: absolute;
+            top: 30%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+        
+        .search-container .search-box {
+            display: flex;
+        }
+        
+        .search-container img {
+            margin-bottom: 30px;
+        }
+        
+        .search-container .search-box input {
+            width: 512px;
+            height: 16px;
+            padding: 12px 16px;
+            font-size: 16px;
+            margin: 0;
+            vertical-align: top;
+            outline: 0;
+            box-shadow: none;
+            border-radius: 10px 0 0 10px;
+            border: 2px solid #c4c7ce;
+            background: #fff;
+            color: #222;
+            overflow: hidden;
+            box-sizing: content-box;
+            -webkit-tap-highlight-color: transparent;
+        }
+        
+        .search-container .search-box button {
+            cursor: pointer;
+            width: 112px;
+            height: 44px;
+            line-height: 41px;
+            line-height: 42px;
+            background-color: #ad2a27;
+            border-radius: 0 10px 10px 0;
+            font-size: 17px;
+            box-shadow: none;
+            font-weight: 400;
+            border: 0;
+            outline: 0;
+            letter-spacing: normal;
+            color: white;
+        }
+        
+        body {
+            background: no-repeat center /cover;
+            background-color: #edf0f5;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container" id="app">
+        <div class="search-container">
+            <img src="./img/logo.png" alt="">
+            <div class="search-box">
+                <input type="text" v-model="words" id="inp">
+                <button>百度一下</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script>
+        const app = new Vue({
+            el: '#app',
+            data: {
+                words: ''
+            },
+            // 核心思路：
+            // 1. 等input框渲染出来 mounted 钩子
+            // 2. 让input框获取焦点 inp.focus()
+            mounted() {
+                document.querySelector('#inp').focus()
+            }
+        })
+    </script>
+
+</body>
+
+</html>

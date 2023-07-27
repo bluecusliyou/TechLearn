@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div id="app">
+        <div>
+            <a @click="one" href="http://www.baidu.com">阻止去百度</a>
+            <!-- 目标: 事件对象的获取 -->
+            <!-- 无传参: 第一个形参就是事件对象 -->
+            <!-- 有传参: 手动使用 $event 传递 -->
+            <!-- $event: 指代事件对象的一个变量, 实参 -->
+            <a @click="two(10, $event)" href="http://www.baidu.com">阻止去百度</a>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script>
+        const app = new Vue({
+            el: '#app',
+            data: {},
+            methods: {
+                one(e) {
+                    // 无传参, 默认第一个形参就是事件对象
+                    e.preventDefault()
+                },
+                two(num, e) {
+                    e.preventDefault()
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>

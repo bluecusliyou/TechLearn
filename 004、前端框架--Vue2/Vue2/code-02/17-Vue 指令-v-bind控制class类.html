@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 200px;
+            height: 200px;
+            border: 3px solid #000;
+            font-size: 30px;
+            margin-top: 10px;
+        }
+        
+        .pink {
+            background-color: pink;
+        }
+        
+        .big {
+            width: 300px;
+            height: 300px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="app">
+        <div class="box" :class="{ pink: true, big: true }">hello world</div>
+        <div class="box" :class="['pink', 'big']">hello world</div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script>
+        const app = new Vue({
+            el: '#app',
+            data: {
+
+            }
+        })
+    </script>
+</body>
+
+</html>

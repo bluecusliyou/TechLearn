@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .progress {
+            height: 25px;
+            width: 400px;
+            border-radius: 15px;
+            background-color: #272425;
+            border: 3px solid #272425;
+            box-sizing: border-box;
+            margin-bottom: 30px;
+        }
+        
+        .inner {
+            width: 50%;
+            height: 20px;
+            border-radius: 10px;
+            text-align: right;
+            position: relative;
+            background-color: #409eff;
+            background-size: 20px 20px;
+            box-sizing: border-box;
+            transition: all 1s;
+        }
+        
+        .inner span {
+            position: absolute;
+            right: -20px;
+            bottom: -25px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app">
+        <!-- 外层盒子底色 （黑色） -->
+        <div class="progress">
+            <!-- 内层盒子 - 进度（蓝色） -->
+            <div class="inner" :style="{ width: percent + '%' }">
+                <span>{{ percent }}%</span>
+            </div>
+        </div>
+        <button @click="percent = 25">设置25%</button>
+        <button @click="percent = 50">设置50%</button>
+        <button @click="percent = 75">设置75%</button>
+        <button @click="percent = 100">设置100%</button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script>
+        const app = new Vue({
+            el: '#app',
+            data: {
+                percent: 30
+            }
+        })
+    </script>
+</body>
+
+</html>

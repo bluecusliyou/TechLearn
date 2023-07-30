@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>更新数据</title>
+    <script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
+</head>
+
+<body>
+    <button id="update">更新数据</button>
+    <script>
+        //更新数据
+        $("#update").click(function() {
+            $.ajax({
+                type: 'put',
+                url: 'http://localhost:3000/articles/51',
+                data: {
+                    userId: 7,
+                    title: '更新数据',
+                    body: '更新数据'
+                },
+                success: function(data) {
+                    console.log("put success")
+                },
+                error: function() {
+                    alert("put error")
+                }
+            })
+        })
+    </script>
+</body>
+
+</html>

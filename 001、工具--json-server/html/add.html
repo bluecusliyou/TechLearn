@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>添加数据</title>
+    <script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
+</head>
+
+<body>
+    <button id="add">添加数据</button>
+    <script>
+        //添加数据
+        $("#add").click(function() {
+            $.ajax({
+                type: 'post',
+                url: 'http://localhost:3000/articles',
+                data: {
+                    userId: 6,
+                    id: 51,
+                    title: '添加数据',
+                    body: '添加数据'
+                },
+                success: function(data) {
+                    console.log("post success")
+                },
+                error: function() {
+                    alert("post error")
+                }
+            })
+        })
+    </script>
+</body>
+
+</html>

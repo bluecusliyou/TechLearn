@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--这是一个注释-->
+<Employees>
+  <!--Employee1-->
+  <Employee4 name="新的人员4">
+    <Age>88</Age>
+    <Sex>女博士</Sex>
+    <Salary>20000</Salary>
+  </Employee4>
+  <!--Employee2-->
+  <Employee2 name="新的人员2">
+    <Age>99</Age>
+    <Sex>男博士</Sex>
+    <Salary>18888</Salary>
+  </Employee2>
+  <!--Employee3-->
+  <Employee3 name="人员3">
+    <Age>21</Age>
+    <Sex>女</Sex>
+    <Salary>10300</Salary>
+  </Employee3>
+  <!--Employee4-->
+  <Employee4 name="人员4">
+    <Age>22</Age>
+    <Sex>男</Sex>
+    <Salary>10400</Salary>
+  </Employee4>
+</Employees>

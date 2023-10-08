@@ -1,0 +1,14 @@
+E:\TechLearn2023\003、C#高级--XML\MyXML\MyXML\bin\Debug\net7.0\MyXML.exe
+E:\TechLearn2023\003、C#高级--XML\MyXML\MyXML\bin\Debug\net7.0\MyXML.deps.json
+E:\TechLearn2023\003、C#高级--XML\MyXML\MyXML\bin\Debug\net7.0\MyXML.runtimeconfig.json
+E:\TechLearn2023\003、C#高级--XML\MyXML\MyXML\bin\Debug\net7.0\MyXML.dll
+E:\TechLearn2023\003、C#高级--XML\MyXML\MyXML\bin\Debug\net7.0\MyXML.pdb
+E:\TechLearn2023\003、C#高级--XML\MyXML\MyXML\obj\Debug\net7.0\MyXML.GeneratedMSBuildEditorConfig.editorconfig
+E:\TechLearn2023\003、C#高级--XML\MyXML\MyXML\obj\Debug\net7.0\MyXML.AssemblyInfoInputs.cache
+E:\TechLearn2023\003、C#高级--XML\MyXML\MyXML\obj\Debug\net7.0\MyXML.AssemblyInfo.cs
+E:\TechLearn2023\003、C#高级--XML\MyXML\MyXML\obj\Debug\net7.0\MyXML.csproj.CoreCompileInputs.cache
+E:\TechLearn2023\003、C#高级--XML\MyXML\MyXML\obj\Debug\net7.0\MyXML.dll
+E:\TechLearn2023\003、C#高级--XML\MyXML\MyXML\obj\Debug\net7.0\refint\MyXML.dll
+E:\TechLearn2023\003、C#高级--XML\MyXML\MyXML\obj\Debug\net7.0\MyXML.pdb
+E:\TechLearn2023\003、C#高级--XML\MyXML\MyXML\obj\Debug\net7.0\MyXML.genruntimeconfig.cache
+E:\TechLearn2023\003、C#高级--XML\MyXML\MyXML\obj\Debug\net7.0\ref\MyXML.dll

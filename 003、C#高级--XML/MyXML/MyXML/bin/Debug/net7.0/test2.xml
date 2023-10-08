@@ -1,0 +1,34 @@
+<root xmlns:companya="http://www.example.com/companya"  xmlns:companyb="http://www.example.com/companyb">  
+  <companya:customer1 type='ACCCCC'>  
+    <name>John</name>  
+    <age>10</age>
+  </companya:customer1>
+  <companya:customer1 type='BCCCCC'>
+    <name>Jane</name>
+    <age>15</age>
+  </companya:customer1>
+  <companya:customer2 type='CCCCCC'>
+    <name>Peter</name>
+    <age>20</age>
+  </companya:customer2>
+  <companya:customer3 type='DCCCCC'>
+    <name>Nancy</name>
+    <age>25</age>
+  </companya:customer3>
+  <companyb:customer1 type="ACCCCC">  
+    <name>Bob</name>  
+    <age>30</age>
+  </companyb:customer1>
+  <companyb:customer2 type="BCCCCC">  
+    <name>Jobs</name>  
+    <age>33</age>
+  </companyb:customer2>
+  <companyb:customer3 type="CCCCCC">  
+    <name>Andy</name>  
+    <age>38</age>
+  </companyb:customer3>
+  <companyb:customer3 type="DCCCCC">  
+    <name>Lee</name>  
+    <age>40</age>
+  </companyb:customer3>
+</root>

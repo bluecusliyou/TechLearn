@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\TechLearn2023\\003、C#高级--XML\\MyXML\\MyXML\\MyXML.csproj": {}
+    "E:\\TechLearnFull\\003、C#高级--XML\\MyXML\\MyXML\\MyXML.csproj": {}
   },
   "projects": {
-    "E:\\TechLearn2023\\003、C#高级--XML\\MyXML\\MyXML\\MyXML.csproj": {
+    "E:\\TechLearnFull\\003、C#高级--XML\\MyXML\\MyXML\\MyXML.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\TechLearn2023\\003、C#高级--XML\\MyXML\\MyXML\\MyXML.csproj",
+        "projectUniqueName": "E:\\TechLearnFull\\003、C#高级--XML\\MyXML\\MyXML\\MyXML.csproj",
         "projectName": "MyXML",
-        "projectPath": "E:\\TechLearn2023\\003、C#高级--XML\\MyXML\\MyXML\\MyXML.csproj",
+        "projectPath": "E:\\TechLearnFull\\003、C#高级--XML\\MyXML\\MyXML\\MyXML.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "E:\\TechLearn2023\\003、C#高级--XML\\MyXML\\MyXML\\obj\\",
+        "outputPath": "E:\\TechLearnFull\\003、C#高级--XML\\MyXML\\MyXML\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

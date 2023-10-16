@@ -245,13 +245,34 @@ namespace MyXML
                     Console.WriteLine(navigator.OuterXml);
                 }
 
-                Console.WriteLine("筛选包含命名空间前缀节点+条件");                
+                Console.WriteLine("筛选包含命名空间前缀节点+条件");
                 XPathNodeIterator iterator4 = xmldoc.CreateNavigator().Select("//companya:customer1[contains(name,'o')]", company);
                 while (iterator4.MoveNext())
                 {
                     XPathNavigator navigator = iterator4.Current;
                     Console.WriteLine(navigator.OuterXml);
                 }
+            }
+
+            //XML配置文件读写
+            {
+                Console.WriteLine("读取配置");
+                Console.WriteLine($"Color:{XmlConfigHelper.GetValue("config.xml", "Color")}");//Red
+
+                Console.WriteLine("设置配置");
+                XmlConfigHelper.SetValue("config.xml", "Color","Green");
+                Console.WriteLine($"Color:{XmlConfigHelper.GetValue("config.xml", "Color")}");//Green
+                XmlConfigHelper.SetValue("config.xml", "Color", "Red");
+
+                Console.WriteLine("添加配置");
+                Console.WriteLine($"Has NewColor:{XmlConfigHelper.HasKey("config.xml", "NewColor")}");//False
+                XmlConfigHelper.SetValue("config.xml", "NewColor", "Green");
+                Console.WriteLine($"NewColor:{XmlConfigHelper.GetValue("config.xml", "NewColor")}");//Green
+
+                Console.WriteLine("删除配置");
+                Console.WriteLine($"Has NewColor:{XmlConfigHelper.HasKey("config.xml", "NewColor")}");//True
+                XmlConfigHelper.DeleteKey("config.xml", "NewColor");
+                Console.WriteLine($"Has NewColor:{XmlConfigHelper.HasKey("config.xml", "NewColor")}");//False
             }
         }
     }

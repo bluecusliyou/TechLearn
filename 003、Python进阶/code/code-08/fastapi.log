@@ -1,0 +1,12 @@
+
+24-09-02 12:23:27,995 - 12-Python中logging在web项目中的使用.py[line:25] - INFO: 访问了/首页
+2024-09-02 12:23:28,124 - 12-Python中logging在web项目中的使用.py[line:34] - INFO: 访问了favicon.ico小图标
+2024-09-02 12:23:28,125 - 12-Python中logging在web项目中的使用.py[line:43] - INFO: 访问了/images/1.jpg图片
+2024-09-02 12:23:28,679 - 12-Python中logging在web项目中的使用.py[line:43] - INFO: 访问了/images/2.jpg图片
+2024-09-02 12:23:28,679 - 12-Python中logging在web项目中的使用.py[line:43] - INFO: 访问了/images/3.jpg图片
+2024-09-02 12:23:28,681 - 12-Python中logging在web项目中的使用.py[line:43] - INFO: 访问了/images/6.jpg图片
+2024-09-02 12:23:28,681 - 12-Python中logging在web项目中的使用.py[line:43] - INFO: 访问了/images/4.jpg图片
+2024-09-02 12:23:28,682 - 12-Python中logging在web项目中的使用.py[line:43] - INFO: 访问了/images/5.jpg图片
+2024-09-02 12:23:29,216 - 12-Python中logging在web项目中的使用.py[line:34] - INFO: 访问了favicon.ico小图标
+2024-09-02 12:23:44,188 - 12-Python中logging在web项目中的使用.py[line:52] - INFO: 访问了/gdp.html文件
+2024-09-02 12:23:44,960 - 12-Python中logging在web项目中的使用.py[line:34] - INFO: 访问了favicon.ico小图标

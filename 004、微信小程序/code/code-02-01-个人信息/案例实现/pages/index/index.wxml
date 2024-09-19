@@ -1,0 +1,16 @@
+<view>
+  <!-- 头像区域 -->
+  <view class="top">
+    <view class="user-img">
+      <image src="/images/avatar.png"></image>
+    </view>
+  </view>
+  <!-- 详细信息区域 -->
+  <view class="menu">
+    <view class="item">姓名：张三</view>
+    <view class="item">17</view>
+    <view class="item">男</view>
+    <view class="item">特长：手指特长</view>
+    <view class="item">爱好：爱好女生</view>
+  </view>
+</view>

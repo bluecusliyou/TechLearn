@@ -7,7 +7,7 @@ namespace MyLambdaLinq
     public class LinqUseShow
     {
         #region Data Init
-        private List<Student> GetStudentList()
+        private static List<Student> GetStudentList()
         {
             #region 初始化数据
             List<Student> studentList = new List<Student>()
@@ -223,7 +223,7 @@ namespace MyLambdaLinq
             return studentList;
         }
 
-        private List<Class> GetClassList()
+        private static List<Class> GetClassList()
         {
             #region 初始化数据
             List<Class> classList = new List<Class>()
@@ -253,7 +253,7 @@ namespace MyLambdaLinq
         /// <summary>
         /// 五、Linq语句使用
         /// </summary>
-        public void Show()
+        public static void Show()
         {
             //1、在使用LINQ写查询时可以使用两种形式的语法
             //（1）查询语法
@@ -286,7 +286,7 @@ namespace MyLambdaLinq
             //（1）from
             //from子句指定了要作为数据源使用的数据集合
 
-            List<Student> studentList = this.GetStudentList();
+            List<Student> studentList = GetStudentList();
             //（2）Select
             //投影：可以做一些自由组装new一个匿名类，也可以new具体类
             //select子句指定所选定的对象哪部分应该被选择。可以指定下面的任意一项a.整个数据项 b.数据项的一个字段c.数据项中几个字段组成的新对象

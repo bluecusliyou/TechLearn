@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MyLambdaLinq")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+75d43e9e058143fc3eb94dfc793fc4c3e580affa")]
 [assembly: System.Reflection.AssemblyProductAttribute("MyLambdaLinq")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MyLambdaLinq")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

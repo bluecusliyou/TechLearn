@@ -112,7 +112,7 @@ namespace MyLambdaLinq
 
                 {
                     //五、Linq语句使用
-                    new LinqUseShow().Show();
+                    LinqUseShow.Show();
                 }
                 Console.ReadKey();
             }

@@ -40,7 +40,6 @@ namespace MyLambdaLinq
                     ClassId = 2
                 };
                 //可以访问属性值
-                dModel.Id = 134;
                 Console.WriteLine(dModel.Id);
                 //但是访问不存在的属性也不报错，运行时才报异常
                 dModel.abccc = 1234;

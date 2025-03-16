@@ -1,0 +1,115 @@
+C:\Users\it.szos_you.li\source\repos\AspNetCoreWebApiMySerilog\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\it.szos_you.li\source\repos\AspNetCoreWebApiMySerilog\bin\Debug\net8.0\appsettings.json
+C:\Users\it.szos_you.li\source\repos\AspNetCoreWebApiMySerilog\bin\Debug\net8.0\AspNetCoreWebApiMySerilog.staticwebassets.endpoints.json
+C:\Users\it.szos_you.li\source\repos\AspNetCoreWebApiMySerilog\bin\Debug\net8.0\AspNetCoreWebApiMySerilog.exe
+C:\Users\it.szos_you.li\source\repos\AspNetCoreWebApiMySerilog\bin\Debug\net8.0\AspNetCoreWebApiMySerilog.deps.json
+C:\Users\it.szos_you.li\source\repos\AspNetCoreWebApiMySerilog\bin\Debug\net8.0\AspNetCoreWebApiMySerilog.runtimeconfig.json
+C:\Users\it.szos_you.li\source\repos\AspNetCoreWebApiMySerilog\bin\Debug\net8.0\AspNetCoreWebApiMySerilog.dll
+C:\Users\it.szos_you.li\source\repos\AspNetCoreWebApiMySerilog\bin\Debug\net8.0\AspNetCoreWebApiMySerilog.pdb
+C:\Users\it.szos_you.li\source\repos\AspNetCoreWebApiMySerilog\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\it.szos_you.li\source\repos\AspNetCoreWebApiMySerilog\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\it.szos_you.li\source\repos\AspNetCoreWebApiMySerilog\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\it.szos_you.li\source\repos\AspNetCoreWebApiMySerilog\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\it.szos_you.li\source\repos\AspNetCoreWebApiMySerilog\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\it.szos_you.li\source\repos\AspNetCoreWebApiMySerilog\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\it.szos_you.li\source\repos\AspNetCoreWebApiMySerilog\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\it.szos_you.li\source\repos\AspNetCoreWebApiMySerilog\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\it.szos_you.li\source\repos\AspNetCoreWebApiMySerilog\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\it.szos_you.li\source\repos\AspNetCoreWebApiMySerilog\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\it.szos_you.li\source\repos\AspNetCoreWebApiMySerilog\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\it.szos_you.li\source\repos\AspNetCoreWebApiMySerilog\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\it.szos_you.li\source\repos\AspNetCoreWebApiMySerilog\bin\Debug\net8.0\Serilog.dll
+C:\Users\it.szos_you.li\source\repos\AspNetCoreWebApiMySerilog\bin\Debug\net8.0\Serilog.AspNetCore.dll
+C:\Users\it.szos_you.li\source\repos\AspNetCoreWebApiMySerilog\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+C:\Users\it.szos_you.li\source\repos\AspNetCoreWebApiMySerilog\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+C:\Users\it.szos_you.li\source\repos\AspNetCoreWebApiMySerilog\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+C:\Users\it.szos_you.li\source\repos\AspNetCoreWebApiMySerilog\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+C:\Users\it.szos_you.li\source\repos\AspNetCoreWebApiMySerilog\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+C:\Users\it.szos_you.li\source\repos\AspNetCoreWebApiMySerilog\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+C:\Users\it.szos_you.li\source\repos\AspNetCoreWebApiMySerilog\bin\Debug\net8.0\Serilog.Sinks.File.dll
+C:\Users\it.szos_you.li\source\repos\AspNetCoreWebApiMySerilog\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\it.szos_you.li\source\repos\AspNetCoreWebApiMySerilog\bin\Debug\net8.0\System.IO.Pipelines.dll
+C:\Users\it.szos_you.li\source\repos\AspNetCoreWebApiMySerilog\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+C:\Users\it.szos_you.li\source\repos\AspNetCoreWebApiMySerilog\bin\Debug\net8.0\System.Text.Json.dll
+C:\Users\it.szos_you.li\source\repos\AspNetCoreWebApiMySerilog\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\it.szos_you.li\source\repos\AspNetCoreWebApiMySerilog\obj\Debug\net8.0\AspNetCoreWebApiMySerilog.csproj.AssemblyReference.cache
+C:\Users\it.szos_you.li\source\repos\AspNetCoreWebApiMySerilog\obj\Debug\net8.0\AspNetCoreWebApiMySerilog.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\it.szos_you.li\source\repos\AspNetCoreWebApiMySerilog\obj\Debug\net8.0\AspNetCoreWebApiMySerilog.AssemblyInfoInputs.cache
+C:\Users\it.szos_you.li\source\repos\AspNetCoreWebApiMySerilog\obj\Debug\net8.0\AspNetCoreWebApiMySerilog.AssemblyInfo.cs
+C:\Users\it.szos_you.li\source\repos\AspNetCoreWebApiMySerilog\obj\Debug\net8.0\AspNetCoreWebApiMySerilog.csproj.CoreCompileInputs.cache
+C:\Users\it.szos_you.li\source\repos\AspNetCoreWebApiMySerilog\obj\Debug\net8.0\AspNetCoreWebApiMySerilog.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\it.szos_you.li\source\repos\AspNetCoreWebApiMySerilog\obj\Debug\net8.0\scopedcss\bundle\AspNetCoreWebApiMySerilog.styles.css
+C:\Users\it.szos_you.li\source\repos\AspNetCoreWebApiMySerilog\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\it.szos_you.li\source\repos\AspNetCoreWebApiMySerilog\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\it.szos_you.li\source\repos\AspNetCoreWebApiMySerilog\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\it.szos_you.li\source\repos\AspNetCoreWebApiMySerilog\obj\Debug\net8.0\staticwebassets\msbuild.AspNetCoreWebApiMySerilog.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\it.szos_you.li\source\repos\AspNetCoreWebApiMySerilog\obj\Debug\net8.0\staticwebassets\msbuild.AspNetCoreWebApiMySerilog.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\it.szos_you.li\source\repos\AspNetCoreWebApiMySerilog\obj\Debug\net8.0\staticwebassets\msbuild.build.AspNetCoreWebApiMySerilog.props
+C:\Users\it.szos_you.li\source\repos\AspNetCoreWebApiMySerilog\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.AspNetCoreWebApiMySerilog.props
+C:\Users\it.szos_you.li\source\repos\AspNetCoreWebApiMySerilog\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.AspNetCoreWebApiMySerilog.props
+C:\Users\it.szos_you.li\source\repos\AspNetCoreWebApiMySerilog\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\it.szos_you.li\source\repos\AspNetCoreWebApiMySerilog\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\it.szos_you.li\source\repos\AspNetCoreWebApiMySerilog\obj\Debug\net8.0\AspNetCo.A442E362.Up2Date
+C:\Users\it.szos_you.li\source\repos\AspNetCoreWebApiMySerilog\obj\Debug\net8.0\AspNetCoreWebApiMySerilog.dll
+C:\Users\it.szos_you.li\source\repos\AspNetCoreWebApiMySerilog\obj\Debug\net8.0\refint\AspNetCoreWebApiMySerilog.dll
+C:\Users\it.szos_you.li\source\repos\AspNetCoreWebApiMySerilog\obj\Debug\net8.0\AspNetCoreWebApiMySerilog.pdb
+C:\Users\it.szos_you.li\source\repos\AspNetCoreWebApiMySerilog\obj\Debug\net8.0\AspNetCoreWebApiMySerilog.genruntimeconfig.cache
+C:\Users\it.szos_you.li\source\repos\AspNetCoreWebApiMySerilog\obj\Debug\net8.0\ref\AspNetCoreWebApiMySerilog.dll
+D:\XCDEVDOC\00000000 开发文档\AspNetCoreWebApiMySerilog\bin\Debug\net8.0\appsettings.Development.json
+D:\XCDEVDOC\00000000 开发文档\AspNetCoreWebApiMySerilog\bin\Debug\net8.0\appsettings.json
+D:\XCDEVDOC\00000000 开发文档\AspNetCoreWebApiMySerilog\bin\Debug\net8.0\AspNetCoreWebApiMySerilog.staticwebassets.endpoints.json
+D:\XCDEVDOC\00000000 开发文档\AspNetCoreWebApiMySerilog\bin\Debug\net8.0\AspNetCoreWebApiMySerilog.exe
+D:\XCDEVDOC\00000000 开发文档\AspNetCoreWebApiMySerilog\bin\Debug\net8.0\AspNetCoreWebApiMySerilog.deps.json
+D:\XCDEVDOC\00000000 开发文档\AspNetCoreWebApiMySerilog\bin\Debug\net8.0\AspNetCoreWebApiMySerilog.runtimeconfig.json
+D:\XCDEVDOC\00000000 开发文档\AspNetCoreWebApiMySerilog\bin\Debug\net8.0\AspNetCoreWebApiMySerilog.dll
+D:\XCDEVDOC\00000000 开发文档\AspNetCoreWebApiMySerilog\bin\Debug\net8.0\AspNetCoreWebApiMySerilog.pdb
+D:\XCDEVDOC\00000000 开发文档\AspNetCoreWebApiMySerilog\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\XCDEVDOC\00000000 开发文档\AspNetCoreWebApiMySerilog\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
+D:\XCDEVDOC\00000000 开发文档\AspNetCoreWebApiMySerilog\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\XCDEVDOC\00000000 开发文档\AspNetCoreWebApiMySerilog\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\XCDEVDOC\00000000 开发文档\AspNetCoreWebApiMySerilog\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\XCDEVDOC\00000000 开发文档\AspNetCoreWebApiMySerilog\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+D:\XCDEVDOC\00000000 开发文档\AspNetCoreWebApiMySerilog\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\XCDEVDOC\00000000 开发文档\AspNetCoreWebApiMySerilog\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\XCDEVDOC\00000000 开发文档\AspNetCoreWebApiMySerilog\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\XCDEVDOC\00000000 开发文档\AspNetCoreWebApiMySerilog\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\XCDEVDOC\00000000 开发文档\AspNetCoreWebApiMySerilog\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\XCDEVDOC\00000000 开发文档\AspNetCoreWebApiMySerilog\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\XCDEVDOC\00000000 开发文档\AspNetCoreWebApiMySerilog\bin\Debug\net8.0\Serilog.dll
+D:\XCDEVDOC\00000000 开发文档\AspNetCoreWebApiMySerilog\bin\Debug\net8.0\Serilog.AspNetCore.dll
+D:\XCDEVDOC\00000000 开发文档\AspNetCoreWebApiMySerilog\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+D:\XCDEVDOC\00000000 开发文档\AspNetCoreWebApiMySerilog\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+D:\XCDEVDOC\00000000 开发文档\AspNetCoreWebApiMySerilog\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+D:\XCDEVDOC\00000000 开发文档\AspNetCoreWebApiMySerilog\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+D:\XCDEVDOC\00000000 开发文档\AspNetCoreWebApiMySerilog\bin\Debug\net8.0\Serilog.Sinks.Async.dll
+D:\XCDEVDOC\00000000 开发文档\AspNetCoreWebApiMySerilog\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+D:\XCDEVDOC\00000000 开发文档\AspNetCoreWebApiMySerilog\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+D:\XCDEVDOC\00000000 开发文档\AspNetCoreWebApiMySerilog\bin\Debug\net8.0\Serilog.Sinks.File.dll
+D:\XCDEVDOC\00000000 开发文档\AspNetCoreWebApiMySerilog\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+D:\XCDEVDOC\00000000 开发文档\AspNetCoreWebApiMySerilog\bin\Debug\net8.0\System.IO.Pipelines.dll
+D:\XCDEVDOC\00000000 开发文档\AspNetCoreWebApiMySerilog\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+D:\XCDEVDOC\00000000 开发文档\AspNetCoreWebApiMySerilog\bin\Debug\net8.0\System.Text.Json.dll
+D:\XCDEVDOC\00000000 开发文档\AspNetCoreWebApiMySerilog\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\XCDEVDOC\00000000 开发文档\AspNetCoreWebApiMySerilog\obj\Debug\net8.0\AspNetCoreWebApiMySerilog.csproj.AssemblyReference.cache
+D:\XCDEVDOC\00000000 开发文档\AspNetCoreWebApiMySerilog\obj\Debug\net8.0\AspNetCoreWebApiMySerilog.GeneratedMSBuildEditorConfig.editorconfig
+D:\XCDEVDOC\00000000 开发文档\AspNetCoreWebApiMySerilog\obj\Debug\net8.0\AspNetCoreWebApiMySerilog.AssemblyInfoInputs.cache
+D:\XCDEVDOC\00000000 开发文档\AspNetCoreWebApiMySerilog\obj\Debug\net8.0\AspNetCoreWebApiMySerilog.AssemblyInfo.cs
+D:\XCDEVDOC\00000000 开发文档\AspNetCoreWebApiMySerilog\obj\Debug\net8.0\AspNetCoreWebApiMySerilog.csproj.CoreCompileInputs.cache
+D:\XCDEVDOC\00000000 开发文档\AspNetCoreWebApiMySerilog\obj\Debug\net8.0\AspNetCoreWebApiMySerilog.MvcApplicationPartsAssemblyInfo.cache
+D:\XCDEVDOC\00000000 开发文档\AspNetCoreWebApiMySerilog\obj\Debug\net8.0\scopedcss\bundle\AspNetCoreWebApiMySerilog.styles.css
+D:\XCDEVDOC\00000000 开发文档\AspNetCoreWebApiMySerilog\obj\Debug\net8.0\staticwebassets.build.json
+D:\XCDEVDOC\00000000 开发文档\AspNetCoreWebApiMySerilog\obj\Debug\net8.0\staticwebassets.development.json
+D:\XCDEVDOC\00000000 开发文档\AspNetCoreWebApiMySerilog\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\XCDEVDOC\00000000 开发文档\AspNetCoreWebApiMySerilog\obj\Debug\net8.0\staticwebassets\msbuild.AspNetCoreWebApiMySerilog.Microsoft.AspNetCore.StaticWebAssets.props
+D:\XCDEVDOC\00000000 开发文档\AspNetCoreWebApiMySerilog\obj\Debug\net8.0\staticwebassets\msbuild.AspNetCoreWebApiMySerilog.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\XCDEVDOC\00000000 开发文档\AspNetCoreWebApiMySerilog\obj\Debug\net8.0\staticwebassets\msbuild.build.AspNetCoreWebApiMySerilog.props
+D:\XCDEVDOC\00000000 开发文档\AspNetCoreWebApiMySerilog\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.AspNetCoreWebApiMySerilog.props
+D:\XCDEVDOC\00000000 开发文档\AspNetCoreWebApiMySerilog\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.AspNetCoreWebApiMySerilog.props
+D:\XCDEVDOC\00000000 开发文档\AspNetCoreWebApiMySerilog\obj\Debug\net8.0\staticwebassets.pack.json
+D:\XCDEVDOC\00000000 开发文档\AspNetCoreWebApiMySerilog\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\XCDEVDOC\00000000 开发文档\AspNetCoreWebApiMySerilog\obj\Debug\net8.0\AspNetCo.A442E362.Up2Date
+D:\XCDEVDOC\00000000 开发文档\AspNetCoreWebApiMySerilog\obj\Debug\net8.0\AspNetCoreWebApiMySerilog.dll
+D:\XCDEVDOC\00000000 开发文档\AspNetCoreWebApiMySerilog\obj\Debug\net8.0\refint\AspNetCoreWebApiMySerilog.dll
+D:\XCDEVDOC\00000000 开发文档\AspNetCoreWebApiMySerilog\obj\Debug\net8.0\AspNetCoreWebApiMySerilog.pdb
+D:\XCDEVDOC\00000000 开发文档\AspNetCoreWebApiMySerilog\obj\Debug\net8.0\AspNetCoreWebApiMySerilog.genruntimeconfig.cache
+D:\XCDEVDOC\00000000 开发文档\AspNetCoreWebApiMySerilog\obj\Debug\net8.0\ref\AspNetCoreWebApiMySerilog.dll

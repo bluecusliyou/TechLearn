@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\AspNetCoreWebApiMySerilog.props" />
+</Project>

@@ -1,0 +1,130 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\XCDEVDOC\\00000000 \u5F00\u53D1\u6587\u6863\\AspNetCoreWebApiMySerilog\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F24360F7-B3EA-487F-8DD3-2AC8BE44B83D}|AspNetCoreWebApiMySerilog.csproj|d:\\xcdevdoc\\00000000 \u5F00\u53D1\u6587\u6863\\aspnetcorewebapimyserilog\\logs\\warn20250221.log||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{F24360F7-B3EA-487F-8DD3-2AC8BE44B83D}|AspNetCoreWebApiMySerilog.csproj|solutionrelative:logs\\warn20250221.log||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F24360F7-B3EA-487F-8DD3-2AC8BE44B83D}|AspNetCoreWebApiMySerilog.csproj|d:\\xcdevdoc\\00000000 \u5F00\u53D1\u6587\u6863\\aspnetcorewebapimyserilog\\logs\\info20250221.log||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{F24360F7-B3EA-487F-8DD3-2AC8BE44B83D}|AspNetCoreWebApiMySerilog.csproj|solutionrelative:logs\\info20250221.log||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F24360F7-B3EA-487F-8DD3-2AC8BE44B83D}|AspNetCoreWebApiMySerilog.csproj|d:\\xcdevdoc\\00000000 \u5F00\u53D1\u6587\u6863\\aspnetcorewebapimyserilog\\logs\\fatal20250221.log||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{F24360F7-B3EA-487F-8DD3-2AC8BE44B83D}|AspNetCoreWebApiMySerilog.csproj|solutionrelative:logs\\fatal20250221.log||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F24360F7-B3EA-487F-8DD3-2AC8BE44B83D}|AspNetCoreWebApiMySerilog.csproj|d:\\xcdevdoc\\00000000 \u5F00\u53D1\u6587\u6863\\aspnetcorewebapimyserilog\\logs\\error20250221.log||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{F24360F7-B3EA-487F-8DD3-2AC8BE44B83D}|AspNetCoreWebApiMySerilog.csproj|solutionrelative:logs\\error20250221.log||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F24360F7-B3EA-487F-8DD3-2AC8BE44B83D}|AspNetCoreWebApiMySerilog.csproj|d:\\xcdevdoc\\00000000 \u5F00\u53D1\u6587\u6863\\aspnetcorewebapimyserilog\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F24360F7-B3EA-487F-8DD3-2AC8BE44B83D}|AspNetCoreWebApiMySerilog.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F24360F7-B3EA-487F-8DD3-2AC8BE44B83D}|AspNetCoreWebApiMySerilog.csproj|d:\\xcdevdoc\\00000000 \u5F00\u53D1\u6587\u6863\\aspnetcorewebapimyserilog\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F24360F7-B3EA-487F-8DD3-2AC8BE44B83D}|AspNetCoreWebApiMySerilog.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "warn20250221.log",
+              "DocumentMoniker": "D:\\XCDEVDOC\\00000000 \u5F00\u53D1\u6587\u6863\\AspNetCoreWebApiMySerilog\\Logs\\warn20250221.log",
+              "RelativeDocumentMoniker": "Logs\\warn20250221.log",
+              "ToolTip": "D:\\XCDEVDOC\\00000000 \u5F00\u53D1\u6587\u6863\\AspNetCoreWebApiMySerilog\\Logs\\warn20250221.log",
+              "RelativeToolTip": "Logs\\warn20250221.log",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF8SURBVDhPjVNLTgJBEG1lwpoFB3GNK9fieA48hD8iwT/ihwgSDAIHgAGXXsEV18CNzL/LquqZdsYM6kteXqcy3fWqpmpNRBgOhyABBEgpAFVKPIMUcYzUyOU\u002BXM/b2qtU3vkSfRjjZTCAMAw1A2LwzdFoBPP5HNqdzuL27n4juibWI\u002BUshBA1DIkhEx9iEorFotgslQqGYbxxAGFEqt1MxmPWJLbLZdZ\u002Bv89q5PMFPiTR6z2zdaxR0fXA0XTBcVywkb4fwHXjRteecIDNQ7UmExVYAdPcxYaqclN46na5WenMKjtlVnTYwcXlVYaDqImW9beD5N/TeGy32QHXm6hZ03ZgiSQHp2fnWQ4oBmJqWSqwAqZpZjt4aLXAD4J0VqyZsmoubfB8H2r1eoaD6NXZ9HcHO\u002BSA3f4AjifXl8rItOETM8ckB9WTWpYD9RdeZ1PWVWAHWXPQaDb59f/w8LiqHeh1pvGkCaP6qB8yXusoxmuNZ7XmII4O9vGuEF86osuDYRkpYQAAAABJRU5ErkJggg==",
+              "WhenOpened": "2025-02-21T09:20:45.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "info20250221.log",
+              "DocumentMoniker": "D:\\XCDEVDOC\\00000000 \u5F00\u53D1\u6587\u6863\\AspNetCoreWebApiMySerilog\\Logs\\info20250221.log",
+              "RelativeDocumentMoniker": "Logs\\info20250221.log",
+              "ToolTip": "D:\\XCDEVDOC\\00000000 \u5F00\u53D1\u6587\u6863\\AspNetCoreWebApiMySerilog\\Logs\\info20250221.log",
+              "RelativeToolTip": "Logs\\info20250221.log",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF8SURBVDhPjVNLTgJBEG1lwpoFB3GNK9fieA48hD8iwT/ihwgSDAIHgAGXXsEV18CNzL/LquqZdsYM6kteXqcy3fWqpmpNRBgOhyABBEgpAFVKPIMUcYzUyOU\u002BXM/b2qtU3vkSfRjjZTCAMAw1A2LwzdFoBPP5HNqdzuL27n4juibWI\u002BUshBA1DIkhEx9iEorFotgslQqGYbxxAGFEqt1MxmPWJLbLZdZ\u002Bv89q5PMFPiTR6z2zdaxR0fXA0XTBcVywkb4fwHXjRteecIDNQ7UmExVYAdPcxYaqclN46na5WenMKjtlVnTYwcXlVYaDqImW9beD5N/TeGy32QHXm6hZ03ZgiSQHp2fnWQ4oBmJqWSqwAqZpZjt4aLXAD4J0VqyZsmoubfB8H2r1eoaD6NXZ9HcHO\u002BSA3f4AjifXl8rItOETM8ckB9WTWpYD9RdeZ1PWVWAHWXPQaDb59f/w8LiqHeh1pvGkCaP6qB8yXusoxmuNZ7XmII4O9vGuEF86osuDYRkpYQAAAABJRU5ErkJggg==",
+              "WhenOpened": "2025-02-21T09:20:44.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "fatal20250221.log",
+              "DocumentMoniker": "D:\\XCDEVDOC\\00000000 \u5F00\u53D1\u6587\u6863\\AspNetCoreWebApiMySerilog\\Logs\\fatal20250221.log",
+              "RelativeDocumentMoniker": "Logs\\fatal20250221.log",
+              "ToolTip": "D:\\XCDEVDOC\\00000000 \u5F00\u53D1\u6587\u6863\\AspNetCoreWebApiMySerilog\\Logs\\fatal20250221.log",
+              "RelativeToolTip": "Logs\\fatal20250221.log",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF8SURBVDhPjVNLTgJBEG1lwpoFB3GNK9fieA48hD8iwT/ihwgSDAIHgAGXXsEV18CNzL/LquqZdsYM6kteXqcy3fWqpmpNRBgOhyABBEgpAFVKPIMUcYzUyOU\u002BXM/b2qtU3vkSfRjjZTCAMAw1A2LwzdFoBPP5HNqdzuL27n4juibWI\u002BUshBA1DIkhEx9iEorFotgslQqGYbxxAGFEqt1MxmPWJLbLZdZ\u002Bv89q5PMFPiTR6z2zdaxR0fXA0XTBcVywkb4fwHXjRteecIDNQ7UmExVYAdPcxYaqclN46na5WenMKjtlVnTYwcXlVYaDqImW9beD5N/TeGy32QHXm6hZ03ZgiSQHp2fnWQ4oBmJqWSqwAqZpZjt4aLXAD4J0VqyZsmoubfB8H2r1eoaD6NXZ9HcHO\u002BSA3f4AjifXl8rItOETM8ckB9WTWpYD9RdeZ1PWVWAHWXPQaDb59f/w8LiqHeh1pvGkCaP6qB8yXusoxmuNZ7XmII4O9vGuEF86osuDYRkpYQAAAABJRU5ErkJggg==",
+              "WhenOpened": "2025-02-21T09:20:43.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "error20250221.log",
+              "DocumentMoniker": "D:\\XCDEVDOC\\00000000 \u5F00\u53D1\u6587\u6863\\AspNetCoreWebApiMySerilog\\Logs\\error20250221.log",
+              "RelativeDocumentMoniker": "Logs\\error20250221.log",
+              "ToolTip": "D:\\XCDEVDOC\\00000000 \u5F00\u53D1\u6587\u6863\\AspNetCoreWebApiMySerilog\\Logs\\error20250221.log",
+              "RelativeToolTip": "Logs\\error20250221.log",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF8SURBVDhPjVNLTgJBEG1lwpoFB3GNK9fieA48hD8iwT/ihwgSDAIHgAGXXsEV18CNzL/LquqZdsYM6kteXqcy3fWqpmpNRBgOhyABBEgpAFVKPIMUcYzUyOU\u002BXM/b2qtU3vkSfRjjZTCAMAw1A2LwzdFoBPP5HNqdzuL27n4juibWI\u002BUshBA1DIkhEx9iEorFotgslQqGYbxxAGFEqt1MxmPWJLbLZdZ\u002Bv89q5PMFPiTR6z2zdaxR0fXA0XTBcVywkb4fwHXjRteecIDNQ7UmExVYAdPcxYaqclN46na5WenMKjtlVnTYwcXlVYaDqImW9beD5N/TeGy32QHXm6hZ03ZgiSQHp2fnWQ4oBmJqWSqwAqZpZjt4aLXAD4J0VqyZsmoubfB8H2r1eoaD6NXZ9HcHO\u002BSA3f4AjifXl8rItOETM8ckB9WTWpYD9RdeZ1PWVWAHWXPQaDb59f/w8LiqHeh1pvGkCaP6qB8yXusoxmuNZ7XmII4O9vGuEF86osuDYRkpYQAAAABJRU5ErkJggg==",
+              "WhenOpened": "2025-02-21T09:20:37.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\XCDEVDOC\\00000000 \u5F00\u53D1\u6587\u6863\\AspNetCoreWebApiMySerilog\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\XCDEVDOC\\00000000 \u5F00\u53D1\u6587\u6863\\AspNetCoreWebApiMySerilog\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-21T09:19:05.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\XCDEVDOC\\00000000 \u5F00\u53D1\u6587\u6863\\AspNetCoreWebApiMySerilog\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "D:\\XCDEVDOC\\00000000 \u5F00\u53D1\u6587\u6863\\AspNetCoreWebApiMySerilog\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-21T09:19:06.524Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+C:\Users\it.szos_you.li\source\repos\ConsoleMySerilog\bin\Debug\net8.0\ConsoleMySerilog.exe
+C:\Users\it.szos_you.li\source\repos\ConsoleMySerilog\bin\Debug\net8.0\ConsoleMySerilog.deps.json
+C:\Users\it.szos_you.li\source\repos\ConsoleMySerilog\bin\Debug\net8.0\ConsoleMySerilog.runtimeconfig.json
+C:\Users\it.szos_you.li\source\repos\ConsoleMySerilog\bin\Debug\net8.0\ConsoleMySerilog.dll
+C:\Users\it.szos_you.li\source\repos\ConsoleMySerilog\bin\Debug\net8.0\ConsoleMySerilog.pdb
+C:\Users\it.szos_you.li\source\repos\ConsoleMySerilog\bin\Debug\net8.0\Serilog.dll
+C:\Users\it.szos_you.li\source\repos\ConsoleMySerilog\bin\Debug\net8.0\Serilog.Sinks.File.dll
+C:\Users\it.szos_you.li\source\repos\ConsoleMySerilog\obj\Debug\net8.0\ConsoleMySerilog.csproj.AssemblyReference.cache
+C:\Users\it.szos_you.li\source\repos\ConsoleMySerilog\obj\Debug\net8.0\ConsoleMySerilog.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\it.szos_you.li\source\repos\ConsoleMySerilog\obj\Debug\net8.0\ConsoleMySerilog.AssemblyInfoInputs.cache
+C:\Users\it.szos_you.li\source\repos\ConsoleMySerilog\obj\Debug\net8.0\ConsoleMySerilog.AssemblyInfo.cs
+C:\Users\it.szos_you.li\source\repos\ConsoleMySerilog\obj\Debug\net8.0\ConsoleMySerilog.csproj.CoreCompileInputs.cache
+C:\Users\it.szos_you.li\source\repos\ConsoleMySerilog\obj\Debug\net8.0\ConsoleM.944CD06F.Up2Date
+C:\Users\it.szos_you.li\source\repos\ConsoleMySerilog\obj\Debug\net8.0\ConsoleMySerilog.dll
+C:\Users\it.szos_you.li\source\repos\ConsoleMySerilog\obj\Debug\net8.0\refint\ConsoleMySerilog.dll
+C:\Users\it.szos_you.li\source\repos\ConsoleMySerilog\obj\Debug\net8.0\ConsoleMySerilog.pdb
+C:\Users\it.szos_you.li\source\repos\ConsoleMySerilog\obj\Debug\net8.0\ConsoleMySerilog.genruntimeconfig.cache
+C:\Users\it.szos_you.li\source\repos\ConsoleMySerilog\obj\Debug\net8.0\ref\ConsoleMySerilog.dll
+D:\XCDEVDOC\00000000 开发文档\ConsoleMySerilog\bin\Debug\net8.0\ConsoleMySerilog.exe
+D:\XCDEVDOC\00000000 开发文档\ConsoleMySerilog\bin\Debug\net8.0\ConsoleMySerilog.deps.json
+D:\XCDEVDOC\00000000 开发文档\ConsoleMySerilog\bin\Debug\net8.0\ConsoleMySerilog.runtimeconfig.json
+D:\XCDEVDOC\00000000 开发文档\ConsoleMySerilog\bin\Debug\net8.0\ConsoleMySerilog.dll
+D:\XCDEVDOC\00000000 开发文档\ConsoleMySerilog\bin\Debug\net8.0\ConsoleMySerilog.pdb
+D:\XCDEVDOC\00000000 开发文档\ConsoleMySerilog\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+D:\XCDEVDOC\00000000 开发文档\ConsoleMySerilog\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\XCDEVDOC\00000000 开发文档\ConsoleMySerilog\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
+D:\XCDEVDOC\00000000 开发文档\ConsoleMySerilog\bin\Debug\net8.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\XCDEVDOC\00000000 开发文档\ConsoleMySerilog\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Json.dll
+D:\XCDEVDOC\00000000 开发文档\ConsoleMySerilog\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\XCDEVDOC\00000000 开发文档\ConsoleMySerilog\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\XCDEVDOC\00000000 开发文档\ConsoleMySerilog\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Physical.dll
+D:\XCDEVDOC\00000000 开发文档\ConsoleMySerilog\bin\Debug\net8.0\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\XCDEVDOC\00000000 开发文档\ConsoleMySerilog\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\XCDEVDOC\00000000 开发文档\ConsoleMySerilog\bin\Debug\net8.0\Serilog.dll
+D:\XCDEVDOC\00000000 开发文档\ConsoleMySerilog\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+D:\XCDEVDOC\00000000 开发文档\ConsoleMySerilog\bin\Debug\net8.0\Serilog.Sinks.File.dll
+D:\XCDEVDOC\00000000 开发文档\ConsoleMySerilog\bin\Debug\net8.0\System.IO.Pipelines.dll
+D:\XCDEVDOC\00000000 开发文档\ConsoleMySerilog\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+D:\XCDEVDOC\00000000 开发文档\ConsoleMySerilog\bin\Debug\net8.0\System.Text.Json.dll
+D:\XCDEVDOC\00000000 开发文档\ConsoleMySerilog\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\XCDEVDOC\00000000 开发文档\ConsoleMySerilog\obj\Debug\net8.0\ConsoleMySerilog.csproj.AssemblyReference.cache
+D:\XCDEVDOC\00000000 开发文档\ConsoleMySerilog\obj\Debug\net8.0\ConsoleMySerilog.GeneratedMSBuildEditorConfig.editorconfig
+D:\XCDEVDOC\00000000 开发文档\ConsoleMySerilog\obj\Debug\net8.0\ConsoleMySerilog.AssemblyInfoInputs.cache
+D:\XCDEVDOC\00000000 开发文档\ConsoleMySerilog\obj\Debug\net8.0\ConsoleMySerilog.AssemblyInfo.cs
+D:\XCDEVDOC\00000000 开发文档\ConsoleMySerilog\obj\Debug\net8.0\ConsoleMySerilog.csproj.CoreCompileInputs.cache
+D:\XCDEVDOC\00000000 开发文档\ConsoleMySerilog\obj\Debug\net8.0\ConsoleM.944CD06F.Up2Date
+D:\XCDEVDOC\00000000 开发文档\ConsoleMySerilog\obj\Debug\net8.0\ConsoleMySerilog.dll
+D:\XCDEVDOC\00000000 开发文档\ConsoleMySerilog\obj\Debug\net8.0\refint\ConsoleMySerilog.dll
+D:\XCDEVDOC\00000000 开发文档\ConsoleMySerilog\obj\Debug\net8.0\ConsoleMySerilog.pdb
+D:\XCDEVDOC\00000000 开发文档\ConsoleMySerilog\obj\Debug\net8.0\ConsoleMySerilog.genruntimeconfig.cache
+D:\XCDEVDOC\00000000 开发文档\ConsoleMySerilog\obj\Debug\net8.0\ref\ConsoleMySerilog.dll
+D:\XCDEVDOC\00000000 开发文档\ConsoleMySerilog\bin\Debug\net8.0\appsettings.json
+D:\XCDEVDOC\00000000 开发文档\ConsoleMySerilog\bin\Debug\net8.0\Serilog.Sinks.Async.dll

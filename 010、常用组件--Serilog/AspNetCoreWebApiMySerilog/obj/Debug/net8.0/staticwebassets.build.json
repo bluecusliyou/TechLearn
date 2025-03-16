@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "1VI4LIC4tc31675zpLwH4c+6cTygSd9Q6dGEcJRJTk8=",
+  "Source": "AspNetCoreWebApiMySerilog",
+  "BasePath": "_content/AspNetCoreWebApiMySerilog",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

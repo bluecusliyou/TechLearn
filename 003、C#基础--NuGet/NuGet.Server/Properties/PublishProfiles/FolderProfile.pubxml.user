@@ -1,0 +1,1265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- https://go.microsoft.com/fwlink/?LinkID=208121. -->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\DEV\Web\NuGetServer</_PublishTargetUrl>
+    <History>True|2025-07-16T05:36:23.3928667Z||;True|2025-07-01T17:23:46.4985751+08:00||;True|2025-07-01T17:22:31.3149864+08:00||;True|2025-07-01T17:14:55.9194658+08:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/de/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/14/2018 07:22:12</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/14/2018 07:22:24</publishTime>
+    </File>
+    <File Include="bin/de/System.Spatial.resources.dll">
+      <publishTime>08/14/2018 07:22:38</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/14/2018 07:22:12</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/14/2018 07:22:24</publishTime>
+    </File>
+    <File Include="bin/es/System.Spatial.resources.dll">
+      <publishTime>08/14/2018 07:22:38</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/14/2018 07:22:12</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/14/2018 07:22:24</publishTime>
+    </File>
+    <File Include="bin/fr/System.Spatial.resources.dll">
+      <publishTime>08/14/2018 07:22:38</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/14/2018 07:22:12</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/14/2018 07:22:24</publishTime>
+    </File>
+    <File Include="bin/it/System.Spatial.resources.dll">
+      <publishTime>08/14/2018 07:22:38</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/14/2018 07:22:12</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/14/2018 07:22:24</publishTime>
+    </File>
+    <File Include="bin/ja/System.Spatial.resources.dll">
+      <publishTime>08/14/2018 07:22:38</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/14/2018 07:22:12</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/14/2018 07:22:24</publishTime>
+    </File>
+    <File Include="bin/ko/System.Spatial.resources.dll">
+      <publishTime>08/14/2018 07:22:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>09/05/2018 16:10:50</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Data.Edm.dll">
+      <publishTime>08/14/2018 07:22:10</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Data.OData.dll">
+      <publishTime>08/14/2018 07:22:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/25/2012 19:48:56</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.XmlTransform.dll">
+      <publishTime>04/30/2014 11:57:24</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>03/18/2021 04:03:36</publishTime>
+    </File>
+    <File Include="bin/NuGet.Core.dll">
+      <publishTime>09/07/2016 19:09:14</publishTime>
+    </File>
+    <File Include="bin/NuGet.Server.Core.dll">
+      <publishTime>07/12/2022 05:56:50</publishTime>
+    </File>
+    <File Include="bin/NuGet.Server.dll">
+      <publishTime>07/12/2022 05:55:58</publishTime>
+    </File>
+    <File Include="bin/NuGet.Server.pdb">
+      <publishTime>07/16/2025 13:36:09</publishTime>
+    </File>
+    <File Include="bin/NuGet.Server.V2.dll">
+      <publishTime>07/12/2022 05:55:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>08/08/2018 12:18:12</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>08/08/2018 12:18:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>08/08/2018 12:09:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>12/05/2017 09:36:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>12/05/2017 09:36:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Managed.Core.targets">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Win32.Primitives.dll">
+      <publishTime>11/05/2016 18:55:32</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>11/05/2016 18:55:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>05/16/2018 03:29:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>11/05/2016 18:55:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>11/05/2016 18:55:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>11/05/2016 18:55:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>11/05/2016 18:55:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Globalization.Calendars.dll">
+      <publishTime>11/05/2016 18:56:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>11/05/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.ZipFile.dll">
+      <publishTime>11/05/2016 18:56:04</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>11/05/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>11/05/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Net.Http.dll">
+      <publishTime>11/05/2016 18:56:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Net.Sockets.dll">
+      <publishTime>11/05/2016 18:56:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>05/16/2018 03:29:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Runtime.InteropServices.RuntimeInformation.dll">
+      <publishTime>11/05/2016 18:57:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>11/05/2016 18:57:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>11/05/2016 18:57:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>11/05/2016 18:57:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>11/05/2016 18:57:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>11/05/2016 18:57:20</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Threading.Tasks.Extensions.dll">
+      <publishTime>11/05/2016 18:57:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>11/05/2016 18:57:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>11/05/2016 18:57:36</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>11/05/2016 18:57:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>11/05/2016 18:57:40</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>11/05/2016 18:57:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>08/08/2018 12:18:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>08/08/2018 12:09:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>08/08/2018 12:18:16</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/14/2018 07:22:12</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/14/2018 07:22:24</publishTime>
+    </File>
+    <File Include="bin/ru/System.Spatial.resources.dll">
+      <publishTime>08/14/2018 07:22:38</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>01/28/2015 12:02:42</publishTime>
+    </File>
+    <File Include="bin/System.Spatial.dll">
+      <publishTime>08/14/2018 07:22:38</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>01/28/2015 12:02:54</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.OData.dll">
+      <publishTime>08/21/2015 08:18:24</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>01/28/2015 12:03:46</publishTime>
+    </File>
+    <File Include="bin/WebActivatorEx.dll">
+      <publishTime>10/05/2016 21:11:52</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/14/2018 07:22:12</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/14/2018 07:22:24</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Spatial.resources.dll">
+      <publishTime>08/14/2018 07:22:38</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/14/2018 07:22:12</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/14/2018 07:22:24</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/System.Spatial.resources.dll">
+      <publishTime>08/14/2018 07:22:38</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>07/01/2025 14:39:16</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>07/01/2025 14:39:16</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.AspNet.WebApi.5.2.3/.signature.p7s">
+      <publishTime>12/17/2018 23:47:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.AspNet.WebApi.5.2.3/Microsoft.AspNet.WebApi.5.2.3.nupkg">
+      <publishTime>07/01/2025 14:39:09</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.AspNet.WebApi.Client.5.2.3/.signature.p7s">
+      <publishTime>12/14/2018 01:56:18</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.AspNet.WebApi.Client.5.2.3/lib/net45/System.Net.Http.Formatting.dll">
+      <publishTime>01/28/2015 12:02:42</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.AspNet.WebApi.Client.5.2.3/lib/portable-wp8+netcore45+net45+wp81+wpa81/System.Net.Http.Formatting.dll">
+      <publishTime>01/28/2015 12:02:42</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.AspNet.WebApi.Client.5.2.3/lib/portable-wp8+netcore45+net45+wp81+wpa81/System.Net.Http.Formatting.xml">
+      <publishTime>01/28/2015 12:02:42</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.AspNet.WebApi.Client.5.2.3/Microsoft.AspNet.WebApi.Client.5.2.3.nupkg">
+      <publishTime>07/01/2025 14:39:09</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.AspNet.WebApi.Core.5.2.3/.signature.p7s">
+      <publishTime>12/17/2018 23:47:28</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.AspNet.WebApi.Core.5.2.3/Content/web.config.transform">
+      <publishTime>01/28/2015 12:02:54</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.AspNet.WebApi.Core.5.2.3/lib/net45/System.Web.Http.dll">
+      <publishTime>01/28/2015 12:02:54</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.AspNet.WebApi.Core.5.2.3/Microsoft.AspNet.WebApi.Core.5.2.3.nupkg">
+      <publishTime>07/01/2025 14:39:09</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.AspNet.WebApi.OData.5.7.0/.signature.p7s">
+      <publishTime>10/05/2018 08:16:02</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.AspNet.WebApi.OData.5.7.0/lib/net45/System.Web.Http.OData.dll">
+      <publishTime>08/21/2015 08:18:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.AspNet.WebApi.OData.5.7.0/Microsoft.AspNet.WebApi.OData.5.7.0.nupkg">
+      <publishTime>07/01/2025 14:39:12</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.AspNet.WebApi.WebHost.5.2.3/.signature.p7s">
+      <publishTime>12/18/2018 03:47:20</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.AspNet.WebApi.WebHost.5.2.3/lib/net45/System.Web.Http.WebHost.dll">
+      <publishTime>01/28/2015 12:03:46</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.AspNet.WebApi.WebHost.5.2.3/Microsoft.AspNet.WebApi.WebHost.5.2.3.nupkg">
+      <publishTime>07/01/2025 14:39:09</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/.signature.p7s">
+      <publishTime>12/17/2018 16:01:52</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/build/net45/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.Extensions.props">
+      <publishTime>09/05/2018 16:04:32</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/build/net45/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props">
+      <publishTime>09/05/2018 16:04:32</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/build/net46/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.Extensions.props">
+      <publishTime>09/05/2018 16:04:32</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/build/net46/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props">
+      <publishTime>09/05/2018 16:04:32</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/content/net45/app.config.install.xdt">
+      <publishTime>09/05/2018 16:04:34</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/content/net45/app.config.uninstall.xdt">
+      <publishTime>09/05/2018 16:04:34</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/content/net45/web.config.install.xdt">
+      <publishTime>09/05/2018 16:04:34</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/content/net45/web.config.uninstall.xdt">
+      <publishTime>09/05/2018 16:04:34</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/content/net46/app.config.install.xdt">
+      <publishTime>09/05/2018 16:04:34</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/content/net46/app.config.uninstall.xdt">
+      <publishTime>09/05/2018 16:04:34</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/content/net46/web.config.install.xdt">
+      <publishTime>09/05/2018 16:04:34</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/content/net46/web.config.uninstall.xdt">
+      <publishTime>09/05/2018 16:04:34</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/lib/net45/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>09/05/2018 16:10:50</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1.nupkg">
+      <publishTime>07/01/2025 14:34:30</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/net45/install.ps1">
+      <publishTime>09/05/2018 16:15:16</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/net45/uninstall.ps1">
+      <publishTime>09/05/2018 16:13:46</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/csc.exe">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/csc.exe.config">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/csc.rsp">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/csi.exe">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/csi.rsp">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/Microsoft.CodeAnalysis.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/Microsoft.CSharp.Core.targets">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/Microsoft.VisualBasic.Core.targets">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/System.AppContext.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/System.Collections.Immutable.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/System.Diagnostics.StackTrace.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/System.IO.FileSystem.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/System.IO.FileSystem.Primitives.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/System.Reflection.Metadata.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/vbc.exe">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/vbc.exe.config">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/vbc.rsp">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/VBCSCompiler.exe">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/VBCSCompiler.exe.config">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/csc.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/csc.exe.config">
+      <publishTime>08/08/2018 12:18:12</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/csc.rsp">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/csi.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/csi.exe.config">
+      <publishTime>08/08/2018 12:18:34</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/csi.rsp">
+      <publishTime>08/08/2018 12:09:56</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/Microsoft.CodeAnalysis.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/Microsoft.CSharp.Core.targets">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>12/05/2017 09:36:44</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>12/05/2017 09:36:44</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/Microsoft.Managed.Core.targets">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/Microsoft.VisualBasic.Core.targets">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/Microsoft.Win32.Primitives.dll">
+      <publishTime>11/05/2016 18:55:32</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.AppContext.dll">
+      <publishTime>11/05/2016 18:55:34</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Collections.Immutable.dll">
+      <publishTime>05/16/2018 03:29:34</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Console.dll">
+      <publishTime>11/05/2016 18:55:48</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>11/05/2016 18:55:52</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>11/05/2016 18:55:56</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Diagnostics.StackTrace.dll">
+      <publishTime>11/05/2016 18:55:52</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Globalization.Calendars.dll">
+      <publishTime>11/05/2016 18:56:02</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.IO.Compression.dll">
+      <publishTime>11/05/2016 18:56:08</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.IO.Compression.ZipFile.dll">
+      <publishTime>11/05/2016 18:56:04</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.IO.FileSystem.dll">
+      <publishTime>11/05/2016 18:56:08</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.IO.FileSystem.Primitives.dll">
+      <publishTime>11/05/2016 18:56:08</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Net.Http.dll">
+      <publishTime>11/05/2016 18:56:30</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Net.Sockets.dll">
+      <publishTime>11/05/2016 18:56:34</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Reflection.Metadata.dll">
+      <publishTime>05/16/2018 03:29:44</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Runtime.InteropServices.RuntimeInformation.dll">
+      <publishTime>11/05/2016 18:57:00</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>11/05/2016 18:57:14</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Security.Cryptography.Encoding.dll">
+      <publishTime>11/05/2016 18:57:08</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Security.Cryptography.Primitives.dll">
+      <publishTime>11/05/2016 18:57:18</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>11/05/2016 18:57:18</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Text.Encoding.CodePages.dll">
+      <publishTime>11/05/2016 18:57:20</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Threading.Tasks.Extensions.dll">
+      <publishTime>11/05/2016 18:57:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.ValueTuple.dll">
+      <publishTime>11/05/2016 18:57:30</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Xml.ReaderWriter.dll">
+      <publishTime>11/05/2016 18:57:36</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Xml.XmlDocument.dll">
+      <publishTime>11/05/2016 18:57:34</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Xml.XPath.dll">
+      <publishTime>11/05/2016 18:57:40</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Xml.XPath.XDocument.dll">
+      <publishTime>11/05/2016 18:57:34</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/vbc.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/vbc.exe.config">
+      <publishTime>08/08/2018 12:18:18</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/vbc.rsp">
+      <publishTime>08/08/2018 12:09:46</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/VBCSCompiler.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/VBCSCompiler.exe.config">
+      <publishTime>08/08/2018 12:18:16</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.Edm.5.8.4/.signature.p7s">
+      <publishTime>12/17/2018 23:33:52</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.Edm.5.8.4/lib/net40/de/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/14/2018 07:22:12</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.Edm.5.8.4/lib/net40/es/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/14/2018 07:22:12</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.Edm.5.8.4/lib/net40/fr/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/14/2018 07:22:12</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.Edm.5.8.4/lib/net40/it/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/14/2018 07:22:12</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.Edm.5.8.4/lib/net40/ja/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/14/2018 07:22:12</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.Edm.5.8.4/lib/net40/ko/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/14/2018 07:22:12</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.Edm.5.8.4/lib/net40/Microsoft.Data.Edm.dll">
+      <publishTime>08/14/2018 07:22:10</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.Edm.5.8.4/lib/net40/ru/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/14/2018 07:22:12</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.Edm.5.8.4/lib/net40/zh-Hans/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/14/2018 07:22:12</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.Edm.5.8.4/lib/net40/zh-Hant/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/14/2018 07:22:12</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.Edm.5.8.4/lib/netstandard1.1/de/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/14/2018 07:22:12</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.Edm.5.8.4/lib/netstandard1.1/es/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/14/2018 07:22:12</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.Edm.5.8.4/lib/netstandard1.1/fr/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/14/2018 07:22:12</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.Edm.5.8.4/lib/netstandard1.1/it/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/14/2018 07:22:12</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.Edm.5.8.4/lib/netstandard1.1/ja/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/14/2018 07:22:12</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.Edm.5.8.4/lib/netstandard1.1/ko/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/14/2018 07:22:12</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.Edm.5.8.4/lib/netstandard1.1/Microsoft.Data.Edm.dll">
+      <publishTime>08/14/2018 07:22:10</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.Edm.5.8.4/lib/netstandard1.1/Microsoft.Data.Edm.xml">
+      <publishTime>08/14/2018 07:22:10</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.Edm.5.8.4/lib/netstandard1.1/ru/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/14/2018 07:22:12</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.Edm.5.8.4/lib/netstandard1.1/zh-Hans/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/14/2018 07:22:12</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.Edm.5.8.4/lib/netstandard1.1/zh-Hant/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/14/2018 07:22:12</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.Edm.5.8.4/lib/portable-net40+sl5+wp8+win8+wpa/de/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/14/2018 07:22:12</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.Edm.5.8.4/lib/portable-net40+sl5+wp8+win8+wpa/es/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/14/2018 07:22:12</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.Edm.5.8.4/lib/portable-net40+sl5+wp8+win8+wpa/fr/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/14/2018 07:22:12</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.Edm.5.8.4/lib/portable-net40+sl5+wp8+win8+wpa/it/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/14/2018 07:22:12</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.Edm.5.8.4/lib/portable-net40+sl5+wp8+win8+wpa/ja/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/14/2018 07:22:12</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.Edm.5.8.4/lib/portable-net40+sl5+wp8+win8+wpa/ko/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/14/2018 07:22:12</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.Edm.5.8.4/lib/portable-net40+sl5+wp8+win8+wpa/Microsoft.Data.Edm.dll">
+      <publishTime>08/14/2018 07:22:10</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.Edm.5.8.4/lib/portable-net40+sl5+wp8+win8+wpa/Microsoft.Data.Edm.xml">
+      <publishTime>08/14/2018 07:22:10</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.Edm.5.8.4/lib/portable-net40+sl5+wp8+win8+wpa/ru/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/14/2018 07:22:12</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.Edm.5.8.4/lib/portable-net40+sl5+wp8+win8+wpa/zh-Hans/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/14/2018 07:22:12</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.Edm.5.8.4/lib/portable-net40+sl5+wp8+win8+wpa/zh-Hant/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/14/2018 07:22:12</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.Edm.5.8.4/lib/portable-net45+wp8+win8+wpa/de/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/14/2018 07:22:12</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.Edm.5.8.4/lib/portable-net45+wp8+win8+wpa/es/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/14/2018 07:22:12</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.Edm.5.8.4/lib/portable-net45+wp8+win8+wpa/fr/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/14/2018 07:22:12</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.Edm.5.8.4/lib/portable-net45+wp8+win8+wpa/it/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/14/2018 07:22:12</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.Edm.5.8.4/lib/portable-net45+wp8+win8+wpa/ja/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/14/2018 07:22:12</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.Edm.5.8.4/lib/portable-net45+wp8+win8+wpa/ko/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/14/2018 07:22:12</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.Edm.5.8.4/lib/portable-net45+wp8+win8+wpa/Microsoft.Data.Edm.dll">
+      <publishTime>08/14/2018 07:22:10</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.Edm.5.8.4/lib/portable-net45+wp8+win8+wpa/Microsoft.Data.Edm.xml">
+      <publishTime>08/14/2018 07:22:10</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.Edm.5.8.4/lib/portable-net45+wp8+win8+wpa/ru/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/14/2018 07:22:12</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.Edm.5.8.4/lib/portable-net45+wp8+win8+wpa/zh-Hans/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/14/2018 07:22:12</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.Edm.5.8.4/lib/portable-net45+wp8+win8+wpa/zh-Hant/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/14/2018 07:22:12</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.Edm.5.8.4/lib/sl4/de/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/14/2018 07:22:12</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.Edm.5.8.4/lib/sl4/es/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/14/2018 07:22:12</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.Edm.5.8.4/lib/sl4/fr/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/14/2018 07:22:12</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.Edm.5.8.4/lib/sl4/it/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/14/2018 07:22:12</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.Edm.5.8.4/lib/sl4/ja/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/14/2018 07:22:12</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.Edm.5.8.4/lib/sl4/ko/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/14/2018 07:22:12</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.Edm.5.8.4/lib/sl4/Microsoft.Data.Edm.dll">
+      <publishTime>08/14/2018 07:22:10</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.Edm.5.8.4/lib/sl4/Microsoft.Data.Edm.xml">
+      <publishTime>08/14/2018 07:22:12</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.Edm.5.8.4/lib/sl4/ru/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/14/2018 07:22:12</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.Edm.5.8.4/lib/sl4/zh-Hans/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/14/2018 07:22:12</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.Edm.5.8.4/lib/sl4/zh-Hant/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/14/2018 07:22:12</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.Edm.5.8.4/Microsoft.Data.Edm.5.8.4.nupkg">
+      <publishTime>07/01/2025 14:39:08</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.OData.5.8.4/.signature.p7s">
+      <publishTime>12/17/2018 23:32:46</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.OData.5.8.4/lib/net40/de/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/14/2018 07:22:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.OData.5.8.4/lib/net40/es/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/14/2018 07:22:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.OData.5.8.4/lib/net40/fr/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/14/2018 07:22:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.OData.5.8.4/lib/net40/it/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/14/2018 07:22:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.OData.5.8.4/lib/net40/ja/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/14/2018 07:22:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.OData.5.8.4/lib/net40/ko/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/14/2018 07:22:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.OData.5.8.4/lib/net40/Microsoft.Data.OData.dll">
+      <publishTime>08/14/2018 07:22:22</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.OData.5.8.4/lib/net40/ru/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/14/2018 07:22:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.OData.5.8.4/lib/net40/zh-Hans/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/14/2018 07:22:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.OData.5.8.4/lib/net40/zh-Hant/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/14/2018 07:22:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.OData.5.8.4/lib/netstandard1.1/de/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/14/2018 07:22:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.OData.5.8.4/lib/netstandard1.1/es/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/14/2018 07:22:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.OData.5.8.4/lib/netstandard1.1/fr/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/14/2018 07:22:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.OData.5.8.4/lib/netstandard1.1/it/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/14/2018 07:22:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.OData.5.8.4/lib/netstandard1.1/ja/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/14/2018 07:22:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.OData.5.8.4/lib/netstandard1.1/ko/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/14/2018 07:22:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.OData.5.8.4/lib/netstandard1.1/Microsoft.Data.OData.dll">
+      <publishTime>08/14/2018 07:22:22</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.OData.5.8.4/lib/netstandard1.1/Microsoft.Data.OData.xml">
+      <publishTime>08/14/2018 07:22:22</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.OData.5.8.4/lib/netstandard1.1/ru/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/14/2018 07:22:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.OData.5.8.4/lib/netstandard1.1/zh-Hans/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/14/2018 07:22:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.OData.5.8.4/lib/netstandard1.1/zh-Hant/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/14/2018 07:22:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.OData.5.8.4/lib/portable-net40+sl5+wp8+win8+wpa/de/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/14/2018 07:22:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.OData.5.8.4/lib/portable-net40+sl5+wp8+win8+wpa/es/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/14/2018 07:22:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.OData.5.8.4/lib/portable-net40+sl5+wp8+win8+wpa/fr/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/14/2018 07:22:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.OData.5.8.4/lib/portable-net40+sl5+wp8+win8+wpa/it/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/14/2018 07:22:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.OData.5.8.4/lib/portable-net40+sl5+wp8+win8+wpa/ja/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/14/2018 07:22:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.OData.5.8.4/lib/portable-net40+sl5+wp8+win8+wpa/ko/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/14/2018 07:22:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.OData.5.8.4/lib/portable-net40+sl5+wp8+win8+wpa/Microsoft.Data.OData.dll">
+      <publishTime>08/14/2018 07:22:22</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.OData.5.8.4/lib/portable-net40+sl5+wp8+win8+wpa/Microsoft.Data.OData.xml">
+      <publishTime>08/14/2018 07:22:22</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.OData.5.8.4/lib/portable-net40+sl5+wp8+win8+wpa/ru/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/14/2018 07:22:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.OData.5.8.4/lib/portable-net40+sl5+wp8+win8+wpa/zh-Hans/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/14/2018 07:22:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.OData.5.8.4/lib/portable-net40+sl5+wp8+win8+wpa/zh-Hant/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/14/2018 07:22:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.OData.5.8.4/lib/portable-net45+wp8+win8+wpa/de/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/14/2018 07:22:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.OData.5.8.4/lib/portable-net45+wp8+win8+wpa/es/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/14/2018 07:22:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.OData.5.8.4/lib/portable-net45+wp8+win8+wpa/fr/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/14/2018 07:22:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.OData.5.8.4/lib/portable-net45+wp8+win8+wpa/it/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/14/2018 07:22:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.OData.5.8.4/lib/portable-net45+wp8+win8+wpa/ja/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/14/2018 07:22:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.OData.5.8.4/lib/portable-net45+wp8+win8+wpa/ko/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/14/2018 07:22:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.OData.5.8.4/lib/portable-net45+wp8+win8+wpa/Microsoft.Data.OData.dll">
+      <publishTime>08/14/2018 07:22:22</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.OData.5.8.4/lib/portable-net45+wp8+win8+wpa/Microsoft.Data.OData.xml">
+      <publishTime>08/14/2018 07:22:22</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.OData.5.8.4/lib/portable-net45+wp8+win8+wpa/ru/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/14/2018 07:22:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.OData.5.8.4/lib/portable-net45+wp8+win8+wpa/zh-Hans/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/14/2018 07:22:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.OData.5.8.4/lib/portable-net45+wp8+win8+wpa/zh-Hant/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/14/2018 07:22:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.OData.5.8.4/lib/sl4/de/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/14/2018 07:22:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.OData.5.8.4/lib/sl4/es/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/14/2018 07:22:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.OData.5.8.4/lib/sl4/fr/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/14/2018 07:22:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.OData.5.8.4/lib/sl4/it/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/14/2018 07:22:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.OData.5.8.4/lib/sl4/ja/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/14/2018 07:22:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.OData.5.8.4/lib/sl4/ko/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/14/2018 07:22:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.OData.5.8.4/lib/sl4/Microsoft.Data.OData.dll">
+      <publishTime>08/14/2018 07:22:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.OData.5.8.4/lib/sl4/Microsoft.Data.OData.xml">
+      <publishTime>08/14/2018 07:22:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.OData.5.8.4/lib/sl4/ru/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/14/2018 07:22:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.OData.5.8.4/lib/sl4/zh-Hans/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/14/2018 07:22:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.OData.5.8.4/lib/sl4/zh-Hant/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/14/2018 07:22:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Data.OData.5.8.4/Microsoft.Data.OData.5.8.4.nupkg">
+      <publishTime>07/01/2025 14:39:12</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Web.Infrastructure.1.0.0.0/.signature.p7s">
+      <publishTime>12/14/2018 02:30:10</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Web.Infrastructure.1.0.0.0/lib/net40/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/25/2012 19:48:56</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Web.Infrastructure.1.0.0.0/Microsoft.Web.Infrastructure.1.0.0.0.nupkg">
+      <publishTime>07/01/2025 14:39:08</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Web.Xdt.2.1.1/.signature.p7s">
+      <publishTime>10/07/2018 02:30:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Web.Xdt.2.1.1/lib/net40/Microsoft.Web.XmlTransform.dll">
+      <publishTime>04/30/2014 11:57:24</publishTime>
+    </File>
+    <File Include="Packages/Microsoft.Web.Xdt.2.1.1/Microsoft.Web.Xdt.2.1.1.nupkg">
+      <publishTime>07/01/2025 14:39:08</publishTime>
+    </File>
+    <File Include="Packages/Newtonsoft.Json.13.0.1/.signature.p7s">
+      <publishTime>03/22/2021 21:11:48</publishTime>
+    </File>
+    <File Include="Packages/Newtonsoft.Json.13.0.1/lib/net20/Newtonsoft.Json.dll">
+      <publishTime>03/18/2021 04:03:36</publishTime>
+    </File>
+    <File Include="Packages/Newtonsoft.Json.13.0.1/lib/net35/Newtonsoft.Json.dll">
+      <publishTime>03/18/2021 04:03:34</publishTime>
+    </File>
+    <File Include="Packages/Newtonsoft.Json.13.0.1/lib/net35/Newtonsoft.Json.xml">
+      <publishTime>03/18/2021 03:58:12</publishTime>
+    </File>
+    <File Include="Packages/Newtonsoft.Json.13.0.1/lib/net40/Newtonsoft.Json.dll">
+      <publishTime>03/18/2021 04:03:34</publishTime>
+    </File>
+    <File Include="Packages/Newtonsoft.Json.13.0.1/lib/net40/Newtonsoft.Json.xml">
+      <publishTime>03/18/2021 03:58:06</publishTime>
+    </File>
+    <File Include="Packages/Newtonsoft.Json.13.0.1/lib/net45/Newtonsoft.Json.dll">
+      <publishTime>03/18/2021 04:03:36</publishTime>
+    </File>
+    <File Include="Packages/Newtonsoft.Json.13.0.1/lib/net45/Newtonsoft.Json.xml">
+      <publishTime>03/18/2021 03:58:04</publishTime>
+    </File>
+    <File Include="Packages/Newtonsoft.Json.13.0.1/lib/netstandard1.0/Newtonsoft.Json.dll">
+      <publishTime>03/18/2021 04:03:36</publishTime>
+    </File>
+    <File Include="Packages/Newtonsoft.Json.13.0.1/lib/netstandard1.0/Newtonsoft.Json.xml">
+      <publishTime>03/18/2021 03:58:02</publishTime>
+    </File>
+    <File Include="Packages/Newtonsoft.Json.13.0.1/lib/netstandard1.3/Newtonsoft.Json.dll">
+      <publishTime>03/18/2021 04:03:36</publishTime>
+    </File>
+    <File Include="Packages/Newtonsoft.Json.13.0.1/lib/netstandard1.3/Newtonsoft.Json.xml">
+      <publishTime>03/18/2021 03:58:04</publishTime>
+    </File>
+    <File Include="Packages/Newtonsoft.Json.13.0.1/lib/netstandard2.0/Newtonsoft.Json.dll">
+      <publishTime>03/18/2021 04:03:36</publishTime>
+    </File>
+    <File Include="Packages/Newtonsoft.Json.13.0.1/lib/netstandard2.0/Newtonsoft.Json.xml">
+      <publishTime>03/18/2021 03:58:00</publishTime>
+    </File>
+    <File Include="Packages/Newtonsoft.Json.13.0.1/LICENSE.md">
+      <publishTime>03/18/2021 03:56:24</publishTime>
+    </File>
+    <File Include="Packages/Newtonsoft.Json.13.0.1/Newtonsoft.Json.13.0.1.nupkg">
+      <publishTime>07/01/2025 14:39:09</publishTime>
+    </File>
+    <File Include="Packages/Newtonsoft.Json.13.0.1/packageIcon.png">
+      <publishTime>03/18/2021 03:56:24</publishTime>
+    </File>
+    <File Include="Packages/NuGet.Core.2.14.0/.signature.p7s">
+      <publishTime>10/06/2018 15:12:22</publishTime>
+    </File>
+    <File Include="Packages/NuGet.Core.2.14.0/lib/net40-Client/NuGet.Core.dll">
+      <publishTime>09/07/2016 19:09:14</publishTime>
+    </File>
+    <File Include="Packages/NuGet.Core.2.14.0/NuGet.Core.2.14.0.nupkg">
+      <publishTime>07/01/2025 14:39:09</publishTime>
+    </File>
+    <File Include="Packages/NuGet.Server.3.4.2/.signature.p7s">
+      <publishTime>07/11/2022 23:44:34</publishTime>
+    </File>
+    <File Include="Packages/NuGet.Server.3.4.2/content/net46/App_Start/NuGetODataConfig.cs.pp">
+      <publishTime>07/12/2022 05:53:48</publishTime>
+    </File>
+    <File Include="Packages/NuGet.Server.3.4.2/content/net46/Default.aspx">
+      <publishTime>07/12/2022 05:53:48</publishTime>
+    </File>
+    <File Include="Packages/NuGet.Server.3.4.2/content/net46/favicon.ico">
+      <publishTime>07/12/2022 05:53:48</publishTime>
+    </File>
+    <File Include="Packages/NuGet.Server.3.4.2/content/net46/Packages/Readme.txt">
+      <publishTime>07/12/2022 05:53:48</publishTime>
+    </File>
+    <File Include="Packages/NuGet.Server.3.4.2/content/net46/web.config.install.xdt">
+      <publishTime>07/12/2022 05:53:48</publishTime>
+    </File>
+    <File Include="Packages/NuGet.Server.3.4.2/content/net46/Web.config.transform">
+      <publishTime>07/12/2022 05:53:48</publishTime>
+    </File>
+    <File Include="Packages/NuGet.Server.3.4.2/lib/net46/NuGet.Server.dll">
+      <publishTime>07/12/2022 05:55:58</publishTime>
+    </File>
+    <File Include="Packages/NuGet.Server.3.4.2/NuGet.Server.3.4.2.nupkg">
+      <publishTime>07/01/2025 14:39:13</publishTime>
+    </File>
+    <File Include="Packages/NuGet.Server.Core.3.4.2/.signature.p7s">
+      <publishTime>07/11/2022 23:48:00</publishTime>
+    </File>
+    <File Include="Packages/NuGet.Server.Core.3.4.2/lib/net46/NuGet.Server.Core.dll">
+      <publishTime>07/12/2022 05:56:50</publishTime>
+    </File>
+    <File Include="Packages/NuGet.Server.Core.3.4.2/NuGet.Server.Core.3.4.2.nupkg">
+      <publishTime>07/01/2025 14:39:10</publishTime>
+    </File>
+    <File Include="Packages/NuGet.Server.V2.3.4.2/.signature.p7s">
+      <publishTime>07/11/2022 23:48:32</publishTime>
+    </File>
+    <File Include="Packages/NuGet.Server.V2.3.4.2/lib/net46/NuGet.Server.V2.dll">
+      <publishTime>07/12/2022 05:55:56</publishTime>
+    </File>
+    <File Include="Packages/NuGet.Server.V2.3.4.2/NuGet.Server.V2.3.4.2.nupkg">
+      <publishTime>07/01/2025 14:39:13</publishTime>
+    </File>
+    <File Include="Packages/Readme.txt">
+      <publishTime>07/01/2025 14:39:14</publishTime>
+    </File>
+    <File Include="Packages/System.Spatial.5.8.4/.signature.p7s">
+      <publishTime>12/17/2018 23:33:40</publishTime>
+    </File>
+    <File Include="Packages/System.Spatial.5.8.4/lib/net40/de/System.Spatial.resources.dll">
+      <publishTime>08/14/2018 07:22:38</publishTime>
+    </File>
+    <File Include="Packages/System.Spatial.5.8.4/lib/net40/es/System.Spatial.resources.dll">
+      <publishTime>08/14/2018 07:22:38</publishTime>
+    </File>
+    <File Include="Packages/System.Spatial.5.8.4/lib/net40/fr/System.Spatial.resources.dll">
+      <publishTime>08/14/2018 07:22:38</publishTime>
+    </File>
+    <File Include="Packages/System.Spatial.5.8.4/lib/net40/it/System.Spatial.resources.dll">
+      <publishTime>08/14/2018 07:22:38</publishTime>
+    </File>
+    <File Include="Packages/System.Spatial.5.8.4/lib/net40/ja/System.Spatial.resources.dll">
+      <publishTime>08/14/2018 07:22:38</publishTime>
+    </File>
+    <File Include="Packages/System.Spatial.5.8.4/lib/net40/ko/System.Spatial.resources.dll">
+      <publishTime>08/14/2018 07:22:38</publishTime>
+    </File>
+    <File Include="Packages/System.Spatial.5.8.4/lib/net40/ru/System.Spatial.resources.dll">
+      <publishTime>08/14/2018 07:22:38</publishTime>
+    </File>
+    <File Include="Packages/System.Spatial.5.8.4/lib/net40/System.Spatial.dll">
+      <publishTime>08/14/2018 07:22:38</publishTime>
+    </File>
+    <File Include="Packages/System.Spatial.5.8.4/lib/net40/zh-Hans/System.Spatial.resources.dll">
+      <publishTime>08/14/2018 07:22:38</publishTime>
+    </File>
+    <File Include="Packages/System.Spatial.5.8.4/lib/net40/zh-Hant/System.Spatial.resources.dll">
+      <publishTime>08/14/2018 07:22:38</publishTime>
+    </File>
+    <File Include="Packages/System.Spatial.5.8.4/lib/netstandard1.1/de/System.Spatial.resources.dll">
+      <publishTime>08/14/2018 07:22:38</publishTime>
+    </File>
+    <File Include="Packages/System.Spatial.5.8.4/lib/netstandard1.1/es/System.Spatial.resources.dll">
+      <publishTime>08/14/2018 07:22:38</publishTime>
+    </File>
+    <File Include="Packages/System.Spatial.5.8.4/lib/netstandard1.1/fr/System.Spatial.resources.dll">
+      <publishTime>08/14/2018 07:22:38</publishTime>
+    </File>
+    <File Include="Packages/System.Spatial.5.8.4/lib/netstandard1.1/it/System.Spatial.resources.dll">
+      <publishTime>08/14/2018 07:22:38</publishTime>
+    </File>
+    <File Include="Packages/System.Spatial.5.8.4/lib/netstandard1.1/ja/System.Spatial.resources.dll">
+      <publishTime>08/14/2018 07:22:38</publishTime>
+    </File>
+    <File Include="Packages/System.Spatial.5.8.4/lib/netstandard1.1/ko/System.Spatial.resources.dll">
+      <publishTime>08/14/2018 07:22:38</publishTime>
+    </File>
+    <File Include="Packages/System.Spatial.5.8.4/lib/netstandard1.1/ru/System.Spatial.resources.dll">
+      <publishTime>08/14/2018 07:22:38</publishTime>
+    </File>
+    <File Include="Packages/System.Spatial.5.8.4/lib/netstandard1.1/System.Spatial.dll">
+      <publishTime>08/14/2018 07:22:38</publishTime>
+    </File>
+    <File Include="Packages/System.Spatial.5.8.4/lib/netstandard1.1/System.Spatial.xml">
+      <publishTime>08/14/2018 07:22:38</publishTime>
+    </File>
+    <File Include="Packages/System.Spatial.5.8.4/lib/netstandard1.1/zh-Hans/System.Spatial.resources.dll">
+      <publishTime>08/14/2018 07:22:38</publishTime>
+    </File>
+    <File Include="Packages/System.Spatial.5.8.4/lib/netstandard1.1/zh-Hant/System.Spatial.resources.dll">
+      <publishTime>08/14/2018 07:22:38</publishTime>
+    </File>
+    <File Include="Packages/System.Spatial.5.8.4/lib/portable-net40+sl5+wp8+win8+wpa/de/System.Spatial.resources.dll">
+      <publishTime>08/14/2018 07:22:38</publishTime>
+    </File>
+    <File Include="Packages/System.Spatial.5.8.4/lib/portable-net40+sl5+wp8+win8+wpa/es/System.Spatial.resources.dll">
+      <publishTime>08/14/2018 07:22:38</publishTime>
+    </File>
+    <File Include="Packages/System.Spatial.5.8.4/lib/portable-net40+sl5+wp8+win8+wpa/fr/System.Spatial.resources.dll">
+      <publishTime>08/14/2018 07:22:38</publishTime>
+    </File>
+    <File Include="Packages/System.Spatial.5.8.4/lib/portable-net40+sl5+wp8+win8+wpa/it/System.Spatial.resources.dll">
+      <publishTime>08/14/2018 07:22:38</publishTime>
+    </File>
+    <File Include="Packages/System.Spatial.5.8.4/lib/portable-net40+sl5+wp8+win8+wpa/ja/System.Spatial.resources.dll">
+      <publishTime>08/14/2018 07:22:38</publishTime>
+    </File>
+    <File Include="Packages/System.Spatial.5.8.4/lib/portable-net40+sl5+wp8+win8+wpa/ko/System.Spatial.resources.dll">
+      <publishTime>08/14/2018 07:22:38</publishTime>
+    </File>
+    <File Include="Packages/System.Spatial.5.8.4/lib/portable-net40+sl5+wp8+win8+wpa/ru/System.Spatial.resources.dll">
+      <publishTime>08/14/2018 07:22:38</publishTime>
+    </File>
+    <File Include="Packages/System.Spatial.5.8.4/lib/portable-net40+sl5+wp8+win8+wpa/System.Spatial.dll">
+      <publishTime>08/14/2018 07:22:38</publishTime>
+    </File>
+    <File Include="Packages/System.Spatial.5.8.4/lib/portable-net40+sl5+wp8+win8+wpa/System.Spatial.xml">
+      <publishTime>08/14/2018 07:22:38</publishTime>
+    </File>
+    <File Include="Packages/System.Spatial.5.8.4/lib/portable-net40+sl5+wp8+win8+wpa/zh-Hans/System.Spatial.resources.dll">
+      <publishTime>08/14/2018 07:22:38</publishTime>
+    </File>
+    <File Include="Packages/System.Spatial.5.8.4/lib/portable-net40+sl5+wp8+win8+wpa/zh-Hant/System.Spatial.resources.dll">
+      <publishTime>08/14/2018 07:22:38</publishTime>
+    </File>
+    <File Include="Packages/System.Spatial.5.8.4/lib/portable-net45+wp8+win8+wpa/de/System.Spatial.resources.dll">
+      <publishTime>08/14/2018 07:22:38</publishTime>
+    </File>
+    <File Include="Packages/System.Spatial.5.8.4/lib/portable-net45+wp8+win8+wpa/es/System.Spatial.resources.dll">
+      <publishTime>08/14/2018 07:22:38</publishTime>
+    </File>
+    <File Include="Packages/System.Spatial.5.8.4/lib/portable-net45+wp8+win8+wpa/fr/System.Spatial.resources.dll">
+      <publishTime>08/14/2018 07:22:38</publishTime>
+    </File>
+    <File Include="Packages/System.Spatial.5.8.4/lib/portable-net45+wp8+win8+wpa/it/System.Spatial.resources.dll">
+      <publishTime>08/14/2018 07:22:38</publishTime>
+    </File>
+    <File Include="Packages/System.Spatial.5.8.4/lib/portable-net45+wp8+win8+wpa/ja/System.Spatial.resources.dll">
+      <publishTime>08/14/2018 07:22:38</publishTime>
+    </File>
+    <File Include="Packages/System.Spatial.5.8.4/lib/portable-net45+wp8+win8+wpa/ko/System.Spatial.resources.dll">
+      <publishTime>08/14/2018 07:22:38</publishTime>
+    </File>
+    <File Include="Packages/System.Spatial.5.8.4/lib/portable-net45+wp8+win8+wpa/ru/System.Spatial.resources.dll">
+      <publishTime>08/14/2018 07:22:38</publishTime>
+    </File>
+    <File Include="Packages/System.Spatial.5.8.4/lib/portable-net45+wp8+win8+wpa/System.Spatial.dll">
+      <publishTime>08/14/2018 07:22:38</publishTime>
+    </File>
+    <File Include="Packages/System.Spatial.5.8.4/lib/portable-net45+wp8+win8+wpa/System.Spatial.xml">
+      <publishTime>08/14/2018 07:22:38</publishTime>
+    </File>
+    <File Include="Packages/System.Spatial.5.8.4/lib/portable-net45+wp8+win8+wpa/zh-Hans/System.Spatial.resources.dll">
+      <publishTime>08/14/2018 07:22:38</publishTime>
+    </File>
+    <File Include="Packages/System.Spatial.5.8.4/lib/portable-net45+wp8+win8+wpa/zh-Hant/System.Spatial.resources.dll">
+      <publishTime>08/14/2018 07:22:38</publishTime>
+    </File>
+    <File Include="Packages/System.Spatial.5.8.4/lib/sl4/de/System.Spatial.resources.dll">
+      <publishTime>08/14/2018 07:22:38</publishTime>
+    </File>
+    <File Include="Packages/System.Spatial.5.8.4/lib/sl4/es/System.Spatial.resources.dll">
+      <publishTime>08/14/2018 07:22:38</publishTime>
+    </File>
+    <File Include="Packages/System.Spatial.5.8.4/lib/sl4/fr/System.Spatial.resources.dll">
+      <publishTime>08/14/2018 07:22:38</publishTime>
+    </File>
+    <File Include="Packages/System.Spatial.5.8.4/lib/sl4/it/System.Spatial.resources.dll">
+      <publishTime>08/14/2018 07:22:38</publishTime>
+    </File>
+    <File Include="Packages/System.Spatial.5.8.4/lib/sl4/ja/System.Spatial.resources.dll">
+      <publishTime>08/14/2018 07:22:38</publishTime>
+    </File>
+    <File Include="Packages/System.Spatial.5.8.4/lib/sl4/ko/System.Spatial.resources.dll">
+      <publishTime>08/14/2018 07:22:38</publishTime>
+    </File>
+    <File Include="Packages/System.Spatial.5.8.4/lib/sl4/ru/System.Spatial.resources.dll">
+      <publishTime>08/14/2018 07:22:38</publishTime>
+    </File>
+    <File Include="Packages/System.Spatial.5.8.4/lib/sl4/System.Spatial.dll">
+      <publishTime>08/14/2018 07:22:38</publishTime>
+    </File>
+    <File Include="Packages/System.Spatial.5.8.4/lib/sl4/System.Spatial.xml">
+      <publishTime>08/14/2018 07:22:38</publishTime>
+    </File>
+    <File Include="Packages/System.Spatial.5.8.4/lib/sl4/zh-Hans/System.Spatial.resources.dll">
+      <publishTime>08/14/2018 07:22:38</publishTime>
+    </File>
+    <File Include="Packages/System.Spatial.5.8.4/lib/sl4/zh-Hant/System.Spatial.resources.dll">
+      <publishTime>08/14/2018 07:22:38</publishTime>
+    </File>
+    <File Include="Packages/System.Spatial.5.8.4/System.Spatial.5.8.4.nupkg">
+      <publishTime>07/01/2025 14:39:10</publishTime>
+    </File>
+    <File Include="Packages/WebActivatorEx.2.2.0/.signature.p7s">
+      <publishTime>10/15/2018 07:00:04</publishTime>
+    </File>
+    <File Include="Packages/WebActivatorEx.2.2.0/lib/net40/WebActivatorEx.dll">
+      <publishTime>10/05/2016 21:11:52</publishTime>
+    </File>
+    <File Include="Packages/WebActivatorEx.2.2.0/WebActivatorEx.2.2.0.nupkg">
+      <publishTime>07/01/2025 14:39:13</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>07/16/2025 13:36:13</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

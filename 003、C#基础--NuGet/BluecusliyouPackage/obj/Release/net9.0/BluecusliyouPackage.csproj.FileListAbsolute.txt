@@ -1,0 +1,11 @@
+D:\TechLearnFull\003、C#基础--NuGet\BluecusliyouPackage\bin\Release\net9.0\BluecusliyouPackage.deps.json
+D:\TechLearnFull\003、C#基础--NuGet\BluecusliyouPackage\bin\Release\net9.0\BluecusliyouPackage.dll
+D:\TechLearnFull\003、C#基础--NuGet\BluecusliyouPackage\bin\Release\net9.0\BluecusliyouPackage.pdb
+D:\TechLearnFull\003、C#基础--NuGet\BluecusliyouPackage\obj\Release\net9.0\BluecusliyouPackage.GeneratedMSBuildEditorConfig.editorconfig
+D:\TechLearnFull\003、C#基础--NuGet\BluecusliyouPackage\obj\Release\net9.0\BluecusliyouPackage.AssemblyInfoInputs.cache
+D:\TechLearnFull\003、C#基础--NuGet\BluecusliyouPackage\obj\Release\net9.0\BluecusliyouPackage.AssemblyInfo.cs
+D:\TechLearnFull\003、C#基础--NuGet\BluecusliyouPackage\obj\Release\net9.0\BluecusliyouPackage.csproj.CoreCompileInputs.cache
+D:\TechLearnFull\003、C#基础--NuGet\BluecusliyouPackage\obj\Release\net9.0\BluecusliyouPackage.dll
+D:\TechLearnFull\003、C#基础--NuGet\BluecusliyouPackage\obj\Release\net9.0\refint\BluecusliyouPackage.dll
+D:\TechLearnFull\003、C#基础--NuGet\BluecusliyouPackage\obj\Release\net9.0\BluecusliyouPackage.pdb
+D:\TechLearnFull\003、C#基础--NuGet\BluecusliyouPackage\obj\Release\net9.0\ref\BluecusliyouPackage.dll

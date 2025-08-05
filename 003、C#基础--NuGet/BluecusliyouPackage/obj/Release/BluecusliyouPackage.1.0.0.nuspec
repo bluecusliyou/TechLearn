@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>BluecusliyouPackage</id>
+    <version>1.0.0</version>
+    <authors>bluecusliyou</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <description>功能描述</description>
+    <tags>工具类,扩展</tags>
+    <repository type="git" commit="9069385dcdcda3868ef932ebb353e0ebad06119e" />
+    <dependencies>
+      <group targetFramework="net9.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\TechLearnFull\003、C#基础--NuGet\BluecusliyouPackage\bin\Release\net9.0\BluecusliyouPackage.dll" target="lib\net9.0\BluecusliyouPackage.dll" />
+  </files>
+</package>

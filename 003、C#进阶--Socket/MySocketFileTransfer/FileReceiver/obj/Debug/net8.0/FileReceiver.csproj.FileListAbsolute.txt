@@ -1,0 +1,14 @@
+D:\TechLearnFull\003、C#进阶--Socket\MySocketFileTransfer\FileReceiver\bin\Debug\net8.0\FileReceiver.exe
+D:\TechLearnFull\003、C#进阶--Socket\MySocketFileTransfer\FileReceiver\bin\Debug\net8.0\FileReceiver.deps.json
+D:\TechLearnFull\003、C#进阶--Socket\MySocketFileTransfer\FileReceiver\bin\Debug\net8.0\FileReceiver.runtimeconfig.json
+D:\TechLearnFull\003、C#进阶--Socket\MySocketFileTransfer\FileReceiver\bin\Debug\net8.0\FileReceiver.dll
+D:\TechLearnFull\003、C#进阶--Socket\MySocketFileTransfer\FileReceiver\bin\Debug\net8.0\FileReceiver.pdb
+D:\TechLearnFull\003、C#进阶--Socket\MySocketFileTransfer\FileReceiver\obj\Debug\net8.0\FileReceiver.GeneratedMSBuildEditorConfig.editorconfig
+D:\TechLearnFull\003、C#进阶--Socket\MySocketFileTransfer\FileReceiver\obj\Debug\net8.0\FileReceiver.AssemblyInfoInputs.cache
+D:\TechLearnFull\003、C#进阶--Socket\MySocketFileTransfer\FileReceiver\obj\Debug\net8.0\FileReceiver.AssemblyInfo.cs
+D:\TechLearnFull\003、C#进阶--Socket\MySocketFileTransfer\FileReceiver\obj\Debug\net8.0\FileReceiver.csproj.CoreCompileInputs.cache
+D:\TechLearnFull\003、C#进阶--Socket\MySocketFileTransfer\FileReceiver\obj\Debug\net8.0\FileReceiver.dll
+D:\TechLearnFull\003、C#进阶--Socket\MySocketFileTransfer\FileReceiver\obj\Debug\net8.0\refint\FileReceiver.dll
+D:\TechLearnFull\003、C#进阶--Socket\MySocketFileTransfer\FileReceiver\obj\Debug\net8.0\FileReceiver.pdb
+D:\TechLearnFull\003、C#进阶--Socket\MySocketFileTransfer\FileReceiver\obj\Debug\net8.0\FileReceiver.genruntimeconfig.cache
+D:\TechLearnFull\003、C#进阶--Socket\MySocketFileTransfer\FileReceiver\obj\Debug\net8.0\ref\FileReceiver.dll

@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "uYqz+OwYcCQ=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\李宥\\source\\repos\\ConsoleMyRedis\\ConsoleMyRedis\\ConsoleMyRedis.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\李宥\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\李宥\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\李宥\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.8\\pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
+    "C:\\Users\\李宥\\.nuget\\packages\\stackexchange.redis\\2.8.24\\stackexchange.redis.2.8.24.nupkg.sha512",
+    "C:\\Users\\李宥\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
